@@ -1,1 +1,1 @@
-[https://sparkling-wind-11ff.johnlocke76.workers.dev](https://sparkling-wind-11ff.johnlocke76.workers.dev)
+[http://10.0.0.253:8080](http://10.0.0.253:8080)
