@@ -1,0 +1,21 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock {DIV} at (0,0) size 784x100
+      RenderBlock (anonymous) at (0,100) size 784x21
+        RenderText {#text} at (0,0) size 578x21
+          text run at (0,0) width 355: "This file has a doc type with an internal subset. "
+          text run at (355,0) width 223: "We should be in quirks mode."
+      RenderBlock {UL} at (0,137) size 784x42
+        RenderListItem {LI} at (40,0) size 744x42
+          RenderBlock (anonymous) at (0,0) size 744x21
+            RenderListMarker at (-19,0) size 8x21: bullet
+          RenderBlock {UL} at (0,21) size 744x21
+            RenderListItem {LI} at (40,0) size 704x21
+              RenderListMarker at (-19,0) size 8x21: white bullet
+              RenderText {#text} at (0,0) size 307x21
+                text run at (0,0) width 307: "Both bullets should be on separate lines."
+layer at (10,10) size 80x80
+  RenderBlock (positioned) {DIV} at (10,10) size 80x80 [bgcolor=#008000]

@@ -1,0 +1,36 @@
+layer at (0,0) size 785x617
+  RenderView at (0,0) size 785x600
+layer at (0,0) size 785x617
+  RenderBlock {HTML} at (0,0) size 785x617
+    RenderBody {BODY} at (8,8) size 769x601
+      RenderBlock {P} at (0,0) size 769x21
+        RenderText {#text} at (0,0) size 736x21
+          text run at (0,0) width 736: "Test video sizing. You should see one bigger image (paused video) and 7 small ones of 1/4 its size."
+      RenderBlock (anonymous) at (0,37) size 769x564
+        RenderBR {BR} at (320,240) size 0x0
+        RenderBlock {DIV} at (160,240) size 400x120
+          RenderText {#text} at (0,0) size 0x0
+        RenderBlock {DIV} at (0,360) size 320x120
+          RenderText {#text} at (0,0) size 0x0
+        RenderText {#text} at (640,543) size 4x21
+          text run at (640,543) width 4: " "
+        RenderText {#text} at (644,543) size 31x21
+          text run at (644,543) width 31: "FAIL"
+layer at (8,45) size 320x240
+  RenderVideo {VIDEO} at (0,0) size 320x240
+layer at (8,285) size 160x120
+  RenderVideo {VIDEO} at (0,240) size 160x120
+layer at (168,325) size 160x80
+  RenderVideo {VIDEO} at (0,40) size 160x80
+layer at (328,285) size 240x120
+  RenderVideo {VIDEO} at (160,0) size 240x120
+layer at (8,405) size 240x120
+  RenderVideo {VIDEO} at (0,0) size 240x120
+layer at (8,525) size 160x80
+  RenderVideo {VIDEO} at (0,120) size 160x80
+layer at (328,485) size 320x120
+  RenderBlock (relative positioned) {DIV} at (320,440) size 320x120
+layer at (328,485) size 240x120
+  RenderVideo {VIDEO} at (0,0) size 240x120
+layer at (488,485) size 160x80
+  RenderVideo {VIDEO} at (160,0) size 160x80

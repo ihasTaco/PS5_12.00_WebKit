@@ -1,0 +1,28 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock {P} at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 530x21
+          text run at (0,0) width 530: "The following is a test for having a <rt> immediately following another."
+      RenderBlock (anonymous) at (0,37) size 784x42
+        RenderBR {BR} at (0,0) size 0x21
+        RenderBR {BR} at (0,21) size 0x21
+      RenderBlock {P} at (0,95) size 784x33
+        RenderText {#text} at (0,12) size 95x21
+          text run at (0,12) width 95: "<ruby> uses "
+        RenderRuby (inline) {RUBY} at (0,0) size 46x21
+          RenderRubyRun (anonymous) at (95,12) size 30x21
+            RenderRubyText {RT} at (0,-12) size 30x12
+              RenderText {#text} at (5,0) size 20x12
+                text run at (5,0) width 20: "ruby"
+            RenderRubyBase (anonymous) at (0,0) size 30x21
+              RenderText {#text} at (0,0) size 30x21
+                text run at (0,0) width 30: "<rt>"
+          RenderRubyRun (anonymous) at (125,31) size 16x0
+            RenderRubyText {RT} at (0,-12) size 16x12
+              RenderText {#text} at (0,0) size 16x12
+                text run at (0,0) width 16: "text"
+        RenderText {#text} at (141,12) size 202x21
+          text run at (141,12) width 202: " to contain the annotation."

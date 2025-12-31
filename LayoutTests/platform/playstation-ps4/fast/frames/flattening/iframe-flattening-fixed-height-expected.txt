@@ -1,0 +1,23 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576 [bgcolor=#008000]
+      RenderBlock {P} at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 500x21
+          text run at (0,0) width 500: "Test for iframe flattening. The flattening only works inside the DRT."
+      RenderBlock {P} at (0,37) size 784x42
+        RenderText {#text} at (0,0) size 716x42
+          text run at (0,0) width 518: "This inner frame should be 400px in each direction, disregarding the "
+          text run at (518,0) width 198: "border, and it must not be"
+          text run at (0,21) width 213: "scrollable or have scrollbars."
+      RenderBlock {P} at (0,95) size 784x404
+        RenderIFrame {IFRAME} at (0,0) size 404x404 [border: (2px inset #000000)]
+          layer at (0,0) size 400x400
+            RenderView at (0,0) size 400x400
+          layer at (0,0) size 400x400
+            RenderBlock {HTML} at (0,0) size 400x400
+              RenderBody {BODY} at (8,8) size 384x384 [bgcolor=#0000FF]
+          layer at (0,0) size 400x400
+            RenderBlock (positioned) {DIV} at (0,0) size 400x400
+        RenderText {#text} at (0,0) size 0x0

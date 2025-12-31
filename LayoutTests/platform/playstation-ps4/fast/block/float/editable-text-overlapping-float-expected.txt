@@ -1,0 +1,25 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 304x21
+          text run at (0,0) width 304: "Text should not overlap the blue square."
+      RenderBlock {DIV} at (0,37) size 406x262 [border: (3px solid #800000)]
+        RenderText {#text} at (5,5) size 394x105
+          text run at (5,5) width 360: "Fusce at ante. In hac habitasse platea dictumst. "
+          text run at (5,26) width 355: "Maecenas iaculis nonummy magna. Vivamus a "
+          text run at (5,47) width 394: "tortor vitae enim ornare consectetuer. Lorem ipsum "
+          text run at (5,68) width 394: "dolor sit amet, consectetuer adipiscing elit. Etiam et "
+          text run at (5,89) width 297: "ipsum. Nam consectetuer mi eget velit. "
+        RenderBlock (floating) {DIV} at (337,89) size 64x64 [bgcolor=#ADD8E6]
+        RenderText {#text} at (302,89) size 390x168
+          text run at (302,89) width 32: "Sed "
+          text run at (5,110) width 265: "nec risus vitae felis auctor ultricies. "
+          text run at (5,131) width 316: "Pellentesque aliquet quam ac lorem. Duis "
+          text run at (5,152) width 319: "interdum, elit in ultricies auctor, erat pede "
+          text run at (5,173) width 390: "sollicitudin libero, non ultrices odio elit in augue. Ut "
+          text run at (5,194) width 336: "egestas bibendum lectus. Class aptent taciti "
+          text run at (5,215) width 389: "sociosqu ad litora torquent per conubia nostra, per "
+          text run at (5,236) width 161: "inceptos hymenaeos."

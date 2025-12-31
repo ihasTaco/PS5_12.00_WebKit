@@ -1,0 +1,21 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x207
+  RenderBlock {HTML} at (0,0) size 800x207
+    RenderBody {BODY} at (8,16) size 784x183
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 776x42
+          text run at (0,0) width 776: "The following two phrases should appear identical. The second line of text should overlap both the first"
+          text run at (0,21) width 177: "line and the red border."
+      RenderBlock {DIV} at (0,58) size 424x52 [border: (2px solid #FF0000)]
+        RenderBlock {DIV} at (12,12) size 400x38
+          RenderText {#text} at (0,-22) size 307x82
+            text run at (0,-22) width 290: "Lorem ipsum"
+            text run at (0,-3) width 307: "dolor sit amet"
+      RenderBlock (anonymous) at (0,110) size 784x21
+        RenderBR {BR} at (0,0) size 0x21
+      RenderBlock {DIV} at (0,131) size 424x52 [border: (2px solid #FF0000)]
+        RenderBlock {DIV} at (12,12) size 400x38
+          RenderText {#text} at (0,-22) size 307x82
+            text run at (0,-22) width 290: "Lorem ipsum"
+            text run at (0,-3) width 307: "dolor sit amet"

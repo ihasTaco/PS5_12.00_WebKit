@@ -1,0 +1,15 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock (floating) {DIV} at (0,0) size 313x25 [border: (2px solid #008000)]
+        RenderText {#text} at (2,2) size 309x21
+          text run at (2,2) width 49: "Words"
+          text run at (46,2) width 56: " should"
+          text run at (97,2) width 40: " have"
+          text run at (132,2) width 13: " a"
+          text run at (140,2) width 69: " negative"
+          text run at (204,2) width 63: " spacing"
+          text run at (262,2) width 19: " of"
+          text run at (276,2) width 35: " 5px."

@@ -1,0 +1,13 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock (anonymous) at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 764x42
+          text run at (0,0) width 416: "The div below should be rounded with a border radius. "
+          text run at (416,0) width 348: "If you see a solid lime square then the test has"
+          text run at (0,21) width 45: "failed."
+layer at (8,50) size 100x100
+  RenderBlock {DIV} at (0,42) size 100x100
+    RenderBlock {DIV} at (0,0) size 100x100 [bgcolor=#00FF00]

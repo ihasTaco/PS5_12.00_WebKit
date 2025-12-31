@@ -1,0 +1,35 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x494
+  RenderBlock {HTML} at (0,0) size 800x494
+    RenderBody {BODY} at (8,8) size 784x478
+      RenderBlock {DIV} at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 142x21
+          text run at (0,0) width 142: "Before empty span"
+      RenderBlock (anonymous) at (0,21) size 784x100
+        RenderInline {SPAN} at (0,0) size 0x21
+        RenderText {#text} at (0,39) size 10x21
+          text run at (0,39) width 10: "X"
+      RenderBlock {DIV} at (0,121) size 784x21
+        RenderText {#text} at (0,0) size 130x21
+          text run at (0,0) width 130: "After empty span"
+      RenderBlock {DIV} at (0,142) size 784x21
+        RenderText {#text} at (0,0) size 142x21
+          text run at (0,0) width 142: "Before empty span"
+      RenderBlock (anonymous) at (0,163) size 784x131
+        RenderInline {SPAN} at (0,0) size 0x131
+        RenderText {#text} at (0,91) size 10x21
+          text run at (0,91) width 10: "X"
+      RenderBlock {DIV} at (0,294) size 784x21
+        RenderText {#text} at (0,0) size 130x21
+          text run at (0,0) width 130: "After empty span"
+      RenderBlock {DIV} at (0,315) size 784x21
+        RenderText {#text} at (0,0) size 142x21
+          text run at (0,0) width 142: "Before empty span"
+      RenderBlock (anonymous) at (0,336) size 784x121
+        RenderInline {SPAN} at (0,0) size 0x21
+        RenderText {#text} at (0,100) size 10x21
+          text run at (0,100) width 10: "X"
+      RenderBlock {DIV} at (0,457) size 784x21
+        RenderText {#text} at (0,0) size 130x21
+          text run at (0,0) width 130: "After empty span"

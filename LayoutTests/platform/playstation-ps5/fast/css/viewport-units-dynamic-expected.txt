@@ -1,0 +1,16 @@
+layer at (0,0) size 10000x10000
+  RenderView at (0,0) size 785x585
+layer at (0,0) size 785x10000
+  RenderBlock {HTML} at (0,0) size 785x10000
+    RenderBody {BODY} at (0,0) size 10000x10000
+layer at (0,0) size 800x100
+  RenderBlock (positioned) {DIV} at (0,0) size 800x100 [bgcolor=#00000080] [border: (5px solid #000000)]
+    RenderText {#text} at (105,5) size 327x21
+      text run at (105,5) width 327: "This should be as wide as the CSS viewport."
+layer at (0,0) size 100x600
+  RenderBlock (positioned) {DIV} at (0,0) size 100x600 [bgcolor=#00000080] [border: (5px solid #000000)]
+    RenderText {#text} at (5,105) size 88x84
+      text run at (5,105) width 87: "This should"
+      text run at (5,126) width 88: "be as tall as"
+      text run at (5,147) width 57: "the CSS"
+      text run at (5,168) width 70: "viewport."

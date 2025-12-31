@@ -1,0 +1,139 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x523
+  RenderBlock {HTML} at (0,0) size 800x523
+    RenderBody {BODY} at (8,8) size 784x0
+      RenderBlock (floating) {DIV} at (0,0) size 143x515
+        RenderBlock {DIV} at (10,10) size 40x40 [bgcolor=#FFFF77]
+        RenderTable {TABLE} at (10,290) size 40x40 [bgcolor=#FFFF77]
+        RenderBlock (anonymous) at (0,340) size 143x64
+          RenderHTMLCanvas {CANVAS} at (10,10) size 40x40 [bgcolor=#FFFF77]
+          RenderText {#text} at (0,0) size 0x0
+        RenderBlock {P} at (0,420) size 143x21
+          RenderText {#text} at (0,0) size 52x21
+            text run at (0,0) width 52: "Lorem "
+          RenderInline {SPAN} at (0,0) size 47x21
+            RenderText {#text} at (52,0) size 47x21
+              text run at (52,0) width 47: "ipsum"
+          RenderText {#text} at (99,0) size 44x21
+            text run at (99,0) width 44: " dolor"
+        RenderBlock {P} at (0,457) size 143x42
+          RenderText {#text} at (0,0) size 99x21
+            text run at (0,0) width 99: "Lorem ipsum"
+          RenderBR {BR} at (99,0) size 0x21
+          RenderText {#text} at (0,21) size 105x21
+            text run at (0,21) width 105: "dolor sit amet"
+      RenderBlock (floating) {DIV} at (153,0) size 143x457
+        RenderBlock {DIV} at (10,10) size 40x40 [bgcolor=#FFFF77]
+        RenderTable {TABLE} at (10,290) size 40x40 [bgcolor=#FFFF77]
+        RenderBlock (anonymous) at (0,340) size 143x64
+          RenderHTMLCanvas {CANVAS} at (10,10) size 40x40 [bgcolor=#FFFF77]
+          RenderText {#text} at (0,0) size 0x0
+        RenderBlock {P} at (0,420) size 143x21
+          RenderText {#text} at (0,0) size 52x21
+            text run at (0,0) width 52: "Lorem "
+          RenderInline {SPAN} at (0,0) size 47x21
+            RenderText {#text} at (52,0) size 47x21
+              text run at (52,0) width 47: "ipsum"
+          RenderText {#text} at (99,0) size 44x21
+            text run at (99,0) width 44: " dolor"
+      RenderBlock (floating) {DIV} at (306,0) size 143x457
+        RenderBlock {DIV} at (10,10) size 40x40 [bgcolor=#FFFF77]
+        RenderTable {TABLE} at (10,290) size 40x40 [bgcolor=#FFFF77]
+        RenderBlock (anonymous) at (0,340) size 143x64
+          RenderHTMLCanvas {CANVAS} at (10,10) size 40x40 [bgcolor=#FFFF77]
+          RenderText {#text} at (0,0) size 0x0
+        RenderBlock {P} at (0,420) size 143x21
+          RenderText {#text} at (0,0) size 52x21
+            text run at (0,0) width 52: "Lorem "
+          RenderInline {SPAN} at (0,0) size 47x21
+            RenderText {#text} at (52,0) size 47x21
+              text run at (52,0) width 47: "ipsum"
+          RenderText {#text} at (99,0) size 44x21
+            text run at (99,0) width 44: " dolor"
+      RenderBlock (floating) {DIV} at (459,0) size 143x457
+        RenderBlock {DIV} at (10,10) size 40x40 [bgcolor=#FFFF77]
+        RenderTable {TABLE} at (10,290) size 40x40 [bgcolor=#FFFF77]
+        RenderBlock (anonymous) at (0,340) size 143x64
+          RenderHTMLCanvas {CANVAS} at (10,10) size 40x40 [bgcolor=#FFFF77]
+          RenderText {#text} at (0,0) size 0x0
+        RenderBlock {P} at (0,420) size 143x21
+          RenderText {#text} at (0,0) size 52x21
+            text run at (0,0) width 52: "Lorem "
+          RenderInline {SPAN} at (0,0) size 47x21
+            RenderText {#text} at (52,0) size 47x21
+              text run at (52,0) width 47: "ipsum"
+          RenderText {#text} at (99,0) size 44x21
+            text run at (99,0) width 44: " dolor"
+      RenderBlock (floating) {DIV} at (612,0) size 143x457
+        RenderBlock {DIV} at (10,10) size 40x40 [bgcolor=#FFFF77]
+        RenderTable {TABLE} at (10,290) size 40x40 [bgcolor=#FFFF77]
+        RenderBlock (anonymous) at (0,340) size 143x64
+          RenderHTMLCanvas {CANVAS} at (10,10) size 40x40 [bgcolor=#FFFF77]
+          RenderText {#text} at (0,0) size 0x0
+        RenderBlock {P} at (0,420) size 143x21
+          RenderText {#text} at (0,0) size 52x21
+            text run at (0,0) width 52: "Lorem "
+          RenderInline {SPAN} at (0,0) size 47x21
+            RenderText {#text} at (52,0) size 47x21
+              text run at (52,0) width 47: "ipsum"
+          RenderText {#text} at (99,0) size 44x21
+            text run at (99,0) width 44: " dolor"
+layer at (18,248) size 40x40
+  RenderBlock {DIV} at (10,240) size 40x40 [bgcolor=#FFFF77]
+layer at (171,248) size 40x40
+  RenderBlock {DIV} at (10,240) size 40x40 [bgcolor=#FFFF77]
+layer at (324,248) size 40x40
+  RenderBlock {DIV} at (10,240) size 40x40 [bgcolor=#FFFF77]
+layer at (477,248) size 40x40
+  RenderBlock {DIV} at (10,240) size 40x40 [bgcolor=#FFFF77]
+layer at (630,248) size 40x40
+  RenderBlock {DIV} at (10,240) size 40x40 [bgcolor=#FFFF77]
+layer at (8,68) size 60x60
+  RenderBlock (relative positioned) {DIV} at (0,60) size 60x60
+layer at (18,78) size 40x40
+  RenderBlock (positioned) {DIV} at (10,10) size 40x40 [bgcolor=#FFFF77]
+layer at (8,128) size 60x60
+  RenderBlock (relative positioned) {DIV} at (0,120) size 60x60
+layer at (18,138) size 40x40 backgroundClip at (13,133) size 5x5 clip at (13,133) size 5x5
+  RenderBlock (positioned) {DIV} at (10,10) size 40x40 [bgcolor=#FFFF77]
+layer at (18,198) size 40x40
+  RenderBlock {DIV} at (10,190) size 40x40 [bgcolor=#FFFF77]
+layer at (161,68) size 60x60
+  RenderBlock (relative positioned) {DIV} at (0,60) size 60x60
+layer at (171,78) size 40x40
+  RenderBlock (positioned) {DIV} at (10,10) size 40x40 [bgcolor=#FFFF77]
+layer at (161,128) size 60x60
+  RenderBlock (relative positioned) {DIV} at (0,120) size 60x60
+layer at (171,138) size 40x40 backgroundClip at (166,178) size 5x5 clip at (166,178) size 5x5
+  RenderBlock (positioned) {DIV} at (10,10) size 40x40 [bgcolor=#FFFF77]
+layer at (171,198) size 40x40
+  RenderBlock {DIV} at (10,190) size 40x40 [bgcolor=#FFFF77]
+layer at (314,68) size 60x60
+  RenderBlock (relative positioned) {DIV} at (0,60) size 60x60
+layer at (324,78) size 40x40
+  RenderBlock (positioned) {DIV} at (10,10) size 40x40 [bgcolor=#FFFF77]
+layer at (314,128) size 60x60
+  RenderBlock (relative positioned) {DIV} at (0,120) size 60x60
+layer at (324,138) size 40x40 backgroundClip at (364,178) size 5x5 clip at (364,178) size 5x5
+  RenderBlock (positioned) {DIV} at (10,10) size 40x40 [bgcolor=#FFFF77]
+layer at (324,198) size 40x40
+  RenderBlock {DIV} at (10,190) size 40x40 [bgcolor=#FFFF77]
+layer at (467,68) size 60x60
+  RenderBlock (relative positioned) {DIV} at (0,60) size 60x60
+layer at (477,78) size 40x40
+  RenderBlock (positioned) {DIV} at (10,10) size 40x40 [bgcolor=#FFFF77]
+layer at (467,128) size 60x60
+  RenderBlock (relative positioned) {DIV} at (0,120) size 60x60
+layer at (477,138) size 40x40 backgroundClip at (517,133) size 5x5 clip at (517,133) size 5x5
+  RenderBlock (positioned) {DIV} at (10,10) size 40x40 [bgcolor=#FFFF77]
+layer at (477,198) size 40x40
+  RenderBlock {DIV} at (10,190) size 40x40 [bgcolor=#FFFF77]
+layer at (620,68) size 60x60
+  RenderBlock (relative positioned) {DIV} at (0,60) size 60x60
+layer at (630,78) size 40x40
+  RenderBlock (positioned) {DIV} at (10,10) size 40x40 [bgcolor=#FFFF77]
+layer at (620,128) size 60x60
+  RenderBlock (relative positioned) {DIV} at (0,120) size 60x60
+layer at (630,198) size 40x40
+  RenderBlock {DIV} at (10,190) size 40x40 [bgcolor=#FFFF77]

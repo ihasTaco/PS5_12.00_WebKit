@@ -1,0 +1,38 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 61x21
+          text run at (0,0) width 61: "Test for "
+        RenderInline {I} at (0,0) size 774x42
+          RenderInline {A} at (0,0) size 356x21 [color=#0000EE]
+            RenderText {#text} at (61,0) size 356x21
+              text run at (61,0) width 356: "http://bugs.webkit.org/show_bug.cgi?id=12818"
+          RenderText {#text} at (417,0) size 774x42
+            text run at (417,0) width 4: " "
+            text run at (421,0) width 353: "REGRESSION (r19148): shacknews.com does not"
+            text run at (0,21) width 137: "render completely"
+        RenderText {#text} at (137,21) size 4x21
+          text run at (137,21) width 4: "."
+      RenderBlock {P} at (0,58) size 784x21
+        RenderText {#text} at (0,0) size 401x21
+          text run at (0,0) width 401: "There should be a green square to the left of the text."
+      RenderBlock {DIV} at (0,95) size 100x100 [bgcolor=#008000]
+      RenderBlock {DIV} at (0,195) size 784x21
+        RenderText {#text} at (0,0) size 39x21
+          text run at (0,0) width 39: "PASS"
+layer at (8,103) size 792x168
+  RenderBlock (positioned) {DIV} at (8,103) size 792x168
+    RenderBlock {DIV} at (100,0) size 692x168
+      RenderBlock {DIV} at (0,0) size 692x168
+        RenderText {#text} at (0,0) size 687x168
+          text run at (0,0) width 674: "Curabitur pretium, quam quis semper malesuada, est libero feugiat libero, vel fringilla orci"
+          text run at (0,21) width 687: "nibh sed neque. Quisque eu nulla non nisi molestie accumsan. Etiam tellus urna, laoreet ac,"
+          text run at (0,42) width 673: "laoreet non, suscipit sed, sapien. Phasellus vehicula, sem at posuere vehicula, augue nibh"
+          text run at (0,63) width 680: "molestie nisl, nec ullamcorper lacus ante vulputate pede. Cum sociis natoque penatibus et"
+          text run at (0,84) width 660: "magnis dis parturient montes, nascetur ridiculus mus. Mauris viverra augue vitae purus."
+          text run at (0,105) width 674: "Morbi sed sem. Donec dui nisi, ultrices non, pretium quis, hendrerit non, est. Donec tellus."
+          text run at (0,126) width 667: "Donec eget dui id eros pharetra rutrum. Suspendisse sodales lectus sit amet nulla. Morbi"
+          text run at (0,147) width 455: "tortor arcu, convallis blandit, elementum eu, aliquet a, tellus."

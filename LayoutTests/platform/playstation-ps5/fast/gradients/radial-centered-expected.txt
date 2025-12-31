@@ -1,0 +1,26 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock (anonymous) at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 766x21
+          text run at (0,0) width 766: "The test passes if all four boxes have a radial gradient that's green in the center and black at the edge."
+      RenderBlock {H1} at (0,42) size 784x42
+        RenderText {#text} at (0,0) size 771x41
+          text run at (0,0) width 771: "Radial Gradients With One Center, Inner Radius > 0"
+      RenderBlock (anonymous) at (0,104) size 784x155
+        RenderBlock {DIV} at (0,0) size 150x150
+        RenderText {#text} at (150,133) size 4x21
+          text run at (150,133) width 4: " "
+        RenderBlock {DIV} at (154,0) size 150x150
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {H1} at (0,280) size 784x42
+        RenderText {#text} at (0,0) size 678x41
+          text run at (0,0) width 678: "Radial Gradients With One, Inner Radius == 0"
+      RenderBlock (anonymous) at (0,342) size 784x155
+        RenderBlock {DIV} at (0,0) size 150x150
+        RenderText {#text} at (150,133) size 4x21
+          text run at (150,133) width 4: " "
+        RenderBlock {DIV} at (154,0) size 150x150
+        RenderText {#text} at (0,0) size 0x0

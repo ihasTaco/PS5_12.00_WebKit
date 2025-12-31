@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <script src=../media-file.js></script>
+        <script src=../video-test.js></script>
+        <script>
+            function start() {
+                findMediaElement();
+                waitForEventAndEnd('ended');
+                video.src = findMediaFile("video", "../content/test");
+                waitForEventOnce('canplaythrough',
+                    function ()
+                    {
+                        // Changed from "video.currentTime = 0.5" to "video.currentTime = 3.0" so that "ended" event fires steadily during reverse playback.
+                        video.currentTime = 3.0;
+                        video.playbackRate = -1;
+                    }
+                );
+                waitForEventOnce('seeked',  () => { video.play(); });
+                waitForEventOnce('playing', () => { failTestIn(5000); });
+            }
+        </script>
+    </head>
+    <body onload="start()">
+        <video loop />
+    </body>
+</html>

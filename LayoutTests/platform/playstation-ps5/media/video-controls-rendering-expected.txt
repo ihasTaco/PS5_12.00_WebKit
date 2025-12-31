@@ -1,0 +1,112 @@
+layer at (0,0) size 785x605
+  RenderView at (0,0) size 785x600
+layer at (0,0) size 785x600
+  RenderBlock {HTML} at (0,0) size 785x600
+    RenderBody {BODY} at (8,8) size 769x584
+      RenderBlock {P} at (0,0) size 769x21
+        RenderText {#text} at (0,0) size 186x21
+          text run at (0,0) width 186: "Test controls placement."
+      RenderBlock {DIV} at (0,37) size 769x240
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {DIV} at (0,277) size 769x160
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {DIV} at (0,437) size 769x0
+      RenderBlock (anonymous) at (0,437) size 769x21
+        RenderText {#text} at (0,0) size 31x21
+          text run at (0,0) width 31: "FAIL"
+layer at (8,45) size 320x240
+  RenderVideo {VIDEO} at (0,0) size 320x240
+layer at (8,45) size 320x240
+  RenderFlexibleBox {DIV} at (0,0) size 320x240
+layer at (8,225) size 320x60
+  RenderFlexibleBox {DIV} at (0,180) size 320x60
+layer at (8,225) size 320x60
+  RenderBlock (positioned) {DIV} at (0,0) size 320x60
+layer at (8,225) size 320x60
+  RenderBlock (positioned) {DIV} at (0,0) size 320x60 [bgcolor=#1E1E1E73]
+layer at (8,225) size 320x60
+  RenderBlock (positioned) {DIV} at (0,0) size 320x60 [bgcolor=#292929]
+layer at (16,253) size 21x25
+  RenderButton {BUTTON} at (8,27) size 21x26 [color=#FFFFFF]
+layer at (53,252) size 20x25
+  RenderButton {BUTTON} at (45,27) size 20x25 [color=#FFFFFF]
+layer at (81,257) size 177x17
+  RenderFlexibleBox {DIV} at (73,31) size 177x18
+layer at (89,257) size 32x15
+  RenderFlexibleBox {DIV} at (8,1) size 32x15 [color=#FFFFFF]
+    RenderBlock (anonymous) at (0,0) size 32x15
+      RenderText {#text} at (0,0) size 32x15
+        text run at (0,0) width 32: "00:00"
+layer at (131,257) size 72x17
+  RenderFlexibleBox {DIV} at (50,0) size 72x17
+    RenderSlider {INPUT} at (0,0) size 72x17 [color=#909090]
+      RenderFlexibleBox {DIV} at (0,0) size 72x17
+        RenderBlock {DIV} at (0,1) size 72x15
+          RenderBlock {DIV} at (0,0) size 3x15
+layer at (213,257) size 37x15
+  RenderFlexibleBox {DIV} at (132,1) size 37x15 [color=#FFFFFF]
+    RenderBlock (anonymous) at (0,0) size 35x15
+      RenderText {#text} at (0,0) size 35x15
+        text run at (0,0) width 35: "-00:06"
+layer at (266,253) size 20x25
+  RenderFlexibleBox {DIV} at (258,27) size 20x26
+layer at (266,253) size 20x25
+  RenderButton {BUTTON} at (0,0) size 20x25 [color=#FFFFFF]
+layer at (302,253) size 19x25
+  RenderButton {BUTTON} at (294,27) size 19x26 [color=#FFFFFF]
+layer at (8,285) size 320x160
+  RenderVideo {VIDEO} at (0,0) size 320x160
+layer at (8,285) size 320x160
+  RenderFlexibleBox {DIV} at (0,0) size 320x160
+layer at (8,385) size 320x60
+  RenderFlexibleBox {DIV} at (0,100) size 320x60
+layer at (8,385) size 320x60
+  RenderBlock (positioned) {DIV} at (0,0) size 320x60
+layer at (8,385) size 320x60
+  RenderBlock (positioned) {DIV} at (0,0) size 320x60 [bgcolor=#1E1E1E73]
+layer at (8,385) size 320x60
+  RenderBlock (positioned) {DIV} at (0,0) size 320x60 [bgcolor=#292929]
+layer at (16,413) size 21x25
+  RenderButton {BUTTON} at (8,27) size 21x26 [color=#FFFFFF]
+layer at (53,412) size 20x25
+  RenderButton {BUTTON} at (45,27) size 20x25 [color=#FFFFFF]
+layer at (81,413) size 118x25
+  RenderBlock {DIV} at (73,27) size 118x26 [color=#FFFFFF]
+    RenderText {#text} at (12,4) size 30x17
+      text run at (12,4) width 30: "Error"
+layer at (199,417) size 93x17
+  RenderFlexibleBox {DIV} at (190,31) size 94x18
+layer at (201,417) size 90x17
+  RenderFlexibleBox {DIV} at (2,0) size 90x17
+layer at (300,413) size 20x25
+  RenderFlexibleBox {DIV} at (292,27) size 20x26
+layer at (300,413) size 20x25
+  RenderButton {BUTTON} at (0,0) size 20x25 [color=#FFFFFF]
+layer at (8,445) size 320x160
+  RenderVideo {VIDEO} at (8,445) size 320x160
+layer at (8,445) size 320x160
+  RenderFlexibleBox {DIV} at (0,0) size 320x160
+layer at (8,545) size 320x60
+  RenderFlexibleBox {DIV} at (0,100) size 320x60
+layer at (8,545) size 320x60
+  RenderBlock (positioned) {DIV} at (0,0) size 320x60
+layer at (8,545) size 320x60
+  RenderBlock (positioned) {DIV} at (0,0) size 320x60 [bgcolor=#1E1E1E73]
+layer at (8,545) size 320x60
+  RenderBlock (positioned) {DIV} at (0,0) size 320x60 [bgcolor=#292929]
+layer at (16,573) size 21x25
+  RenderButton {BUTTON} at (8,27) size 21x26 [color=#FFFFFF]
+layer at (53,572) size 20x25
+  RenderButton {BUTTON} at (45,27) size 20x25 [color=#FFFFFF]
+layer at (81,573) size 118x25
+  RenderBlock {DIV} at (73,27) size 118x26 [color=#FFFFFF]
+    RenderText {#text} at (12,4) size 30x17
+      text run at (12,4) width 30: "Error"
+layer at (199,577) size 93x17
+  RenderFlexibleBox {DIV} at (190,31) size 94x18
+layer at (201,577) size 90x17
+  RenderFlexibleBox {DIV} at (2,0) size 90x17
+layer at (300,573) size 20x25
+  RenderFlexibleBox {DIV} at (292,27) size 20x26
+layer at (300,573) size 20x25
+  RenderButton {BUTTON} at (0,0) size 20x25 [color=#FFFFFF]

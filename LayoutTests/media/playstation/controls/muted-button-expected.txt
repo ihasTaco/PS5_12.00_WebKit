@@ -1,0 +1,22 @@
+This test that the muted button is valid.
+
+EVENT(canplaythrough)
+muted button rect = {266,236.5}
+muted button size = {20,25}
+
+**Mouse over muted button.
+volume slider rect = {268,170}
+volume slider size = {9,64}
+
+EXPECTED (video.volume == '1') OK
+**Click volume slider.
+EXPECTED (video.volume == '0.5') OK
+
+**Drag volume slider y + 10px.
+EXPECTED (video.volume == '0.3') OK
+
+EXPECTED (video.muted == 'false') OK
+**Click muted button.
+EXPECTED (video.muted == 'true') OK
+END OF TEST
+

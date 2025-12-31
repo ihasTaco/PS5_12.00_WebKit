@@ -1,0 +1,25 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 122x21
+          text run at (0,0) width 122: "This is a test for "
+        RenderInline {I} at (0,0) size 782x42
+          RenderInline {A} at (0,0) size 360x21 [color=#0000EE]
+            RenderText {#text} at (122,0) size 360x21
+              text run at (122,0) width 360: "http://bugs.webkit.org/show_bug.cgi?id=13209"
+          RenderText {#text} at (482,0) size 782x42
+            text run at (482,0) width 4: " "
+            text run at (486,0) width 296: "REGRESSION (r18756-18765): Incomplete"
+            text run at (0,21) width 310: "list marker repaint when resizing list item"
+        RenderText {#text} at (310,21) size 4x21
+          text run at (310,21) width 4: "."
+      RenderBlock {P} at (0,58) size 784x21
+        RenderText {#text} at (0,0) size 506x21
+          text run at (0,0) width 506: "There should be only one bullet, at the bottom left of the rectangle."
+      RenderBlock {UL} at (0,95) size 784x104
+        RenderListItem {LI} at (40,0) size 744x104
+          RenderListMarker at (-19,83) size 8x21: bullet
+          RenderImage {IMG} at (0,0) size 100x100

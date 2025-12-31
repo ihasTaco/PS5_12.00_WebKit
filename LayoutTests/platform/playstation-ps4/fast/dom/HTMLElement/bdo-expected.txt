@@ -1,0 +1,48 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 137x21
+          text run at (0,0) width 137: "Tests: the bdo tag"
+      RenderBlock {P} at (0,37) size 784x21
+        RenderText {#text} at (0,0) size 396x21
+          text run at (0,0) width 396: "The bdo element overrides the default text direction."
+      RenderBlock {P} at (0,74) size 784x63
+        RenderText {#text} at (0,0) size 783x63
+          text run at (0,0) width 783: "If successful, the first sentence would be backward, and the second sentence regular. There should then"
+          text run at (0,21) width 88: "be an extra "
+          text run at (88,21) width 670: "blank line, followed by a line reading only \"A,\" and finally, a sentence where only the word"
+          text run at (0,42) width 176: "\"umbrella\" is backward."
+      RenderBlock (anonymous) at (0,163) size 784x126
+        RenderBR {BR} at (0,0) size 0x21
+        RenderInline {BDO} at (0,0) size 264x21
+          RenderText {#text} at (0,21) size 264x21
+            text run at (0,21) width 264 RTL: "This sentence should be backward."
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (264,21) size 0x21
+        RenderInline {BDO} at (0,0) size 250x21
+          RenderText {#text} at (0,42) size 250x21
+            text run at (0,42) width 250: "This sentence should be forward."
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (250,42) size 0x21
+        RenderInline {BDO} at (0,0) size 0x21
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (0,63) size 0x21
+        RenderInline {BDO} at (0,0) size 11x21
+          RenderText {#text} at (0,84) size 11x21
+            text run at (0,84) width 11 RTL: "A"
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (11,84) size 0x21
+        RenderInline {BDO} at (0,0) size 341x21
+          RenderText {#text} at (0,105) size 26x21
+            text run at (0,105) width 26: "My "
+          RenderInline {BDO} at (0,0) size 67x21
+            RenderText {#text} at (26,105) size 67x21
+              text run at (26,105) width 67 RTL: "umbrella"
+          RenderText {#text} at (93,105) size 248x21
+            text run at (93,105) width 248: " sure would be useful in this rain."
+        RenderText {#text} at (0,0) size 0x0
+layer at (8,161) size 784x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,153) size 784x2 [border: (1px inset #000000)]

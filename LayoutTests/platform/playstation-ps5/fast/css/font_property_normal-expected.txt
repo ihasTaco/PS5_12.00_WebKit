@@ -1,0 +1,38 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x475
+  RenderBlock {HTML} at (0,0) size 800x475
+    RenderBody {BODY} at (8,16) size 784x443
+      RenderBlock {P} at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 545x21
+          text run at (0,0) width 545: "Fails indicate that the font property specification is invalid in strict mode."
+      RenderBlock {P} at (0,53) size 784x41
+        RenderText {#text} at (0,0) size 244x41
+          text run at (0,0) width 244: "24pt italic = 24pt"
+      RenderBlock {P} at (0,126) size 784x21
+        RenderText {#text} at (0,0) size 162x21
+          text run at (0,0) width 162: "24pt italic Arial = 24pt"
+      RenderBlock {P} at (0,163) size 784x21
+        RenderText {#text} at (0,0) size 208x21
+          text run at (0,0) width 208: "24pt italic 'Arial' = 24pt Arial"
+      RenderBlock {P} at (0,200) size 784x21
+        RenderText {#text} at (0,0) size 120x21
+          text run at (0,0) width 120: "italic 24pt = fails"
+      RenderBlock {P} at (0,237) size 784x21
+        RenderText {#text} at (0,0) size 239x21
+          text run at (0,0) width 239: "italic 24pt Arial = 24pt Arial Italic"
+      RenderBlock {P} at (0,274) size 784x21
+        RenderText {#text} at (0,0) size 247x21
+          text run at (0,0) width 247: "italic 24pt 'Arial' = 24pt Arial Italic"
+      RenderBlock {P} at (0,311) size 784x21
+        RenderText {#text} at (0,0) size 158x21
+          text run at (0,0) width 158: "Arial 24pt italic = fails"
+      RenderBlock {P} at (0,348) size 784x21
+        RenderText {#text} at (0,0) size 166x21
+          text run at (0,0) width 166: "'Arial' 24pt italic = fails"
+      RenderBlock {P} at (0,385) size 784x21
+        RenderText {#text} at (0,0) size 158x21
+          text run at (0,0) width 158: "Arial italic 24pt = fails"
+      RenderBlock {P} at (0,422) size 784x21
+        RenderText {#text} at (0,0) size 166x21
+          text run at (0,0) width 166: "'Arial' italic 24pt = fails"

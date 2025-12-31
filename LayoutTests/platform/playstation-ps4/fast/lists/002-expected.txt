@@ -1,0 +1,22 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock {DIV} at (0,0) size 784x42
+        RenderBlock {UL} at (0,0) size 784x42
+          RenderListItem {LI} at (40,0) size 744x21
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderInline {A} at (0,0) size 45x21 [color=#0000EE]
+              RenderText {#text} at (699,0) size 45x21
+                text run at (699,0) width 45: "Home"
+          RenderListItem {LI} at (40,21) size 744x21
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderInline {A} at (0,0) size 64x21 [color=#0000EE]
+              RenderText {#text} at (680,0) size 64x21
+                text run at (680,0) width 64: "Archives"
+      RenderBlock {P} at (0,58) size 784x42
+        RenderText {#text} at (0,0) size 781x42
+          text run at (0,0) width 642: "This test case illustrates the correct positioning of list item bullets according to CSS3. "
+          text run at (642,0) width 139: "The bullets should"
+          text run at (0,21) width 468: "be on the far left, with the text of the list items on the far right."

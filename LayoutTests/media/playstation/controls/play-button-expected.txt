@@ -1,0 +1,15 @@
+This test that the play button is valid.
+
+EVENT(canplaythrough)
+rect = {16,236.5}
+size = {21,25}
+
+**Click play button.
+EVENT(timeupdate)
+EXPECTED (video.paused == 'false') OK
+EXPECTED (video.currentTime > '0') OK
+
+**Click pause button.
+EXPECTED (video.paused == 'true') OK
+END OF TEST
+

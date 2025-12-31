@@ -1,0 +1,36 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x297
+  RenderBlock {HTML} at (0,0) size 800x297
+    RenderBody {BODY} at (8,16) size 784x273
+      RenderBlock {P} at (0,0) size 784x21
+        RenderInline {B} at (0,0) size 59x21
+          RenderText {#text} at (0,0) size 59x21
+            text run at (0,0) width 59: "BUG ID:"
+        RenderText {#text} at (59,0) size 4x21
+          text run at (59,0) width 4: " "
+        RenderInline {A} at (0,0) size 132x21 [color=#0000EE]
+          RenderText {#text} at (63,0) size 132x21
+            text run at (63,0) width 132: "Bugzilla bug 6770"
+        RenderText {#text} at (195,0) size 492x21
+          text run at (195,0) width 492: " REGRESSION: Incomplete repaint when block with clipping grows"
+      RenderBlock {P} at (0,37) size 784x48 [bgcolor=#98FB98]
+        RenderInline {B} at (0,0) size 85x21
+          RenderText {#text} at (3,3) size 85x21
+            text run at (3,3) width 85: "TEST PASS:"
+        RenderText {#text} at (88,3) size 769x42
+          text run at (88,3) width 4: " "
+          text run at (92,3) width 680: "There should be a white square with a blue border below, and no line running through the"
+          text run at (3,24) width 160: "middle of the square."
+      RenderBlock {P} at (0,101) size 784x48 [bgcolor=#FF3300]
+        RenderInline {B} at (0,0) size 78x21
+          RenderText {#text} at (3,3) size 78x21
+            text run at (3,3) width 78: "TEST FAIL:"
+        RenderText {#text} at (81,3) size 733x42
+          text run at (81,3) width 4: " "
+          text run at (85,3) width 651: "The white square will have a blue border and a blue horizontal line running through its"
+          text run at (3,24) width 56: "middle."
+layer at (8,181) size 784x108
+  RenderBlock {DIV} at (0,165) size 784x108
+    RenderBlock {DIV} at (0,0) size 108x108 [border: (4px solid #0000FF)]
+      RenderBlock {DIV} at (124,4) size 10x100

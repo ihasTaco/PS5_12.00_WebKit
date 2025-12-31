@@ -1,0 +1,17 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x562
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 784x42
+          text run at (0,0) width 784: "This tests to see if selection gaps are invalidated properly when content inside the selection is removed. "
+          text run at (0,21) width 412: "Only 'hello world' should have a selecton tint behind it."
+      RenderBlock {DIV} at (30,72) size 152x23 [border: (1px solid #FF0000)]
+        RenderText {#text} at (1,1) size 41x21
+          text run at (1,1) width 41: "hello "
+        RenderText {#text} at (42,1) size 43x21
+          text run at (42,1) width 43: "world"
+        RenderBR {BR} at (85,1) size 0x21
+selection start: position 0 of child 0 {#text} of child 3 {DIV} of body
+selection end:   position 6 of child 1 {#text} of child 3 {DIV} of body

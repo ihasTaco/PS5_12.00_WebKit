@@ -1,0 +1,17 @@
+layer at (0,0) size 2008x2098
+  RenderView at (0,0) size 785x585
+layer at (0,0) size 785x2098
+  RenderBlock {HTML} at (0,0) size 785x2098
+    RenderBody {BODY} at (8,16) size 769x2074
+      RenderBlock {P} at (0,0) size 769x21
+        RenderText {#text} at (0,0) size 409x21
+          text run at (0,0) width 409: "You should see both vertical and horizontal scrollbars."
+      RenderBlock {P} at (0,37) size 769x21
+        RenderText {#text} at (0,0) size 138x21
+          text run at (0,0) width 138: "This is the test for "
+        RenderInline {A} at (0,0) size 439x21 [color=#0000EE]
+          RenderText {#text} at (138,0) size 439x21
+            text run at (138,0) width 439: "Bug 36461 - No vertical scrollbar after the CSS class change"
+        RenderText {#text} at (577,0) size 4x21
+          text run at (577,0) width 4: "."
+      RenderBlock {DIV} at (0,74) size 2000x2000

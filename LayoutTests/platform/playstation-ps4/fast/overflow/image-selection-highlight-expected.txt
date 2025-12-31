@@ -1,0 +1,52 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 258x21
+          text run at (0,0) width 258: "This tests for a regression against "
+        RenderInline {I} at (0,0) size 745x42
+          RenderInline {A} at (0,0) size 414x21 [color=#0000EE]
+            RenderText {#text} at (258,0) size 414x21
+              text run at (258,0) width 414: "http://bugzilla.opendarwin.org/show_bug.cgi?id=6673"
+          RenderText {#text} at (672,0) size 745x42
+            text run at (672,0) width 4: " "
+            text run at (676,0) width 69: "Selection"
+            text run at (0,21) width 610: "highlight doesn't scroll along with an image contained in an overflow:scroll block"
+        RenderText {#text} at (610,21) size 4x21
+          text run at (610,21) width 4: "."
+      RenderBlock {P} at (0,58) size 784x42
+        RenderText {#text} at (0,0) size 761x42
+          text run at (0,0) width 487: "There should be one contiguous highlight from \x{201C}elit\x{201D} to \x{201C}Etiam\x{201D}, "
+          text run at (487,0) width 274: "including the orange square, and no"
+          text run at (0,21) width 181: "other highlighted areas."
+layer at (8,124) size 784x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,116) size 784x2 [border: (1px inset #000000)]
+layer at (8,134) size 100x200 clip at (8,134) size 85x185 scrollY 40 scrollWidth 99 scrollHeight 399
+  RenderBlock {DIV} at (0,126) size 100x200
+    RenderText {#text} at (0,0) size 99x147
+      text run at (0,0) width 48: "Lorem"
+      text run at (0,21) width 47: "ipsum"
+      text run at (0,42) width 62: "dolor sit"
+      text run at (0,63) width 43: "amet,"
+      text run at (0,84) width 99: "consectetuer"
+      text run at (0,105) width 77: "adipiscing"
+      text run at (0,126) width 31: "elit. "
+    RenderImage {IMG} at (31,133) size 10x10
+    RenderText {#text} at (0,147) size 99x252
+      text run at (0,147) width 62: "Etiam et"
+      text run at (0,168) width 51: "ipsum."
+      text run at (0,189) width 35: "Nam"
+      text run at (0,210) width 99: "consectetuer"
+      text run at (0,231) width 57: "mi eget"
+      text run at (0,252) width 39: "velit. "
+      text run at (39,252) width 28: "Sed"
+      text run at (0,273) width 67: "nec risus"
+      text run at (0,294) width 70: "vitae felis"
+      text run at (0,315) width 49: "auctor"
+      text run at (0,336) width 63: "ultricies."
+      text run at (0,357) width 98: "Pellentesque"
+      text run at (0,378) width 64: "aliquet..."
+selection start: position 58 of child 0 {#text} of child 7 {DIV} of body
+selection end:   position 11 of child 2 {#text} of child 7 {DIV} of body

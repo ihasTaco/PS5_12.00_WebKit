@@ -1,0 +1,24 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x53
+  RenderBlock {HTML} at (0,0) size 800x53
+    RenderBody {BODY} at (8,16) size 784x21
+      RenderBlock {P} at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 188x21
+          text run at (0,0) width 188: "The background color of "
+        RenderInline {A} at (0,0) size 61x21 [color=#0000EE]
+          RenderText {#text} at (188,0) size 61x21
+            text run at (188,0) width 61: "anchors"
+        RenderText {#text} at (249,0) size 188x21
+          text run at (249,0) width 4: " "
+          text run at (253,0) width 184: "in this page should turn "
+        RenderInline {A} at (0,0) size 64x21 [color=#0000EE]
+          RenderText {#text} at (437,0) size 64x21
+            text run at (437,0) width 64: "to green"
+        RenderText {#text} at (501,0) size 156x21
+          text run at (501,0) width 156: " when they have the "
+        RenderInline {A} at (0,0) size 41x21 [color=#0000EE]
+          RenderText {#text} at (657,0) size 41x21
+            text run at (657,0) width 41: "focus"
+        RenderText {#text} at (698,0) size 4x21
+          text run at (698,0) width 4: "."

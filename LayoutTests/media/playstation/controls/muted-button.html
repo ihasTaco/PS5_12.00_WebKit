@@ -1,0 +1,58 @@
+<script src=../../media-file.js></script>
+<script src=../../video-test.js></script>
+<script src=media-controls.js></script>
+
+<script>
+    var video;
+
+    window.addEventListener('load', async() => {
+        if (!window.testRunner) {
+            consoleWrite("This test only works in WebKitTestRunner.");
+            return;
+        }
+
+        findMediaElement();
+        video.src = findMediaFile("video", "../../content/test");
+
+        waitForEventAndFail("error");
+
+        await waitFor(video, "canplaythrough");
+
+        var muteButton = new MediaControlsElement(video, "mute-button");
+        consoleWrite("muted button rect = {" + muteButton.rect() + "}");
+        consoleWrite("muted button size = {" + muteButton.size() + "}");
+
+        consoleWrite("");
+        consoleWrite("<i>**Mouse over muted button.</i>");
+        muteButton.moveTo();
+
+        var volumeSlider = new MediaControlsElement(video, "volume-slider");
+        consoleWrite("volume slider rect = {" + volumeSlider.rect() + "}");
+        consoleWrite("volume slider size = {" + volumeSlider.size() + "}");
+
+        consoleWrite("");
+        testExpected("video.volume", 1.0);
+        consoleWrite("<i>**Click volume slider.</i>");
+        volumeSlider.click();
+        testExpected("video.volume", 0.5);
+
+        consoleWrite("");
+        consoleWrite("<i>**Drag volume slider y + 10px.</i>");
+        volumeSlider.dragTo(0, 10);
+        testExpected("video.volume", 0.3);
+
+        consoleWrite("");
+        testExpected("video.muted", false);
+        consoleWrite("<i>**Click muted button.</i>");
+        muteButton.click();
+
+        testExpected("video.muted", true);
+
+        endTest();
+    });
+</script>
+
+<body>
+    <div>This test that the muted button is valid.</div>
+    <video controls></video>
+</body>

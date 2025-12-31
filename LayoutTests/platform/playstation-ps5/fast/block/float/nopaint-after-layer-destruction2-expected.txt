@@ -1,0 +1,36 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 161x21
+          text run at (0,0) width 161: "This is a pixel test for "
+        RenderInline {I} at (0,0) size 754x42
+          RenderInline {A} at (0,0) size 415x21 [color=#0000EE]
+            RenderText {#text} at (161,0) size 415x21
+              text run at (161,0) width 415: "http://bugzilla.opendarwin.org/show_bug.cgi?id=4334"
+          RenderText {#text} at (576,0) size 754x42
+            text run at (576,0) width 4: " "
+            text run at (580,0) width 174: "REGRESSION: Flickering"
+            text run at (0,21) width 454: "when css-hover should change opacity on floating elements"
+        RenderText {#text} at (454,21) size 4x21
+          text run at (454,21) width 4: "."
+      RenderBlock {P} at (0,58) size 784x21
+        RenderText {#text} at (0,0) size 586x21
+          text run at (0,0) width 586: "There should be a solid green square below mixed in with a paragraph of text."
+      RenderBlock {DIV} at (0,115) size 784x149
+        RenderBlock {DIV} at (0,0) size 784x148
+          RenderBlock (floating) {DIV} at (3,3) size 75x75 [bgcolor=#008000]
+          RenderBlock {H3} at (0,0) size 784x24
+            RenderText {#text} at (81,0) size 172x24
+              text run at (81,0) width 172: "Stanley Park Forest"
+          RenderBlock {P} at (0,42) size 784x106
+            RenderText {#text} at (81,0) size 779x105
+              text run at (81,0) width 652: "The forest is primarily second and third growth. The area was saved from development"
+              text run at (81,21) width 629: "because of its status as a federal military reserve; it occupied a strategic location for"
+              text run at (0,42) width 766: "defending the former provincial capital of New Westminster in the case of an American naval invasion."
+              text run at (0,63) width 772: "Nevertheless, the federal government allowed logging operations there in the mid-nineteenth century."
+              text run at (0,84) width 779: "Large swathes of the park were also deforested by natural causes on two occasions in the 20th century."
+layer at (8,103) size 784x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,95) size 784x2 [border: (1px inset #000000)]

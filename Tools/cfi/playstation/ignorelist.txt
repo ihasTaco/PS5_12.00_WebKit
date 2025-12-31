@@ -1,0 +1,132 @@
+# PlayStation Ignorelist
+
+# A lot of functional false positives seemingly with converting lambdas to std::functions
+[cfi-unrelated-cast]
+src:*functional
+# Similar issue with lambdas. Only seeing this in the unreleased toolchain
+src:*xmemory0
+
+# Cross library types (invalid vtable from another lib)
+[cfi-vcall]
+type:toolkitten::*
+type:CertificateData
+type:mediaplayer::*
+type:LibraryBundle
+type:canvas::*
+type:icu*::*
+[cfi-nvcall]
+type:toolkitten::*
+type:CertificateData
+type:mediaplayer::*
+type:LibraryBundle
+type:canvas::*
+type:icu*::*
+
+# Problems returning a std::shared_ptr<mediaplayer::PSSourceBufferBackendInterface> copy, possibly doesn't know about mediaplayer vtables
+# Not sure if there's a better way than just ignoring _Ref_count_base
+[cfi-vcall]
+type:std::_Ref_count_base
+[cfi-nvcall]
+type:std::_Ref_count_base
+
+# reinterpret-casts a void* obtained by dlsym to a function pointer then calls it
+[cfi-icall]
+src:*InjectedBundlePlayStation.cpp
+
+# TODO: xmlMalloc, xmlFree cause errors, ignore them to avoid
+[cfi-icall]
+src:*XMLDocumentParserLibxml2.cpp
+
+# Failures inside locale construction & facet
+[cfi-vcall]
+src:*xlocale
+
+# CFI issue on video
+[cfi-derived-cast]
+type:WebKit::ProcessAssertion
+
+#######
+# FULL lto-only issues
+#######
+
+# Calling the function given to WKRunLoopCallOnMainThread
+[cfi-icall]
+fun:*WKRunLoopCallOnMainThread*
+
+# Thread Global Data - reinterprets the aligned storage to PointerType
+[cfi-unrelated-cast]
+fun:*ThreadSpecific*storagePointer*
+
+[cfi-nvcall]
+src:*system_error
+
+# CFI errors around Refs. TODO: Investigate these further
+# for post 6.00 releases.
+[cfi-derived-cast]
+type:WebCore::HTMLMediaElement
+type:WebCore::HTMLDivElement
+
+# for post 10.00 releases.
+[cfi-derived-cast]
+type:WebCore::Element
+type:WebCore::ServiceWorkerThread
+
+# Callbacks from WKView from ViewClient
+[cfi-icall]
+fun:*ViewClient*
+
+# Newer issues possibly both thin and full
+
+# Issue with inspecting video sites, Text downcast in InspectorDOMAgent
+# and calling things on the downcasted node.
+[cfi-nvcall]
+fun:*containsOnlyASCIIWhitespace*
+[cfi-derived-cast]
+fun:*WTF*downcast*
+
+# Issue with inspecting video sites, document instrumentation
+[cfi-nvcall]
+fun:*InspectorInstrumentation*instrumentingAgents*
+
+# Callbacks from WKContextSetAssertReportCallback
+[cfi-icall]
+fun:*17AssertReportProxy*10reportSync*
+
+# TODO: examine this more closely
+# ThreadSafeWeakPtr m_controlBlock setup has issues with the static_cast<T&>(*this) portion for some types
+[cfi-derived-cast]
+src:*ThreadSafeWeakPtr.h
+
+[cfi-derived-cast]
+src:*DoublyLinkedList.h
+
+# TODO: remove these if/when these issues are sorted out in the STL
+# C++ streams seem to have a myriad of problems
+[cfi-nvcall]
+src:*istream
+src:*string
+src:*ostream
+src:*ios
+src:*xiosbase
+[cfi-vcall]
+src:*ostream
+src:*streambuf
+src:*xlocnum
+[cfi-derived-cast]
+src:*xlocale
+[cfi-icall]
+src:*iomanip
+
+[cfi-derived-cast]
+type:*NetworkProcessProxy*
+
+# Defined in Tools/cfi/ignorelist.txt
+[cfi-derived-cast]
+fun:*3WTF*14CanMakeWeakPtr*28WeakPtrFactoryInitialization*C2Ev
+[cfi-unrelated-cast]
+fun:*3WTF*14CanMakeWeakPtr*28WeakPtrFactoryInitialization*C2Ev
+
+[cfi-derived-cast]
+type:*HTMLUnknownElement*
+[cfi-unrelated-cast]
+type:*HTMLUnknownElement*

@@ -1,0 +1,77 @@
+layer at (0,0) size 785x680
+  RenderView at (0,0) size 785x600
+layer at (0,0) size 785x680
+  RenderBlock {HTML} at (0,0) size 785x681
+    RenderBody {BODY} at (8,8) size 769x665
+      RenderBlock {H3} at (0,0) size 769x24
+        RenderText {#text} at (0,0) size 201x24
+          text run at (0,0) width 201: "<input type=\"submit\">"
+      RenderBlock {P} at (0,42) size 769x22
+        RenderText {#text} at (0,0) size 420x21
+          text run at (0,0) width 420: "This button should have the default submit button title:"
+      RenderBlock (anonymous) at (0,79) size 769x22
+        RenderButton {INPUT} at (0,0) size 80x21 [bgcolor=#008000] [border: (2px outset #C0C0C0)]
+          RenderBlock (anonymous) at (8,4) size 64x17
+            RenderText at (10,0) size 44x17
+              text run at (10,0) width 44: "Submit"
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {P} at (0,116) size 769x22
+        RenderText {#text} at (0,0) size 350x21
+          text run at (0,0) width 350: "This button should should have the title \"Foo\":"
+      RenderBlock (anonymous) at (0,153) size 769x22
+        RenderButton {INPUT} at (0,0) size 80x21 [bgcolor=#008000] [border: (2px outset #C0C0C0)]
+          RenderBlock (anonymous) at (8,4) size 64x17
+            RenderText at (20,0) size 24x17
+              text run at (20,0) width 24: "Foo"
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {P} at (0,190) size 769x22
+        RenderText {#text} at (0,0) size 371x21
+          text run at (0,0) width 371: "This button should have a single space in its title:"
+      RenderBlock (anonymous) at (0,227) size 769x22
+        RenderButton {INPUT} at (0,0) size 80x21 [bgcolor=#008000] [border: (2px outset #C0C0C0)]
+          RenderBlock (anonymous) at (8,4) size 64x17
+            RenderText at (30,0) size 4x17
+              text run at (30,0) width 4: " "
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {P} at (0,264) size 769x22
+        RenderText {#text} at (0,0) size 245x21
+          text run at (0,0) width 245: "This button should have no title:"
+      RenderBlock (anonymous) at (0,301) size 769x22
+        RenderButton {INPUT} at (0,0) size 80x21 [bgcolor=#008000] [border: (2px outset #C0C0C0)]
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {H3} at (0,341) size 769x25
+        RenderText {#text} at (0,0) size 184x24
+          text run at (0,0) width 184: "<input type=\"reset\">"
+      RenderBlock {P} at (0,384) size 769x22
+        RenderText {#text} at (0,0) size 405x21
+          text run at (0,0) width 405: "This button should have the default reset button title:"
+      RenderBlock (anonymous) at (0,421) size 769x22
+        RenderButton {INPUT} at (0,0) size 80x21 [bgcolor=#008000] [border: (2px outset #C0C0C0)]
+          RenderBlock (anonymous) at (8,4) size 64x17
+            RenderText at (14,0) size 36x17
+              text run at (14,0) width 36: "Reset"
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {P} at (0,458) size 769x22
+        RenderText {#text} at (0,0) size 350x21
+          text run at (0,0) width 350: "This button should should have the title \"Foo\":"
+      RenderBlock (anonymous) at (0,495) size 769x22
+        RenderButton {INPUT} at (0,0) size 80x21 [bgcolor=#008000] [border: (2px outset #C0C0C0)]
+          RenderBlock (anonymous) at (8,4) size 64x17
+            RenderText at (20,0) size 24x17
+              text run at (20,0) width 24: "Foo"
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {P} at (0,532) size 769x22
+        RenderText {#text} at (0,0) size 371x21
+          text run at (0,0) width 371: "This button should have a single space in its title:"
+      RenderBlock (anonymous) at (0,569) size 769x22
+        RenderButton {INPUT} at (0,0) size 80x21 [bgcolor=#008000] [border: (2px outset #C0C0C0)]
+          RenderBlock (anonymous) at (8,4) size 64x17
+            RenderText at (30,0) size 4x17
+              text run at (30,0) width 4: " "
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {P} at (0,606) size 769x22
+        RenderText {#text} at (0,0) size 245x21
+          text run at (0,0) width 245: "This button should have no title:"
+      RenderBlock (anonymous) at (0,643) size 769x22
+        RenderButton {INPUT} at (0,0) size 80x21 [bgcolor=#008000] [border: (2px outset #C0C0C0)]
+        RenderText {#text} at (0,0) size 0x0

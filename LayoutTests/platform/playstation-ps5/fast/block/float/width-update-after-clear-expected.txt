@@ -1,0 +1,30 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock (floating) {P} at (142,16) size 642x21
+        RenderText {#text} at (0,0) size 642x21
+          text run at (0,0) width 642: "The 'hr' below should span the width of the page, not just to the left edge of this text."
+      RenderBlock (floating) {P} at (128,79) size 656x21
+        RenderText {#text} at (0,0) size 656x21
+          text run at (0,0) width 656: "The table below should span the width of the page, not just to the left edge of this text."
+      RenderTable {TABLE} at (0,116) size 784x70 [border: (10px outset #808080)]
+        RenderTableSection {TBODY} at (10,10) size 764x50
+          RenderTableRow {TR} at (0,2) size 764x46
+            RenderTableCell {TD} at (2,2) size 760x46 [border: (1px inset #808080)] [r=0 c=0 rs=1 cs=1]
+              RenderText {#text} at (2,2) size 741x42
+                text run at (2,2) width 436: "This is a table that should fill the entire width of the page. "
+                text run at (438,2) width 305: "It should clear the float and then take up"
+                text run at (2,23) width 370: "the width of the page. If it doesn't then it's a bug."
+      RenderBlock (floating) {P} at (272,202) size 512x21
+        RenderText {#text} at (0,0) size 512x21
+          text run at (0,0) width 512: "The overflow auto section below should span the width of the page."
+layer at (8,61) size 784x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,53) size 784x2 [border: (1px inset #000000)]
+layer at (8,247) size 784x42
+  RenderBlock {DIV} at (0,239) size 784x42
+    RenderText {#text} at (0,0) size 754x42
+      text run at (0,0) width 420: "This is a div that should fill the entire width of the page. "
+      text run at (420,0) width 334: "It should clear the float and then take up the"
+      text run at (0,21) width 341: "width of the page. If it doesn't then it's a bug."

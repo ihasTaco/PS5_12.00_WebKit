@@ -1,0 +1,14 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+layer at (8,8) size 51x38 clip at (8,8) size 36x38 scrollHeight 39
+  RenderBlock (floating) {DIV} at (0,0) size 51x38
+    RenderBlock (floating) {LABEL} at (0,0) size 26x19
+      RenderText {#text} at (0,-2) size 26x22
+        text run at (0,-2) width 26: "foo"
+    RenderInline {SPAN} at (0,0) size 25x21
+      RenderText {#text} at (0,18) size 25x21
+        text run at (0,18) width 25: "bar"
+    RenderText {#text} at (0,0) size 0x0

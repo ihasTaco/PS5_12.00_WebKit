@@ -1,0 +1,39 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderText {#text} at (0,0) size 398x21
+        text run at (0,0) width 398: "This tests that you can set the placeholder text color."
+      RenderBR {BR} at (398,0) size 0x21
+      RenderText {#text} at (181,44) size 4x21
+        text run at (181,44) width 4: " "
+      RenderText {#text} at (366,44) size 4x21
+        text run at (366,44) width 4: " "
+      RenderText {#text} at (551,44) size 4x21
+        text run at (551,44) width 4: " "
+      RenderText {#text} at (0,0) size 0x0
+layer at (8,29) size 181x40 clip at (9,30) size 179x38
+  RenderTextControl {TEXTAREA} at (0,21) size 181x40 [bgcolor=#FFFFFF] [border: (1px solid #000000)]
+    RenderBlock {DIV} at (3,3) size 175x17
+    RenderBlock {DIV} at (3,3) size 175x17 [color=#640000]
+      RenderText {#text} at (0,0) size 25x17
+        text run at (0,0) width 25: "text"
+layer at (193,29) size 181x40 clip at (194,30) size 179x38
+  RenderTextControl {TEXTAREA} at (185,21) size 181x40 [color=#575757] [bgcolor=#FFFFFF] [border: (1px solid #575757)]
+    RenderBlock {DIV} at (3,3) size 175x17
+    RenderBlock {DIV} at (3,3) size 175x17 [color=#640000]
+      RenderText {#text} at (0,0) size 79x17
+        text run at (0,0) width 79: "disabled text"
+layer at (378,29) size 181x40 clip at (379,30) size 179x38
+  RenderTextControl {TEXTAREA} at (370,21) size 181x40 [bgcolor=#FFFFFF] [border: (1px solid #000000)]
+    RenderBlock {DIV} at (3,3) size 175x17
+    RenderBlock {DIV} at (3,3) size 175x17 [color=#A9A9A9]
+      RenderText {#text} at (0,0) size 43x17
+        text run at (0,0) width 43: "default"
+layer at (563,29) size 181x40 clip at (564,30) size 179x38
+  RenderTextControl {TEXTAREA} at (555,21) size 181x40 [color=#575757] [bgcolor=#FFFFFF] [border: (1px solid #575757)]
+    RenderBlock {DIV} at (3,3) size 175x17
+    RenderBlock {DIV} at (3,3) size 175x17 [color=#A9A9A9]
+      RenderText {#text} at (0,0) size 97x17
+        text run at (0,0) width 97: "default disabled"

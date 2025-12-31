@@ -1,0 +1,54 @@
+<script src=../../media-file.js></script>
+<script src=../../video-test.js></script>
+<script src=media-controls.js></script>
+
+<script>
+    var video;
+
+    window.addEventListener('load', async() => {
+        if (!window.testRunner) {
+            consoleWrite("This test only works in WebKitTestRunner.");
+            return;
+        }
+
+        findMediaElement();
+        video.src = findMediaFile("video", "../../content/test");
+
+        waitForEventAndFail("error");
+
+        await waitFor(video, "canplaythrough");
+
+        var timeline = new MediaControlsElement(video, "timeline");
+        consoleWrite("timeline rect = {" + timeline.rect() + "}");
+        consoleWrite("timeline size = {" + timeline.size() + "}");
+
+        var currentTimeDisplay = new MediaControlsElement(video, "current-time-display");
+        consoleWrite("current time display rect = {" + currentTimeDisplay.rect() + "}");
+        consoleWrite("current time display size = {" + currentTimeDisplay.size() + "}");
+
+        var timeRemainingDisplay = new MediaControlsElement(video, "time-remaining-display");
+        consoleWrite("time remaining display rect = {" + timeRemainingDisplay.rect() + "}");
+        consoleWrite("time remaining display size = {" + timeRemainingDisplay.size() + "}");
+
+        consoleWrite("");
+        consoleWrite("<i>**Click timeline.</i>");
+        timeline.click();
+
+        await waitFor(video, "seeked");
+        consoleWrite("currentTime = " + video.currentTime);
+
+        consoleWrite("");
+        consoleWrite("<i>**Drag timeline x - 20px.</i>");
+        timeline.dragTo(-20, 0);
+
+        await waitFor(video, "seeked");
+        consoleWrite("currentTime = " + video.currentTime);
+
+        endTest();
+    });
+</script>
+
+<body>
+    <div>This test that the time line is valid.</div>
+    <video controls></video>
+</body>

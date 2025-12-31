@@ -1,0 +1,34 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 374x21
+          text run at (0,0) width 374: "The black outline box should stretch from the left "
+        RenderInline {SPAN} at (0,0) size 33x21 [color=#0000FF]
+          RenderText {#text} at (374,0) size 33x21
+            text run at (374,0) width 33: "blue"
+        RenderText {#text} at (407,0) size 269x21
+          text run at (407,0) width 269: " border on the first line, to the right "
+        RenderInline {SPAN} at (0,0) size 54x21 [color=#FFA500]
+          RenderText {#text} at (676,0) size 54x21
+            text run at (676,0) width 54: "orange"
+        RenderText {#text} at (0,21) size 179x21
+          text run at (0,21) width 179: "border on the third line."
+      RenderBlock {DIV} at (0,58) size 600x105
+        RenderText {#text} at (0,0) size 220x21
+          text run at (0,0) width 220: "ILorem ipsum dolor sit amet, "
+        RenderText {#text} at (260,63) size 557x42
+          text run at (260,63) width 297: "duis aute irure dolor in reprehenderit in"
+          text run at (0,84) width 111: "voluptate velit."
+layer at (8,66) size 595x86
+  RenderInline (relative positioned) {SPAN} at (0,0) size 595x86 [bgcolor=#008000] [border: (1px solid #808080) (20px solid #FFA500) (1px solid #808080) (20px solid #0000FF)]
+    RenderText {#text} at (260,0) size 551x42
+      text run at (260,0) width 291: "con a pariatur. Excepteur sint occaecat"
+      text run at (0,21) width 546: "cupidatat non proident, sunt in culp qui officia deserunt mollit animequs"
+    RenderText {#text} at (0,42) size 595x42
+      text run at (0,42) width 595: "ILOREM ipsum dol sDuis aute irure dolor in reprehenderit in voluptate velit esse"
+      text run at (0,63) width 220: "cillum dolore eu fugiat nullat "
+layer at (258,66) size 0x84
+  RenderBlock (positioned) {DIV} at (20,1) size 0x84

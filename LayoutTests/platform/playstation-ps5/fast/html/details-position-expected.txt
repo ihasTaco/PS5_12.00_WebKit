@@ -1,0 +1,23 @@
+layer at (0,0) size 942x585
+  RenderView at (0,0) size 800x585
+layer at (0,0) size 800x585
+  RenderBlock {HTML} at (0,0) size 800x585
+    RenderBody {BODY} at (8,8) size 784x569
+      RenderBlock {DETAILS} at (0,0) size 784x0
+      RenderBlock {DETAILS} at (0,0) size 784x21
+      RenderBlock {DETAILS} at (0,21) size 784x0
+layer at (50,150) size 53x21
+  RenderBlock (positioned) {SUMMARY} at (50,150) size 53x21
+    RenderDetailsMarker {DIV} at (0,6) size 11x11: right
+    RenderText {#text} at (16,0) size 37x21
+      text run at (16,0) width 37: "fixed"
+layer at (158,158) size 784x21
+  RenderBlock (relative positioned) {SUMMARY} at (0,0) size 784x21
+    RenderDetailsMarker {DIV} at (0,6) size 11x11: right
+    RenderText {#text} at (16,0) size 56x21
+      text run at (16,0) width 56: "relative"
+layer at (250,150) size 83x21
+  RenderBlock (positioned) {SUMMARY} at (250,150) size 83x21
+    RenderDetailsMarker {DIV} at (0,6) size 11x11: right
+    RenderText {#text} at (16,0) size 67x21
+      text run at (16,0) width 67: "absolute"

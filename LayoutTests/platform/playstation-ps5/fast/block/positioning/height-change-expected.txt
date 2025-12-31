@@ -1,0 +1,36 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x63
+        RenderText {#text} at (0,0) size 258x21
+          text run at (0,0) width 258: "This tests for a regression against "
+        RenderInline {I} at (0,0) size 751x63
+          RenderInline {A} at (0,0) size 412x21 [color=#0000EE]
+            RenderText {#text} at (258,0) size 412x21
+              text run at (258,0) width 412: "http://bugzilla.opendarwin.org/show_bug.cgi?id=6881"
+          RenderText {#text} at (670,0) size 751x63
+            text run at (670,0) width 4: " "
+            text run at (674,0) width 77: "Block with"
+            text run at (0,21) width 745: "position:absolute bottom:0 doesn't always move when height of containing block changes (affects"
+            text run at (0,42) width 79: "Safari RSS)"
+        RenderText {#text} at (79,42) size 4x21
+          text run at (79,42) width 4: "."
+      RenderBlock {P} at (0,79) size 784x21
+        RenderText {#text} at (0,0) size 668x21
+          text run at (0,0) width 668: "The squares below should have blue tops and green bottoms, not the other way around."
+      RenderBlock (anonymous) at (0,226) size 784x21
+        RenderBR {BR} at (0,0) size 0x21
+layer at (8,124) size 784x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,116) size 784x2 [border: (1px inset #000000)]
+layer at (8,134) size 784x100
+  RenderBlock (relative positioned) {DIV} at (0,126) size 784x100
+    RenderBlock {DIV} at (0,0) size 100x100 [bgcolor=#87CEEB]
+layer at (8,184) size 100x50
+  RenderBlock (positioned) {DIV} at (0,50) size 100x50 [bgcolor=#90EE90]
+layer at (8,255) size 784x100
+  RenderDeprecatedFlexibleBox (relative positioned) {DIV} at (0,247) size 784x100
+    RenderBlock {DIV} at (0,0) size 100x100 [bgcolor=#87CEEB]
+layer at (8,305) size 100x50
+  RenderBlock (positioned) {DIV} at (0,50) size 100x50 [bgcolor=#90EE90]

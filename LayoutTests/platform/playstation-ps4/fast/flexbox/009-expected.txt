@@ -1,0 +1,15 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x63
+        RenderText {#text} at (0,0) size 778x63
+          text run at (0,0) width 647: "You should see a 100x100 olive-bordered green square below with a vertical scrollbar. "
+          text run at (647,0) width 104: "The scrollable"
+          text run at (0,21) width 435: "area should all be green and should be about 1000px tall. "
+          text run at (435,21) width 343: "If you do not see a scrollbar, then the test has"
+          text run at (0,42) width 45: "failed."
+layer at (8,87) size 104x104 clip at (10,89) size 85x100 scrollHeight 1000
+  RenderDeprecatedFlexibleBox {DIV} at (0,79) size 104x104 [bgcolor=#008000] [border: (2px solid #808000)]
+    RenderBlock {DIV} at (2,2) size 85x1000

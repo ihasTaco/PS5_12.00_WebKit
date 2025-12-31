@@ -1,0 +1,27 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x347
+  RenderBlock {HTML} at (0,0) size 800x347
+    RenderBody {BODY} at (16,16) size 768x315
+      RenderTable at (0,0) size 691x315
+        RenderTableSection (anonymous) at (0,0) size 691x315
+          RenderTableRow {Q} at (0,0) size 691x315
+            RenderTableCell (anonymous) at (0,0) size 691x315 [r=0 c=0 rs=1 cs=1]
+              RenderInline (generated) at (0,0) size 13x41
+                RenderQuote at (0,0) size 13x41
+                  RenderText at (0,274) size 13x41
+                    text run at (0,274) width 13: "\""
+              RenderText {#text} at (13,274) size 29x41
+                text run at (13,274) width 29: " A"
+              RenderIFrame {IFRAME} at (42,0) size 608x308 [border: (4px inset #000000)]
+                layer at (0,0) size 600x300
+                  RenderView at (0,0) size 600x300
+                layer at (0,0) size 600x300
+                  RenderBlock {HTML} at (0,0) size 600x300
+                    RenderBody {BODY} at (8,8) size 584x284
+              RenderText {#text} at (650,274) size 28x41
+                text run at (650,274) width 28: "B "
+              RenderInline (generated) at (0,0) size 13x41
+                RenderQuote at (0,0) size 13x41
+                  RenderText at (678,274) size 13x41
+                    text run at (678,274) width 13: "\""

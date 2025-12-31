@@ -1,0 +1,22 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x300
+      RenderBlock (floating) {DIV} at (0,0) size 392x100 [bgcolor=#008000]
+      RenderBlock (floating) {DIV} at (392,0) size 100x100 [bgcolor=#800080]
+      RenderBlock (floating) {DIV} at (584,0) size 200x500 [bgcolor=#FFA500]
+      RenderBlock (floating) {DIV} at (484,100) size 100x50 [bgcolor=#0000FF]
+      RenderBlock (floating) {DIV} at (0,100) size 160x200 [bgcolor=#FF0000]
+      RenderBlock (floating) {DIV} at (384,100) size 100x100 [bgcolor=#808000]
+      RenderText {#text} at (492,0) size 419x205
+        text run at (492,0) width 80: "Some text."
+        text run at (492,21) width 87: "This should"
+        text run at (492,42) width 76: "find a way"
+        text run at (492,63) width 58: "to wrap"
+        text run at (160,100) width 213: "among all the floats without"
+        text run at (160,121) width 192: "overlapping any of them. "
+        text run at (352,121) width 10: "It"
+        text run at (160,142) width 201: "should start just under the"
+        text run at (160,163) width 217: "blue box and wrap to several"
+        text run at (160,184) width 39: "lines."

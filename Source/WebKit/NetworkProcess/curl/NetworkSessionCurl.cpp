@@ -1,0 +1,112 @@
+/*
+ * Copyright (C) 2018 Sony Interactive Entertainment Inc.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY APPLE INC. AND ITS CONTRIBUTORS ``AS IS''
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+ * THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL APPLE INC. OR ITS CONTRIBUTORS
+ * BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ * INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+ * THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+#include "config.h"
+#include "NetworkSessionCurl.h"
+
+#include "NetworkProcess.h"
+#include "NetworkSessionCreationParameters.h"
+#include "WebCookieManager.h"
+#include "WebSocketTaskCurl.h"
+#include <WebCore/CookieJarDB.h>
+#include <WebCore/CurlContext.h>
+#include <WebCore/NetworkStorageSession.h>
+
+#if PLATFORM(PLAYSTATION) // for downstream-only
+#include <NetworkControl/NetworkControl.h>
+#include <WebSecurity/WebSecurity.h>
+#endif
+
+namespace WebKit {
+
+using namespace WebCore;
+
+NetworkSessionCurl::NetworkSessionCurl(NetworkProcess& networkProcess, const NetworkSessionCreationParameters& parameters)
+    : NetworkSession(networkProcess, parameters)
+{
+    if (auto* storageSession = networkStorageSession()) {
+        if (!parameters.cookiePersistentStorageFile.isEmpty())
+            storageSession->setCookieDatabase(makeUniqueRef<CookieJarDB>(parameters.cookiePersistentStorageFile));
+        storageSession->setProxySettings(parameters.proxySettings);
+    }
+
+#if ENABLE(TRACKING_PREVENTION)
+    m_resourceLoadStatisticsDirectory = parameters.resourceLoadStatisticsParameters.directory;
+    m_shouldIncludeLocalhostInResourceLoadStatistics = parameters.resourceLoadStatisticsParameters.shouldIncludeLocalhost ? ShouldIncludeLocalhost::Yes : ShouldIncludeLocalhost::No;
+    m_enableResourceLoadStatisticsDebugMode = parameters.resourceLoadStatisticsParameters.enableDebugMode ? EnableResourceLoadStatisticsDebugMode::Yes : EnableResourceLoadStatisticsDebugMode::No;
+    m_resourceLoadStatisticsManualPrevalentResource = parameters.resourceLoadStatisticsParameters.manualPrevalentResource;
+    setTrackingPreventionEnabled(parameters.resourceLoadStatisticsParameters.enabled);
+#endif
+
+#if PLATFORM(PLAYSTATION) // for downstream-only
+    auto additionalRootCA = parameters.additionalRootCA;
+    auto clientCertificate = parameters.clientCertificate;
+    setAdditionalRootCA(WTFMove(additionalRootCA));
+    setClientCertificate(WTFMove(clientCertificate));
+    setNetworkBandwidth(parameters.networkBandwidthMode);
+    setWebSecurityTMService(parameters.webSecurityTMService);
+#endif
+}
+
+NetworkSessionCurl::~NetworkSessionCurl()
+{
+
+}
+
+void NetworkSessionCurl::clearAlternativeServices(WallTime)
+{
+    if (auto* storageSession = networkStorageSession())
+        storageSession->clearAlternativeServices();
+}
+
+std::unique_ptr<WebSocketTask> NetworkSessionCurl::createWebSocketTask(WebPageProxyIdentifier, std::optional<FrameIdentifier>, std::optional<PageIdentifier>, NetworkSocketChannel& channel, const WebCore::ResourceRequest& request, const String& protocol, const WebCore::ClientOrigin&, bool, bool, OptionSet<WebCore::AdvancedPrivacyProtections>, ShouldRelaxThirdPartyCookieBlocking, StoredCredentialsPolicy)
+{
+    return makeUnique<WebSocketTask>(channel, request, protocol);
+}
+
+#if PLATFORM(PLAYSTATION) // for downstream-only
+void NetworkSessionCurl::setAdditionalRootCA(String&& rootCA)
+{
+    if (!rootCA.isEmpty())
+        CurlContext::singleton().setAdditionalRootCA(WTFMove(rootCA));
+}
+
+void NetworkSessionCurl::setClientCertificate(WebCore::CertificateInfo&& clientCertificate)
+{
+    m_clientCertificate = WTFMove(clientCertificate);
+}
+
+void NetworkSessionCurl::setNetworkBandwidth(uint32_t mode)
+{
+    NetworkControl::setPrivilegedNetworkBandwidth(mode);
+}
+
+void NetworkSessionCurl::setWebSecurityTMService(int service)
+{
+    WebSecurity::setFilterlingService(service);
+}
+#endif
+
+} // namespace WebKit

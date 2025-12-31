@@ -1,0 +1,32 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x37
+  RenderBlock {html} at (0,0) size 800x37
+    RenderBody {body} at (8,8) size 784x21 [color=#008000]
+      RenderInline {tests} at (0,0) size 651x21
+        RenderText {#text} at (0,0) size 0x0
+        RenderInline {first-child} at (0,0) size 95x21
+          RenderText {#text} at (0,0) size 95x21
+            text run at (0,0) width 95: "None of this "
+        RenderText {#text} at (0,0) size 0x0
+        RenderInline {element} at (0,0) size 112x21
+          RenderText {#text} at (95,0) size 112x21
+            text run at (95,0) width 112: "text should be "
+        RenderText {#text} at (0,0) size 0x0
+        RenderInline {attribute} at (0,0) size 144x21
+          RenderText {#text} at (207,0) size 144x21
+            text run at (207,0) width 144: "matching the style "
+        RenderText {#text} at (0,0) size 0x0
+        RenderInline {span} at (0,0) size 116x21
+          RenderText {#text} at (351,0) size 116x21
+            text run at (351,0) width 116: "rules, and thus "
+        RenderText {#text} at (0,0) size 0x0
+        RenderInline {universal} at (0,0) size 76x21
+          RenderText {#text} at (467,0) size 76x21
+            text run at (467,0) width 76: "none of it "
+        RenderText {#text} at (0,0) size 0x0
+        RenderInline {span} at (0,0) size 108x21
+          RenderText {#text} at (543,0) size 108x21
+            text run at (543,0) width 108: "should be red."
+        RenderText {#text} at (0,0) size 0x0
+      RenderText {#text} at (0,0) size 0x0

@@ -1,0 +1,23 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 776x584
+      RenderBlock {P} at (0,0) size 21x584
+        RenderText {#text} at (0,0) size 21x54
+          text run at (0,0) width 54: "Times: "
+        RenderInline {SPAN} at (0,0) size 21x16
+          RenderCombineText {#text} at (0,54) size 21x16
+            text run at (0,54) width 16: "\x{FFFC}"
+      RenderBlock {P} at (37,0) size 21x584
+        RenderText {#text} at (0,0) size 21x163
+          text run at (0,0) width 163: "Hiragino Mincho Pro: "
+        RenderInline {SPAN} at (0,0) size 21x16
+          RenderCombineText {#text} at (0,163) size 21x16
+            text run at (0,163) width 16: "\x{FFFC}"
+      RenderBlock {P} at (74,0) size 21x584
+        RenderText {#text} at (0,0) size 21x124
+          text run at (0,0) width 124: "STHeitiSC-Light: "
+        RenderInline {SPAN} at (0,0) size 21x16
+          RenderCombineText {#text} at (0,124) size 21x16
+            text run at (0,124) width 16: "\x{FFFC}"

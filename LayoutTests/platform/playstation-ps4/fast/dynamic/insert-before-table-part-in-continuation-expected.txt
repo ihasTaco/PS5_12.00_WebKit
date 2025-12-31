@@ -1,0 +1,208 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 61x21
+          text run at (0,0) width 61: "Test for "
+        RenderInline {I} at (0,0) size 742x42
+          RenderInline {A} at (0,0) size 359x21 [color=#0000EE]
+            RenderText {#text} at (61,0) size 359x21
+              text run at (61,0) width 359: "http://bugs.webkit.org/show_bug.cgi?id=15362"
+          RenderText {#text} at (420,0) size 742x42
+            text run at (420,0) width 4: " "
+            text run at (424,0) width 318: "Safari Crashes when opening a JS TreeGrid"
+            text run at (0,21) width 52: "widget"
+        RenderText {#text} at (52,21) size 4x21
+          text run at (52,21) width 4: "."
+      RenderBlock {P} at (0,58) size 784x84
+        RenderText {#text} at (0,0) size 763x84
+          text run at (0,0) width 755: "The test sets up an inline parent with a child that is some kind of table part. The child gets broken off"
+          text run at (0,21) width 763: "into a continuation and anonymous table parts get created below and/or above the table parts. Then"
+          text run at (0,42) width 740: "the test tries to insert a new child into the inline, specifying the table part as the \"before child\". The"
+          text run at (0,63) width 600: "resulting render tree should look just like it would look if the parent was a block."
+      RenderBlock {DIV} at (0,158) size 784x21
+        RenderInline {SPAN} at (0,0) size 277x21
+          RenderText {#text} at (0,0) size 44x21
+            text run at (0,0) width 44: "Text..."
+          RenderText {#text} at (44,0) size 108x21
+            text run at (44,0) width 108: "goes here and"
+          RenderTable at (152,0) size 125x21
+            RenderTableSection (anonymous) at (0,0) size 125x21
+              RenderTableRow (anonymous) at (0,0) size 125x21
+                RenderTableCell {DIV} at (0,0) size 125x21 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (0,0) size 125x21
+                    text run at (0,0) width 125: "...continues here"
+      RenderBlock {DIV} at (0,179) size 784x21
+        RenderInline {SPAN} at (0,0) size 169x21
+          RenderText {#text} at (0,0) size 44x21
+            text run at (0,0) width 44: "Text..."
+          RenderTable at (44,0) size 125x21
+            RenderTableSection (anonymous) at (0,0) size 125x21
+              RenderTableRow (anonymous) at (0,0) size 125x21
+                RenderTableCell {TD} at (0,17) size 0x0 [r=0 c=0 rs=1 cs=1]
+                RenderTableCell {DIV} at (0,0) size 125x21 [r=0 c=1 rs=1 cs=1]
+                  RenderText {#text} at (0,0) size 125x21
+                    text run at (0,0) width 125: "...continues here"
+      RenderBlock {DIV} at (0,200) size 784x25
+        RenderInline {SPAN} at (0,0) size 169x21
+          RenderText {#text} at (0,4) size 44x21
+            text run at (0,4) width 44: "Text..."
+          RenderTable at (44,0) size 125x21
+            RenderTableSection (anonymous) at (0,0) size 125x21
+              RenderTableRow {TR} at (0,0) size 125x0
+              RenderTableRow (anonymous) at (0,0) size 125x21
+                RenderTableCell {DIV} at (0,0) size 125x21 [r=1 c=0 rs=1 cs=1]
+                  RenderText {#text} at (0,0) size 125x21
+                    text run at (0,0) width 125: "...continues here"
+      RenderBlock {DIV} at (0,225) size 784x21
+        RenderInline {SPAN} at (0,0) size 169x21
+          RenderText {#text} at (0,0) size 44x21
+            text run at (0,0) width 44: "Text..."
+          RenderInline {SPAN} at (0,0) size 0x21
+          RenderTable at (44,0) size 125x21
+            RenderTableSection (anonymous) at (0,0) size 125x21
+              RenderTableRow (anonymous) at (0,0) size 125x21
+                RenderTableCell {DIV} at (0,0) size 125x21 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (0,0) size 125x21
+                    text run at (0,0) width 125: "...continues here"
+      RenderBlock {DIV} at (0,246) size 784x42
+        RenderBlock (anonymous) at (0,0) size 784x21
+          RenderInline {SPAN} at (0,0) size 44x21
+            RenderText {#text} at (0,0) size 44x21
+              text run at (0,0) width 44: "Text..."
+        RenderBlock (anonymous) at (0,21) size 784x0
+          RenderBlock {DIV} at (0,0) size 784x0
+        RenderBlock (anonymous) at (0,21) size 784x21
+          RenderInline {SPAN} at (0,0) size 125x21
+            RenderTable at (0,0) size 125x21
+              RenderTableSection (anonymous) at (0,0) size 125x21
+                RenderTableRow (anonymous) at (0,0) size 125x21
+                  RenderTableCell {DIV} at (0,0) size 125x21 [r=0 c=0 rs=1 cs=1]
+                    RenderText {#text} at (0,0) size 125x21
+                      text run at (0,0) width 125: "...continues here"
+      RenderBlock {DIV} at (0,288) size 784x21
+        RenderInline {SPAN} at (0,0) size 277x21
+          RenderText {#text} at (0,0) size 44x21
+            text run at (0,0) width 44: "Text..."
+          RenderText {#text} at (44,0) size 108x21
+            text run at (44,0) width 108: "goes here and"
+          RenderTable at (152,0) size 125x21
+            RenderTableSection (anonymous) at (0,0) size 125x21
+              RenderTableRow {DIV} at (0,0) size 125x21
+                RenderTableCell (anonymous) at (0,0) size 125x21 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (0,0) size 125x21
+                    text run at (0,0) width 125: "...continues here"
+      RenderBlock {DIV} at (0,309) size 784x25
+        RenderInline {SPAN} at (0,0) size 169x21
+          RenderText {#text} at (0,4) size 44x21
+            text run at (0,4) width 44: "Text..."
+          RenderTable at (44,0) size 125x21
+            RenderTableSection (anonymous) at (0,0) size 125x21
+              RenderTableRow (anonymous) at (0,0) size 125x0
+                RenderTableCell {TD} at (0,0) size 125x0 [r=0 c=0 rs=1 cs=1]
+              RenderTableRow {DIV} at (0,0) size 125x21
+                RenderTableCell (anonymous) at (0,0) size 125x21 [r=1 c=0 rs=1 cs=1]
+                  RenderText {#text} at (0,0) size 125x21
+                    text run at (0,0) width 125: "...continues here"
+      RenderBlock {DIV} at (0,334) size 784x25
+        RenderInline {SPAN} at (0,0) size 169x21
+          RenderText {#text} at (0,4) size 44x21
+            text run at (0,4) width 44: "Text..."
+          RenderTable at (44,0) size 125x21
+            RenderTableSection (anonymous) at (0,0) size 125x21
+              RenderTableRow {TR} at (0,0) size 125x0
+              RenderTableRow {DIV} at (0,0) size 125x21
+                RenderTableCell (anonymous) at (0,0) size 125x21 [r=1 c=0 rs=1 cs=1]
+                  RenderText {#text} at (0,0) size 125x21
+                    text run at (0,0) width 125: "...continues here"
+      RenderBlock {DIV} at (0,359) size 784x21
+        RenderInline {SPAN} at (0,0) size 169x21
+          RenderText {#text} at (0,0) size 44x21
+            text run at (0,0) width 44: "Text..."
+          RenderInline {SPAN} at (0,0) size 0x21
+          RenderTable at (44,0) size 125x21
+            RenderTableSection (anonymous) at (0,0) size 125x21
+              RenderTableRow {DIV} at (0,0) size 125x21
+                RenderTableCell (anonymous) at (0,0) size 125x21 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (0,0) size 125x21
+                    text run at (0,0) width 125: "...continues here"
+      RenderBlock {DIV} at (0,380) size 784x42
+        RenderBlock (anonymous) at (0,0) size 784x21
+          RenderInline {SPAN} at (0,0) size 44x21
+            RenderText {#text} at (0,0) size 44x21
+              text run at (0,0) width 44: "Text..."
+        RenderBlock (anonymous) at (0,21) size 784x0
+          RenderBlock {DIV} at (0,0) size 784x0
+        RenderBlock (anonymous) at (0,21) size 784x21
+          RenderInline {SPAN} at (0,0) size 125x21
+            RenderTable at (0,0) size 125x21
+              RenderTableSection (anonymous) at (0,0) size 125x21
+                RenderTableRow {DIV} at (0,0) size 125x21
+                  RenderTableCell (anonymous) at (0,0) size 125x21 [r=0 c=0 rs=1 cs=1]
+                    RenderText {#text} at (0,0) size 125x21
+                      text run at (0,0) width 125: "...continues here"
+      RenderBlock {DIV} at (0,422) size 784x21
+        RenderInline {SPAN} at (0,0) size 277x21
+          RenderText {#text} at (0,0) size 44x21
+            text run at (0,0) width 44: "Text..."
+          RenderText {#text} at (44,0) size 108x21
+            text run at (44,0) width 108: "goes here and"
+          RenderTable at (152,0) size 125x21
+            RenderTableSection {DIV} at (0,0) size 125x21
+              RenderTableRow (anonymous) at (0,0) size 125x21
+                RenderTableCell (anonymous) at (0,0) size 125x21 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (0,0) size 125x21
+                    text run at (0,0) width 125: "...continues here"
+      RenderBlock {DIV} at (0,443) size 784x25
+        RenderInline {SPAN} at (0,0) size 169x21
+          RenderText {#text} at (0,4) size 44x21
+            text run at (0,4) width 44: "Text..."
+          RenderTable at (44,0) size 125x21
+            RenderTableSection (anonymous) at (0,0) size 125x0
+              RenderTableRow (anonymous) at (0,0) size 125x0
+                RenderTableCell {TD} at (0,0) size 125x0 [r=0 c=0 rs=1 cs=1]
+            RenderTableSection {DIV} at (0,0) size 125x21
+              RenderTableRow (anonymous) at (0,0) size 125x21
+                RenderTableCell (anonymous) at (0,0) size 125x21 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (0,0) size 125x21
+                    text run at (0,0) width 125: "...continues here"
+      RenderBlock {DIV} at (0,468) size 784x25
+        RenderInline {SPAN} at (0,0) size 169x21
+          RenderText {#text} at (0,4) size 44x21
+            text run at (0,4) width 44: "Text..."
+          RenderTable at (44,0) size 125x21
+            RenderTableSection (anonymous) at (0,0) size 125x0
+              RenderTableRow {TR} at (0,0) size 125x0
+            RenderTableSection {DIV} at (0,0) size 125x21
+              RenderTableRow (anonymous) at (0,0) size 125x21
+                RenderTableCell (anonymous) at (0,0) size 125x21 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (0,0) size 125x21
+                    text run at (0,0) width 125: "...continues here"
+      RenderBlock {DIV} at (0,493) size 784x21
+        RenderInline {SPAN} at (0,0) size 169x21
+          RenderText {#text} at (0,0) size 44x21
+            text run at (0,0) width 44: "Text..."
+          RenderInline {SPAN} at (0,0) size 0x21
+          RenderTable at (44,0) size 125x21
+            RenderTableSection {DIV} at (0,0) size 125x21
+              RenderTableRow (anonymous) at (0,0) size 125x21
+                RenderTableCell (anonymous) at (0,0) size 125x21 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (0,0) size 125x21
+                    text run at (0,0) width 125: "...continues here"
+      RenderBlock {DIV} at (0,514) size 784x42
+        RenderBlock (anonymous) at (0,0) size 784x21
+          RenderInline {SPAN} at (0,0) size 44x21
+            RenderText {#text} at (0,0) size 44x21
+              text run at (0,0) width 44: "Text..."
+        RenderBlock (anonymous) at (0,21) size 784x0
+          RenderBlock {DIV} at (0,0) size 784x0
+        RenderBlock (anonymous) at (0,21) size 784x21
+          RenderInline {SPAN} at (0,0) size 125x21
+            RenderTable at (0,0) size 125x21
+              RenderTableSection {DIV} at (0,0) size 125x21
+                RenderTableRow (anonymous) at (0,0) size 125x21
+                  RenderTableCell (anonymous) at (0,0) size 125x21 [r=0 c=0 rs=1 cs=1]
+                    RenderText {#text} at (0,0) size 125x21
+                      text run at (0,0) width 125: "...continues here"

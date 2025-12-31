@@ -1,0 +1,37 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x247
+  RenderBlock {HTML} at (0,0) size 800x247
+    RenderBody {BODY} at (8,16) size 784x223
+      RenderBlock {P} at (0,0) size 784x21
+        RenderInline {B} at (0,0) size 59x21
+          RenderText {#text} at (0,0) size 59x21
+            text run at (0,0) width 59: "BUG ID:"
+        RenderText {#text} at (59,0) size 4x21
+          text run at (59,0) width 4: " "
+        RenderInline {A} at (0,0) size 132x21 [color=#0000EE]
+          RenderText {#text} at (63,0) size 132x21
+            text run at (63,0) width 132: "Bugzilla bug 6769"
+        RenderText {#text} at (195,0) size 562x21
+          text run at (195,0) width 562: " REGRESSION: Incomplete repaint when a cell's extra bottom margin grows"
+      RenderBlock {P} at (0,37) size 784x27 [bgcolor=#98FB98]
+        RenderInline {B} at (0,0) size 85x21
+          RenderText {#text} at (3,3) size 85x21
+            text run at (3,3) width 85: "TEST PASS:"
+        RenderText {#text} at (88,3) size 423x21
+          text run at (88,3) width 4: " "
+          text run at (92,3) width 419: "There should be only a green square below, and no red."
+      RenderBlock {P} at (0,80) size 784x27 [bgcolor=#FF3300]
+        RenderInline {B} at (0,0) size 78x21
+          RenderText {#text} at (3,3) size 78x21
+            text run at (3,3) width 78: "TEST FAIL:"
+        RenderText {#text} at (81,3) size 369x21
+          text run at (81,3) width 4: " "
+          text run at (85,3) width 365: "The lower-right quarter of the square will be red."
+      RenderTable {TABLE} at (0,123) size 100x100 [bgcolor=#008000]
+        RenderTableSection {TBODY} at (0,0) size 100x100
+          RenderTableRow {TR} at (0,0) size 100x100
+            RenderTableCell {TD} at (0,50) size 50x0 [r=0 c=0 rs=2 cs=1]
+            RenderTableCell {TD} at (50,0) size 50x0 [bgcolor=#008000] [r=0 c=1 rs=1 cs=1]
+          RenderTableRow {TR} at (0,100) size 100x0
+            RenderTableCell {TD} at (50,100) size 50x0 [bgcolor=#FF0000] [r=1 c=1 rs=1 cs=1]

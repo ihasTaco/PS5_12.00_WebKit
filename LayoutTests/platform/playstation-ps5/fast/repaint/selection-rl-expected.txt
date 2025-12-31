@@ -1,0 +1,39 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (574,0) size 226x600
+  RenderBlock {HTML} at (0,0) size 226x600
+    RenderBody {BODY} at (8,8) size 210x584
+      RenderInline {SPAN} at (0,0) size 21x177
+        RenderText {#text} at (0,0) size 21x177
+          text run at (0,0) width 177: "Testing both hit testing"
+      RenderText {#text} at (0,177) size 21x195
+        text run at (0,177) width 195: " and painting of selection."
+      RenderBR {BR} at (0,372) size 21x0
+      RenderText {#text} at (21,0) size 21x372
+        text run at (21,0) width 372: "Testing both hit testing and painting of selection."
+      RenderBR {BR} at (21,372) size 21x0
+      RenderText {#text} at (42,0) size 21x372
+        text run at (42,0) width 372: "Testing both hit testing and painting of selection."
+      RenderBR {BR} at (42,372) size 21x0
+      RenderText {#text} at (63,0) size 21x372
+        text run at (63,0) width 372: "Testing both hit testing and painting of selection."
+      RenderBR {BR} at (63,372) size 21x0
+      RenderText {#text} at (84,0) size 21x372
+        text run at (84,0) width 372: "Testing both hit testing and painting of selection."
+      RenderBR {BR} at (84,372) size 21x0
+      RenderText {#text} at (105,0) size 21x372
+        text run at (105,0) width 372: "Testing both hit testing and painting of selection."
+      RenderBR {BR} at (105,372) size 21x0
+      RenderText {#text} at (126,0) size 21x372
+        text run at (126,0) width 372: "Testing both hit testing and painting of selection."
+      RenderBR {BR} at (126,372) size 21x0
+      RenderText {#text} at (147,0) size 21x372
+        text run at (147,0) width 372: "Testing both hit testing and painting of selection."
+      RenderBR {BR} at (147,372) size 21x0
+      RenderText {#text} at (168,0) size 21x372
+        text run at (168,0) width 372: "Testing both hit testing and painting of selection."
+      RenderBR {BR} at (168,372) size 21x0
+      RenderText {#text} at (189,0) size 21x372
+        text run at (189,0) width 372: "Testing both hit testing and painting of selection."
+      RenderBR {BR} at (189,372) size 21x0
+caret: position 4 of child 0 {#text} of child 1 {SPAN} of body

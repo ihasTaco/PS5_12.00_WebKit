@@ -1,0 +1,51 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x326
+  RenderBlock {HTML} at (0,0) size 800x326
+    RenderBody {BODY} at (8,16) size 784x302
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 746x42
+          text run at (0,0) width 746: "Test that pausing the media element in \"playing\" event handler pauses the media immediately. The"
+          text run at (0,21) width 256: "video should show the first frame."
+      RenderBlock (anonymous) at (0,58) size 784x244
+        RenderText {#text} at (0,0) size 0x0
+layer at (8,74) size 320x240
+  RenderVideo {VIDEO} at (0,0) size 320x240
+layer at (8,74) size 320x240
+  RenderFlexibleBox {DIV} at (0,0) size 320x240
+layer at (8,254) size 320x60
+  RenderFlexibleBox {DIV} at (0,180) size 320x60
+layer at (8,254) size 320x60
+  RenderBlock (positioned) {DIV} at (0,0) size 320x60
+layer at (8,254) size 320x60
+  RenderBlock (positioned) {DIV} at (0,0) size 320x60 [bgcolor=#1E1E1E73]
+layer at (8,254) size 320x60
+  RenderBlock (positioned) {DIV} at (0,0) size 320x60 [bgcolor=#292929]
+layer at (16,282) size 21x25
+  RenderButton {BUTTON} at (8,27) size 21x26 [color=#FFFFFF]
+layer at (53,281) size 20x25
+  RenderButton {BUTTON} at (45,27) size 20x25 [color=#FFFFFF]
+layer at (81,286) size 177x17
+  RenderFlexibleBox {DIV} at (73,31) size 177x18
+layer at (89,286) size 32x15
+  RenderFlexibleBox {DIV} at (8,1) size 32x15 [color=#FFFFFF]
+    RenderBlock (anonymous) at (0,0) size 32x15
+      RenderText {#text} at (0,0) size 32x15
+        text run at (0,0) width 32: "00:00"
+layer at (131,286) size 72x17
+  RenderFlexibleBox {DIV} at (50,0) size 72x17
+    RenderSlider {INPUT} at (0,0) size 72x17 [color=#909090]
+      RenderFlexibleBox {DIV} at (0,0) size 72x17
+        RenderBlock {DIV} at (0,1) size 72x15
+          RenderBlock {DIV} at (0,0) size 3x15
+layer at (213,286) size 37x15
+  RenderFlexibleBox {DIV} at (132,1) size 37x15 [color=#FFFFFF]
+    RenderBlock (anonymous) at (0,0) size 35x15
+      RenderText {#text} at (0,0) size 35x15
+        text run at (0,0) width 35: "-00:06"
+layer at (266,282) size 20x25
+  RenderFlexibleBox {DIV} at (258,27) size 20x26
+layer at (266,282) size 20x25
+  RenderButton {BUTTON} at (0,0) size 20x25 [color=#FFFFFF]
+layer at (302,282) size 19x25
+  RenderButton {BUTTON} at (294,27) size 19x26 [color=#FFFFFF]

@@ -1,0 +1,39 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x211
+  RenderBlock {HTML} at (0,0) size 800x211
+    RenderBody {BODY} at (8,16) size 784x179
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 767x42
+          text run at (0,0) width 270: "This paragraph should be unstyled. "
+          text run at (270,0) width 497: "The background of the following paragraph should become green"
+          text run at (0,21) width 46: "when "
+          text run at (46,21) width 82: "you follow "
+        RenderInline {A} at (0,0) size 58x21 [color=#0000EE]
+          RenderText {#text} at (128,21) size 58x21
+            text run at (128,21) width 58: "this link"
+        RenderText {#text} at (186,21) size 4x21
+          text run at (186,21) width 4: "."
+      RenderBlock {P} at (0,58) size 784x63
+        RenderText {#text} at (0,0) size 745x42
+          text run at (0,0) width 327: "This paragraph should initially be unstyled. "
+          text run at (327,0) width 418: "It should become green when you select the link above."
+          text run at (0,21) width 128: "When you select "
+        RenderInline {A} at (0,0) size 58x21 [color=#0000EE]
+          RenderText {#text} at (128,21) size 58x21
+            text run at (128,21) width 58: "this link"
+        RenderText {#text} at (186,21) size 735x42
+          text run at (186,21) width 327: ", it should return to being unstyled and the "
+          text run at (513,21) width 222: "background of the paragraph"
+          text run at (0,42) width 219: "below should become green."
+      RenderBlock {P} at (0,137) size 784x42
+        RenderText {#text} at (0,0) size 745x42
+          text run at (0,0) width 327: "This paragraph should initially be unstyled. "
+          text run at (327,0) width 418: "It should become green when you select the link above."
+          text run at (0,21) width 130: "When you follow "
+        RenderInline {A} at (0,0) size 58x21 [color=#0000EE]
+          RenderText {#text} at (130,21) size 58x21
+            text run at (130,21) width 58: "this link"
+        RenderText {#text} at (188,21) size 436x21
+          text run at (188,21) width 172: ", the three paragraphs "
+          text run at (360,21) width 264: "should all return to being unstyled."

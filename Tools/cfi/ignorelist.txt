@@ -1,0 +1,87 @@
+# Constructs a function pointer to call from a uintptr_t.
+[cfi-icall]
+fun:*getInitializedOnMainThread*
+
+# JS API callbacks
+[cfi-icall]
+src:*Source[/\\]JavaScriptCore[/\\]API[/\\]JSCallback*Function*.h
+src:*Source[/\\]JavaScriptCore[/\\]API[/\\]APICallbackFunction.h
+
+# HeapFinalizer callback
+[cfi-icall]
+fun:*3JSC21HeapFinalizerCallback3runE*
+
+# Calls child object method (Document::incrementReferencingNodeCount) in the parent object's constructor (WebCore::Node)
+# This might need to be fixed
+[cfi-nvcall]
+fun:*7WebCore4NodeC*
+fun:*7WebCore4NodeD*
+
+# Calls child object method (RenderView::didDestroyRenderer) in the parent object's destructor (RenderObject)
+# This might need to be fixed
+[cfi-nvcall]
+fun:*7WebCore12RenderObjectD*
+
+# Does callbacks
+[cfi-icall]
+src:*Source[/\\]WebKit[/\\]UIProcess[/\\]GenericCallback.h
+
+# Does a call from a struct member
+# "(*m_info.mem->alloc_sarray)((j_common_ptr) &m_info, JPOOL_IMAGE, m_info.output_width * 4, 1);"
+[cfi-icall]
+fun:*7WebCore15JPEGImageReader6decode*
+
+# Ignore all APIs for now
+[cfi]
+src:*[/\\]API[/\\]*
+
+# These all make API callbacks to outside WebKit library boundaries.
+# There doesn't seem to be a great way to ignore all these API callbacks function pointer calls.
+# Just doing a blanket ignore for every source that inherits API::Client
+[cfi-icall]
+src:*InjectedBundle*.cpp
+src:*WebConnectionClient.cpp
+src:*WebContextClient.cpp
+src:*WebContextConnectionClient.cpp
+src:*WebCookieManagerProxyClient.cpp
+src:*WebFormClient.cpp
+src:*WebGeolocationProvider.cpp
+src:*WebMediaSessionFocusManagerClient.cpp
+src:*WebNotificationProvider.cpp
+src:*WebPageDiagnosticLoggingClient.cpp
+src:*WebProcessPool.cpp
+src:*WebTextCheckerClient.cpp
+src:*WebViewAccessibilityClient.cpp
+
+# Errors when calling `typedef void (*ThreadFunction)(void*)` with a function that takes a non void* pointer parameter
+[cfi-icall]
+src:*ParallelJobsGeneric.cpp
+
+# Casts in NeverDestroyed::storagePointer()
+[cfi-unrelated-cast]
+src:*wtf[/\\]NeverDestroyed.h
+
+# Casts to T* from raw allocated memory
+[cfi-unrelated-cast]
+fun:*3JSC11ParserArena17allocateDeletable*
+
+# Casts to derived type in parent constructor
+[cfi-derived-cast]
+fun:*7WebCore20CachedHTMLCollection*10collection*
+
+# Has sentinal nodes that are cast to invalid derived types but are not used
+[cfi-derived-cast]
+src:*LiveNodeList.h
+
+# Node destructors end up calling to AXObjectCache::remove and downcast WebCore::Node to WebCore::Element after the Element destructor is called
+[cfi-derived-cast]
+fun:*3WTF8downcast*Element*
+
+# CanMakeWeakPtr constructor with WeakPtrFactoryInitialization::Eager downcasts to the child before the child constructor is called
+[cfi-derived-cast|cfi-unrelated-cast]
+fun:*3WTF*14CanMakeWeakPtr*28WeakPtrFactoryInitialization*C2Ev
+
+# Sometime the element seems to be casted to HTMLUnknownElement intentionally.
+# HTMLUnknownElement is just a fallback, and doesn't have any additional field to HTMLElement.
+[cfi-derived-cast|cfi-unrelated-cast]
+type:*HTMLUnknownElement*

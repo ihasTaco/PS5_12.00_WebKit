@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <script src=../media-file.js></script>
+        <script src=../video-test.js></script>
+        <script>
+            var playCount = 0;
+            var playThroughCount = 0;
+            var state = 0;
+            var audio;
+            var video
+
+            function logEvent(evt)
+            {
+                consoleWrite("EVENT(" + evt.type + ")");
+            }
+
+            function checkState()
+            {
+                consoleWrite("<br>** 100ms timer fired...");
+                switch (state) {
+                case "background":
+                    testExpected("video.paused", true);
+                    testExpected("audio.paused", false);
+                    state = "foreground";
+                    consoleWrite("<br>** Simulate switch back to foreground, video should resume.");
+                    run("internals.applicationWillEnterForeground()");
+                    setTimeout(checkState, 100);
+                    consoleWrite("");
+                    break;
+                case "foreground":
+                    testExpected("video.paused", false);
+                    testExpected("audio.paused", false);
+                    consoleWrite("");
+                    endTest();
+                    break;
+                }
+            }
+
+            function playing(evt)
+            {
+                logEvent(evt);
+                if (++playCount != 2)
+                    return;
+
+                consoleWrite("<br>** Simulate switch to background, video should pause.");
+                run("internals.applicationDidEnterBackground()");
+                setTimeout(checkState, 100);
+                state = "background";
+                consoleWrite("");
+            }
+
+            function canplaythrough(evt)
+            {
+                logEvent(evt);
+                if (++playThroughCount < 2)
+                    return;
+                consoleWrite("");
+                run("audio.play()");
+                run("video.play()");
+            }
+
+            function start()
+            {
+                if (!window.internals) {
+                    failTest('This test requires window.internals.');
+                    return;
+                }
+
+                video = document.getElementsByTagName('video')[0];
+                video.addEventListener("canplaythrough", canplaythrough);
+                video.addEventListener('playing', playing);
+                video.addEventListener('pause', logEvent);
+                video.src = findMediaFile("video", "../content/test");
+
+                audio = document.getElementsByTagName('audio')[0];
+                audio.addEventListener("canplaythrough", canplaythrough);
+                audio.addEventListener('playing', playing);
+                audio.addEventListener('pause', logEvent);
+                audio.src = findMediaFile("audio", "../content/silence");
+
+                run("internals.setMediaSessionRestrictions('videoaudio', 'BackgroundProcessPlaybackRestricted')");
+                state = "foreground";
+                consoleWrite("");
+            }
+        </script>
+    </head>
+
+    <body onload="start()">
+        <video controls id="one"></video>
+        <audio controls id="two"></audio>
+        <p>Test switching application state when &lt;video&gt; is not allowed to play in background.</p>
+    </body>
+</html>

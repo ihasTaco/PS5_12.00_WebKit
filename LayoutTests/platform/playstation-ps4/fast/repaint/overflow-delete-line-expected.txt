@@ -1,0 +1,25 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 180x21
+          text run at (0,0) width 180: "This is a repaint test for "
+        RenderInline {I} at (0,0) size 784x42
+          RenderInline {A} at (0,0) size 354x21 [color=#0000EE]
+            RenderText {#text} at (180,0) size 354x21
+              text run at (180,0) width 354: "http://bugs.webkit.org/show_bug.cgi?id=11277"
+          RenderText {#text} at (534,0) size 784x42
+            text run at (534,0) width 4: " "
+            text run at (538,0) width 246: "REGRESSION: Incomplete repaint"
+            text run at (0,21) width 241: "of overflow areas when deleting"
+        RenderText {#text} at (241,21) size 4x21
+          text run at (241,21) width 4: "."
+layer at (8,66) size 784x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,58) size 784x2 [border: (1px inset #000000)]
+layer at (8,76) size 80x36 scrollHeight 42
+  RenderBlock {DIV} at (0,68) size 80x36
+    RenderText {#text} at (0,0) size 52x42
+      text run at (0,0) width 52: "Lorem "
+      text run at (0,21) width 32: "ipsu"

@@ -1,0 +1,17 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x232
+  RenderBlock {HTML} at (0,0) size 800x232
+    RenderBody {BODY} at (8,8) size 784x216
+      RenderBlock (anonymous) at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 708x21
+          text run at (0,0) width 708: "This test is designed to test WebKit's mappings for the generic font families for Hangul scripts."
+      RenderBlock {DIV} at (0,21) size 784x65
+        RenderText {#text} at (0,0) size 756x65
+          text run at (0,0) width 756: "\x{AD6D}\x{D68C}\x{BC95} \x{AC1C}\x{C815}\x{C548}\x{C5D0} \x{B300}\x{D55C} \x{BC15}\x{ADFC}\x{D61C} \x{B300}\x{D1B5}\x{B839}\x{C758}"
+      RenderBlock {DIV} at (0,86) size 784x65
+        RenderText {#text} at (0,0) size 756x65
+          text run at (0,0) width 756: "\x{AD6D}\x{D68C}\x{BC95} \x{AC1C}\x{C815}\x{C548}\x{C5D0} \x{B300}\x{D55C} \x{BC15}\x{ADFC}\x{D61C} \x{B300}\x{D1B5}\x{B839}\x{C758}"
+      RenderBlock {DIV} at (0,151) size 784x65
+        RenderText {#text} at (0,0) size 756x65
+          text run at (0,0) width 756: "\x{AD6D}\x{D68C}\x{BC95} \x{AC1C}\x{C815}\x{C548}\x{C5D0} \x{B300}\x{D55C} \x{BC15}\x{ADFC}\x{D61C} \x{B300}\x{D1B5}\x{B839}\x{C758}"

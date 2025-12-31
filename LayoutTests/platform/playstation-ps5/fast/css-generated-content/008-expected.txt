@@ -1,0 +1,17 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x0
+      RenderBlock {DIV} at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 711x21
+          text run at (0,0) width 520: "In this paragraph, there should be a right floating green ::after block. "
+          text run at (520,0) width 191: "It should be ok to do this."
+        RenderBlock (floating) at (684,21) size 100x100 [color=#008000] [bgcolor=#008000]
+          RenderText at (0,0) size 61x21
+            text run at (0,0) width 61: "Invisible"
+layer at (300,300) size 361x21
+  RenderBlock (positioned) at (300,300) size 361x21
+    RenderText at (0,0) size 361x21
+      text run at (0,0) width 361: "Some text that should be at an (x,y) of (300,300)"

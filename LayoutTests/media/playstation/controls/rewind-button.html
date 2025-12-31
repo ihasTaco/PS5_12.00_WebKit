@@ -1,0 +1,42 @@
+<script src=../../media-file.js></script>
+<script src=../../video-test.js></script>
+<script src=media-controls.js></script>
+
+<script>
+    var video;
+
+    window.addEventListener('load', async() => {
+        if (!window.testRunner) {
+            consoleWrite("This test only works in WebKitTestRunner.");
+            return;
+        }
+
+        findMediaElement();
+        video.src = findMediaFile("video", "../../content/test");
+
+        waitForEventAndFail("error");
+
+        await waitFor(video, "canplaythrough");
+
+        var rewindButton = new MediaControlsElement(video, "rewind-button");
+        consoleWrite("rect = {" + rewindButton.rect() + "}");
+        consoleWrite("size = {" + rewindButton.size() + "}");
+
+        run("video.currentTime = 5");
+        await waitFor(video, "seeked");
+
+        consoleWrite("");
+        consoleWrite("<i>**Click rewind 30 button.</i>");
+        rewindButton.click();
+        await waitFor(video, "seeked");
+
+        testExpected("video.currentTime", 0);
+
+        endTest();
+    });
+</script>
+
+<body>
+    <div>This test that the rewind 30 button is valid.</div>
+    <video controls></video>
+</body>

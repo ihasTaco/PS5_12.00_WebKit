@@ -1,0 +1,62 @@
+<script src=../../media-file.js></script>
+<script src=../../video-test.js></script>
+<script src=media-controls.js></script>
+<script src=track-menu.js></script>
+
+<script>
+    var video;
+
+    window.addEventListener('load', async() => {
+        if (!window.testRunner) {
+            consoleWrite("This test only works in WebKitTestRunner.");
+            return;
+        }
+
+        findMediaElement();
+        video.src = findMediaFile("video", "../../content/test");
+
+        waitForEventAndFail("error");
+
+        await waitFor(video, "canplaythrough");
+
+        var captionsButton = new MediaControlsElement(video, "toggle-closed-captions-button");
+
+        consoleWrite("toggle closed captions button rect = {" + captionsButton.rect() + "}");
+        consoleWrite("toggle closed captions button size = {" + captionsButton.size() + "}");
+
+        consoleWrite("");
+        consoleWrite("<i>**Click toggle closed captions button.</i>");
+        captionsButton.click();
+
+        await sleep(10);
+
+        var captionsContainer = new MediaControlsElement(video, "closed-captions-container");
+        consoleWrite("captions container rect = {" + captionsContainer.rect() + "}");
+        consoleWrite("captions container size = {" + captionsContainer.size() + "}");
+
+        internals.suspendAnimations();
+
+        consoleWrite("");
+        consoleWrite("**Set the user language preference.");
+        run("internals.setUserPreferredLanguages(['en'])");
+
+        consoleWrite("");
+        testExpected("video.textTracks[0].mode", "disabled");
+
+        consoleWrite("");
+        selectCaptionMenuItem('English');
+        testExpected("video.textTracks[0].mode", "showing");
+
+        consoleWrite("captions container rect = {" + captionsContainer.rect() + "}");
+        consoleWrite("captions container size = {" + captionsContainer.size() + "}");
+
+        endTest();
+    });
+</script>
+
+<body>
+    <div>This test that the caption button is valid.</div>
+    <video controls>
+        <track src="../../track/captions-webvtt/captions.vtt" label='English' srclang='en'>
+    </video>
+</body>

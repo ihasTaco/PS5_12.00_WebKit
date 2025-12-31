@@ -1,0 +1,79 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x509
+  RenderBlock {HTML} at (0,0) size 800x509
+    RenderBody {BODY} at (8,8) size 784x493
+      RenderTable {TABLE} at (0,0) size 706x493 [border: (1px outset #808080)]
+        RenderTableSection {TBODY} at (1,1) size 704x491
+          RenderTableRow {TR} at (0,2) size 704x487
+            RenderTableCell {TD} at (2,85) size 52x25 [border: (1px inset #808080)] [r=0 c=0 rs=1 cs=1]
+              RenderText {#text} at (2,2) size 48x21
+                text run at (2,2) width 48: "Lorem"
+            RenderTableCell {TD} at (56,63) size 143x51 [border: (1px inset #808080)] [r=0 c=1 rs=1 cs=1]
+              RenderText {#text} at (2,24) size 51x21
+                text run at (2,24) width 51: "ipsum "
+              RenderInline {SPAN} at (0,0) size 88x47
+                RenderText {#text} at (53,2) size 88x47
+                  text run at (53,2) width 88: "dolor"
+              RenderText {#text} at (0,0) size 0x0
+            RenderTableCell {TD} at (201,85) size 22x25 [border: (1px inset #808080)] [r=0 c=2 rs=1 cs=1]
+              RenderBlock {DIV} at (2,2) size 18x21
+                RenderText {#text} at (0,0) size 18x21
+                  text run at (0,0) width 18: "sit"
+            RenderTableCell {TD} at (225,85) size 54x104 [border: (1px inset #808080)] [r=0 c=3 rs=1 cs=1]
+              RenderBlock {DIV} at (2,2) size 50x100 [bgcolor=#ADD8E6]
+                RenderText {#text} at (0,0) size 39x21
+                  text run at (0,0) width 39: "amet"
+            RenderTableCell {TD} at (281,85) size 64x25 [border: (1px inset #808080)] [r=0 c=4 rs=1 cs=1]
+              RenderText {#text} at (2,2) size 53x21
+                text run at (2,2) width 53: "consec"
+              RenderText {#text} at (0,0) size 0x0
+            RenderTableCell {TD} at (347,59) size 95x89 [border: (1px inset #808080)] [r=0 c=5 rs=1 cs=1]
+              RenderTable {TABLE} at (2,2) size 91x85 [border: (1px outset #808080)]
+                RenderTableSection {TBODY} at (1,1) size 89x83
+                  RenderTableRow {TR} at (0,10) size 89x63
+                    RenderTableCell {TD} at (2,10) size 85x63 [border: (10px solid #0000FF) (1px inset #808080) (5px solid #0000FF) (1px inset #808080)] [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (2,15) size 46x21
+                        text run at (2,15) width 46: "tetuer"
+                      RenderBR {BR} at (48,15) size 0x21
+                      RenderText {#text} at (2,36) size 81x21
+                        text run at (2,36) width 81: "adipiscing."
+            RenderTableCell {TD} at (444,2) size 64x4 [border: (1px inset #808080)] [r=0 c=6 rs=1 cs=1]
+            RenderTableCell {TD} at (510,2) size 54x104 [border: (1px inset #808080)] [r=0 c=7 rs=1 cs=1]
+              RenderBlock {DIV} at (2,2) size 50x100 [bgcolor=#FFB6C1]
+            RenderTableCell {TD} at (566,29) size 70x167 [border: (1px inset #808080)] [r=0 c=8 rs=1 cs=1]
+              RenderTable {TABLE} at (2,2) size 66x121 [border: (1px outset #808080)]
+                RenderTableSection {TBODY} at (1,1) size 64x119
+                  RenderTableRow {TR} at (0,2) size 64x80
+                    RenderTableCell {TD} at (2,26) size 60x56 [border: (10px solid #0000FF) (1px inset #808080) (5px solid #0000FF) (1px inset #808080)] [r=0 c=0 rs=1 cs=1]
+                      RenderBlock {DIV} at (6,25) size 48x21 [bgcolor=#FFB6C1]
+                        RenderText {#text} at (0,0) size 48x21
+                          text run at (0,0) width 48: "Lorem"
+                  RenderTableRow {TR} at (0,84) size 64x33
+                    RenderTableCell {TD} at (2,84) size 60x33 [border: (1px inset #808080)] [r=1 c=0 rs=1 cs=1]
+                      RenderText {#text} at (6,6) size 47x21
+                        text run at (6,6) width 47: "ipsum"
+              RenderBlock (anonymous) at (2,123) size 66x42
+                RenderText {#text} at (0,0) size 62x21
+                  text run at (0,0) width 62: "dolor sit"
+                RenderBR {BR} at (62,0) size 0x21
+                RenderText {#text} at (0,21) size 43x21
+                  text run at (0,21) width 43: "amet."
+            RenderTableCell {TD} at (638,42) size 64x64 [border: (1px inset #808080)] [r=0 c=9 rs=1 cs=1]
+              RenderBlock (floating) {DIV} at (2,2) size 25x30 [bgcolor=#90EE90]
+                RenderText {#text} at (0,0) size 14x21
+                  text run at (0,0) width 14: "F1"
+              RenderBlock (floating) {DIV} at (27,2) size 25x30 [bgcolor=#90EE90]
+                RenderText {#text} at (0,0) size 17x21
+                  text run at (0,0) width 17: "F2"
+              RenderBlock (floating) {DIV} at (2,32) size 25x30 [bgcolor=#90EE90]
+                RenderText {#text} at (0,0) size 17x21
+                  text run at (0,0) width 17: "F3"
+layer at (292,0) size 60x50
+  RenderBlock (positioned) {DIV} at (292,0) size 60x50 [bgcolor=#FFFFE0]
+    RenderText {#text} at (0,0) size 10x21
+      text run at (0,0) width 10: "P"
+layer at (455,13) size 60x50
+  RenderBlock (positioned) {DIV} at (455,13) size 60x50 [bgcolor=#FFFFE0]
+    RenderText {#text} at (0,0) size 10x21
+      text run at (0,0) width 10: "P"

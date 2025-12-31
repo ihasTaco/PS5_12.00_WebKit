@@ -1,0 +1,22 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock (floating) {DIV} at (0,0) size 100x200 [bgcolor=#00FF00]
+layer at (108,8) size 178x435
+  RenderBlock {DIV} at (100,0) size 178x435 [border: (10px solid #000000)]
+    RenderMultiColumnSet at (10,10) size 158x415
+layer at (118,18) size 158x415
+  RenderMultiColumnFlowThread at (10,10) size 158x415
+    RenderBlock {P} at (16,0) size 126x415
+      RenderText {#text} at (0,0) size 126x415
+        text run at (0,0) width 415: "This technology preview of our award winning next"
+        text run at (21,0) width 159: "generation browser "
+        text run at (21,158) width 257: "is a sign of things to come from"
+        text run at (42,0) width 316: "Mozilla. Powerful yet easy to use. This "
+        text run at (42,316) width 99: "maintenance"
+        text run at (63,0) width 415: "release provides a few updates based on user"
+        text run at (84,0) width 160: "feedback - including "
+        text run at (84,159) width 256: "changes to the Extension System"
+        text run at (105,0) width 183: "and icon improvements."

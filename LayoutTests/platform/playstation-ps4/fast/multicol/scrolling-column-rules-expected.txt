@@ -1,0 +1,19 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x161
+  RenderBlock {HTML} at (0,0) size 800x161
+    RenderBody {BODY} at (8,16) size 784x137
+      RenderBlock {P} at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 126x21
+          text run at (0,0) width 126: "There should be "
+        RenderInline {B} at (0,0) size 29x21
+          RenderText {#text} at (126,0) size 29x21
+            text run at (126,0) width 29: "two"
+        RenderText {#text} at (155,0) size 161x21
+          text run at (155,0) width 161: " black squares below."
+layer at (8,53) size 784x100 scrollX 200 scrollWidth 2572
+  RenderBlock {DIV} at (0,37) size 784x100
+    RenderMultiColumnSet at (0,0) size 784x100
+layer at (-192,53) size 337x600 backgroundClip at (8,53) size 784x100 clip at (8,53) size 784x100
+  RenderMultiColumnFlowThread at (0,0) size 337x600
+    RenderBlock {DIV} at (0,0) size 337x600 [bgcolor=#C0C0C0]

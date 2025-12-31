@@ -1,0 +1,41 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {H1} at (0,0) size 784x41
+        RenderInline (generated) at (0,0) size 213x41
+          RenderText at (0,0) size 213x41
+            text run at (0,0) width 213: "First Chapter: "
+        RenderText {#text} at (213,0) size 92x41
+          text run at (213,0) width 92: "TEST 1"
+      RenderBlock (anonymous) at (0,62) size 784x22
+        RenderText {#text} at (0,0) size 263x21
+          text run at (0,0) width 263: "Should read: \"First Chapter: TEST 1\""
+      RenderBlock {H2} at (0,103) size 784x33
+        RenderInline (generated) at (0,0) size 105x32
+          RenderText at (0,0) size 105x32
+            text run at (0,0) width 105: "Chapter: "
+        RenderText {#text} at (105,0) size 71x32
+          text run at (105,0) width 71: "TEST 2"
+      RenderBlock (anonymous) at (0,155) size 784x22
+        RenderText {#text} at (0,0) size 230x21
+          text run at (0,0) width 230: "Should read: \"Chapter: TEST 2\""
+      RenderBlock {H3} at (0,194) size 784x25
+        RenderInline (generated) at (0,0) size 126x24
+          RenderText at (0,0) size 126x24
+            text run at (0,0) width 126: "Chapter One: "
+        RenderText {#text} at (126,0) size 55x24
+          text run at (126,0) width 55: "TEST 3"
+      RenderBlock (anonymous) at (0,237) size 784x22
+        RenderText {#text} at (0,0) size 265x21
+          text run at (0,0) width 265: "Should read: \"Chapter One: TEST 3\""
+      RenderBlock {H4} at (0,279) size 784x22
+        RenderInline (generated) at (0,0) size 70x21
+          RenderText at (0,0) size 70x21
+            text run at (0,0) width 70: "Chapter: "
+        RenderText {#text} at (70,0) size 49x21
+          text run at (70,0) width 49: "TEST 4"
+      RenderBlock (anonymous) at (0,322) size 784x22
+        RenderText {#text} at (0,0) size 230x21
+          text run at (0,0) width 230: "Should read: \"Chapter: TEST 4\""

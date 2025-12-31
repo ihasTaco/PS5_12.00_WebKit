@@ -1,0 +1,20 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 377x21
+          text run at (0,0) width 377: "This is a repaint test of inline blocks with overflow."
+      RenderBlock (anonymous) at (0,47) size 784x21
+        RenderInline {SPAN} at (0,0) size 216x21
+          RenderText {#text} at (0,0) size 116x21
+            text run at (0,0) width 116: "Here comes an "
+          RenderBlock {SPAN} at (116,0) size 100x20 [bgcolor=#C0C0C0]
+            RenderText {#text} at (0,0) size 85x63
+              text run at (0,0) width 85: "inline block"
+              text run at (0,21) width 33: "with"
+              text run at (0,42) width 69: "overflow."
+        RenderText {#text} at (0,0) size 0x0
+layer at (8,45) size 784x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,37) size 784x2 [border: (1px inset #000000)]

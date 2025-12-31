@@ -1,0 +1,50 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBR {BR} at (0,0) size 0x21
+      RenderBR {BR} at (0,21) size 0x21
+      RenderBR {BR} at (0,42) size 0x21
+      RenderBR {BR} at (0,63) size 0x21
+      RenderText {#text} at (0,84) size 205x21
+        text run at (0,84) width 205: "24 green box with word ok:"
+      RenderBR {BR} at (205,84) size 0x21
+      RenderBR {BR} at (0,105) size 0x21
+      RenderBR {BR} at (0,126) size 0x21
+      RenderBR {BR} at (0,147) size 0x21
+      RenderText {#text} at (0,168) size 205x21
+        text run at (0,168) width 205: "25 green box with word ok:"
+      RenderBR {BR} at (205,168) size 0x21
+      RenderBR {BR} at (0,189) size 0x21
+      RenderBR {BR} at (0,210) size 0x21
+      RenderBR {BR} at (0,231) size 0x21
+      RenderText {#text} at (0,252) size 205x21
+        text run at (0,252) width 205: "26 green box with word ok:"
+      RenderBR {BR} at (205,252) size 0x21
+      RenderBR {BR} at (0,273) size 0x21
+      RenderBR {BR} at (0,294) size 0x21
+      RenderBR {BR} at (0,315) size 0x21
+layer at (0,113) size 800x34
+  RenderBlock (positioned) {DIV} at (0,113) size 800x34 [border: (2px solid #FF0000)]
+    RenderBlock {DIV} at (2,2) size 796x4 [border: (2px solid #FF0000)]
+    RenderBlock {DIV} at (2,6) size 796x25 [border: (2px solid #008000)]
+      RenderText {#text} at (2,2) size 18x21
+        text run at (2,2) width 18: "ok"
+layer at (0,197) size 800x34
+  RenderBlock (positioned) {DIV} at (0,197) size 800x34 [border: (2px solid #FF0000)]
+    RenderBlock {DIV} at (2,2) size 796x4 [border: (2px solid #FF0000)]
+    RenderBlock {DIV} at (2,6) size 796x4 [border: (2px solid #FF0000)]
+    RenderBlock {DIV} at (2,10) size 796x25 [border: (2px solid #008000)]
+      RenderText {#text} at (2,2) size 18x21
+        text run at (2,2) width 18: "ok"
+layer at (0,281) size 800x34
+  RenderBlock (positioned) {DIV} at (0,281) size 800x34 [border: (2px solid #FF0000)]
+    RenderBlock {DIV} at (2,2) size 796x25 [border: (2px solid #FF0000)]
+      RenderBlock {DIV} at (2,2) size 792x21
+        RenderText {#text} at (0,0) size 33x21
+          text run at (0,0) width 33: "blah"
+    RenderBlock {DIV} at (2,27) size 796x4 [border: (2px solid #FF0000)]
+    RenderBlock {DIV} at (2,31) size 796x25 [border: (2px solid #008000)]
+      RenderText {#text} at (2,2) size 18x21
+        text run at (2,2) width 18: "ok"

@@ -1,0 +1,31 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (387,0) size 413x600
+  RenderBlock {HTML} at (0,0) size 413x600
+    RenderBody {BODY} at (16,8) size 365x584
+      RenderBlock {P} at (0,0) size 63x584
+        RenderText {#text} at (0,0) size 21x236
+          text run at (0,0) width 236: "The black border below should "
+        RenderInline {I} at (0,0) size 21x26
+          RenderText {#text} at (0,236) size 21x26
+            text run at (0,236) width 26: "not"
+        RenderText {#text} at (0,262) size 42x581
+          text run at (0,262) width 257: " cut through the top left corner of "
+          text run at (0,519) width 62: "the blue"
+          text run at (21,0) width 417: "border. It would cut through with our old behavior, but "
+        RenderInline {A} at (0,0) size 21x28 [color=#0000EE]
+          RenderText {#text} at (21,417) size 21x28
+            text run at (21,417) width 28: "this"
+        RenderText {#text} at (21,445) size 42x570
+          text run at (21,445) width 4: " "
+          text run at (21,449) width 121: "bug fix changed"
+          text run at (42,0) width 240: "our behavior to match the spec."
+      RenderBlock {DIV} at (95,32) size 270x520 [border: (1px solid #0000FF)]
+        RenderTable {DIV} at (1,1) size 220x115 [border: (1px none #000000)]
+          RenderTableSection (anonymous) at (10,1) size 200x104
+            RenderTableRow {P} at (0,0) size 100x104
+              RenderTableCell {SPAN} at (0,0) size 100x-37 [border: (1px solid #000000)] [r=0 c=0 rs=1 cs=1]
+              RenderTableCell {SPAN} at (0,52) size 100x20 [border: (10px solid #000000)] [r=0 c=1 rs=1 cs=1]
+            RenderTableRow {P} at (100,0) size 100x104 [border: (1px solid #0000FF)]
+              RenderTableCell {SPAN} at (100,0) size 100x-28 [border: (10px solid #000000)] [r=1 c=0 rs=1 cs=1]
+              RenderTableCell {SPAN} at (100,52) size 100x20 [border: (10px solid #000000)] [r=1 c=1 rs=1 cs=1]

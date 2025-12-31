@@ -1,0 +1,24 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock {P} at (0,0) size 784x42 [bgcolor=#FFFFFF]
+        RenderText {#text} at (0,0) size 61x21
+          text run at (0,0) width 61: "Test for "
+        RenderInline {I} at (0,0) size 779x42
+          RenderInline {A} at (0,0) size 367x21 [color=#0000EE]
+            RenderText {#text} at (61,0) size 367x21
+              text run at (61,0) width 367: "https://bugs.webkit.org/show_bug.cgi?id=18445"
+          RenderText {#text} at (428,0) size 779x42
+            text run at (428,0) width 4: " "
+            text run at (432,0) width 347: "Assertion failure in CSSGradientValue::image()"
+            text run at (0,21) width 386: "when the body element has a background gradient"
+        RenderText {#text} at (386,21) size 4x21
+          text run at (386,21) width 4: "."
+      RenderBlock {P} at (0,58) size 784x42 [bgcolor=#FFFFFF]
+        RenderText {#text} at (0,0) size 757x42
+          text run at (0,0) width 447: "The test passes if the root element\x{2019}s background is a linear "
+          text run at (447,0) width 310: "gradient from black at the top to white at"
+          text run at (0,21) width 225: "the bottom, and no assertion "
+          text run at (225,21) width 105: "failure occurs."

@@ -1,0 +1,4 @@
+
+
+PASS :user-valid selector should respond to user action
+

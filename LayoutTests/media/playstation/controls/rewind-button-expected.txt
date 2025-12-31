@@ -1,0 +1,13 @@
+This test that the rewind 30 button is valid.
+
+EVENT(canplaythrough)
+rect = {53,236}
+size = {20,25}
+RUN(video.currentTime = 5)
+EVENT(seeked)
+
+**Click rewind 30 button.
+EVENT(seeked)
+EXPECTED (video.currentTime == '0') OK
+END OF TEST
+

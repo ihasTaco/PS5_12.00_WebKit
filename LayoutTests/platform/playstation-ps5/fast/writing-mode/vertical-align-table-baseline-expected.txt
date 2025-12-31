@@ -1,0 +1,14 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 172x600
+  RenderBlock {HTML} at (0,0) size 172x600
+    RenderBody {BODY} at (8,8) size 156x584
+      RenderTable {TABLE} at (0,0) size 156x542 [border: (2px outset #808080)]
+        RenderTableSection {TBODY} at (2,2) size 152x538
+          RenderTableRow {TR} at (2,0) size 148x538
+            RenderTableCell {TD} at (2,38) size 148x108 [border: (1px inset #808080)] [r=0 c=0 rs=1 cs=1]
+              RenderText {#text} at (43,-34) size 63x176
+                text run at (43,-34) width 176: "\x{7B2C}\x{4E00}\x{6BB5}\x{843D}"
+            RenderTableCell {TD} at (2,184) size 148x352 [border: (1px inset #808080)] [r=0 c=1 rs=1 cs=1]
+              RenderText {#text} at (12,2) size 125x348
+                text run at (12,2) width 348: "\x{7B2C}\x{4E8C}\x{6BB5}\x{843D}"

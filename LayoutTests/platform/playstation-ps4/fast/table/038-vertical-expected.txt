@@ -1,0 +1,26 @@
+layer at (0,0) size 785x642
+  RenderView at (0,0) size 785x600
+layer at (0,0) size 785x642
+  RenderBlock {HTML} at (0,0) size 785x642
+    RenderBody {BODY} at (8,8) size 769x626
+      RenderBlock (anonymous) at (0,0) size 769x42
+        RenderText {#text} at (0,0) size 764x42
+          text run at (0,0) width 320: "The two rows below should look identical. "
+          text run at (320,0) width 444: "In both, the spanning cells in columns 2-3 should consume"
+          text run at (0,21) width 433: "as much width as possible, while column 1 should be tiny."
+      RenderTable {TABLE} at (0,42) size 60x584 [border: (2px outset #808080)]
+        RenderTableSection {TBODY} at (2,2) size 56x580
+          RenderTableRow {TR} at (2,0) size 25x580
+            RenderTableCell {TD} at (2,2) size 25x10 [border: (1px inset #808080)] [r=0 c=0 rs=1 cs=1]
+              RenderText {#text} at (2,2) size 21x6
+                text run at (2,2) width 6: "1"
+            RenderTableCell {TD} at (2,14) size 25x564 [border: (1px inset #808080)] [r=0 c=1 rs=1 cs=2]
+              RenderText {#text} at (2,2) size 21x24
+                text run at (2,2) width 24: "2-3"
+          RenderTableRow {TR} at (29,0) size 25x580
+            RenderTableCell {TD} at (29,2) size 25x10 [border: (1px inset #808080)] [r=1 c=0 rs=1 cs=1]
+              RenderText {#text} at (2,2) size 21x6
+                text run at (2,2) width 6: "1"
+            RenderTableCell {TD} at (29,14) size 25x564 [border: (1px inset #808080)] [r=1 c=1 rs=1 cs=2]
+              RenderText {#text} at (2,2) size 21x24
+                text run at (2,2) width 24: "2-3"

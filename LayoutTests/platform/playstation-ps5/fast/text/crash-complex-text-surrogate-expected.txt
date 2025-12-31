@@ -1,0 +1,53 @@
+CONSOLE MESSAGE: TypeError: undefined is not an object (evaluating 'document.forms[0].outerHTML')
+layer at (0,0) size 785x623
+  RenderView at (0,0) size 785x600
+layer at (0,0) size 785x623
+  RenderBlock {HTML} at (0,0) size 785x623
+    RenderBody {BODY} at (8,8) size 80x607
+      RenderText {#text} at (0,0) size 79x102
+        text run at (0,0) width 59: "This test"
+        text run at (0,17) width 59: "passes if"
+        text run at (0,34) width 54: "you can"
+        text run at (0,51) width 62: "open the"
+        text run at (0,68) width 79: "file without"
+        text run at (0,85) width 54: "a crash."
+      RenderBlock (floating) {DIV} at (72,85) size 8x182 [bgcolor=#ADD8E6]
+      RenderText {#text} at (0,102) size 9x17
+        text run at (0,102) width 9: "Y"
+      RenderText {#text} at (9,102) size 37x17
+        text run at (9,102) width 37: "a bcd"
+      RenderInline {SPAN} at (0,0) size 9x17
+        RenderText {#text} at (46,102) size 9x17
+          text run at (46,102) width 9: "\x{202B}X"
+      RenderText {#text} at (0,0) size 0x0
+      RenderText {#text} at (0,119) size 214x267
+        text run at (0,119) width 42: "Errlog"
+        text run at (0,267) width 94: "webtest_fn_1:"
+        text run at (0,284) width 73: "TypeError:"
+        text run at (0,301) width 70: "undefined"
+        text run at (0,318) width 60: "is not an"
+        text run at (0,335) width 43: "object"
+        text run at (0,352) width 78: "(evaluating"
+        text run at (0,369) width 214: "'document.scripts[3].toString')"
+      RenderBR {BR} at (214,369) size 0x17
+      RenderInline {ACRONYM} at (0,0) size 0x17
+      RenderText {#text} at (0,0) size 0x0
+      RenderText {#text} at (0,386) size 95x34
+        text run at (0,386) width 46: "s is: {,}"
+        text run at (0,403) width 95: "\x{A888}{0}P{P}\\7H\\8"
+      RenderBR {BR} at (95,403) size 0x17
+      RenderText {#text} at (0,420) size 42x17
+        text run at (0,420) width 42: "f is: gi"
+      RenderBR {BR} at (42,420) size 0x17
+      RenderText {#text} at (0,437) size 287x170
+        text run at (0,437) width 42: "Errlog"
+        text run at (0,454) width 97: "webtest_fn_4:"
+        text run at (0,471) width 73: "TypeError:"
+        text run at (0,488) width 69: "null is not"
+        text run at (0,505) width 64: "an object"
+        text run at (0,522) width 78: "(evaluating"
+        text run at (0,539) width 287: "'document.querySelector(\"plaintext:first-"
+        text run at (0,556) width 63: "of-type ~"
+        text run at (0,573) width 74: "*|*:out-of-"
+        text run at (0,590) width 150: "range\").insertBefore')"
+      RenderBR {BR} at (150,590) size 0x17

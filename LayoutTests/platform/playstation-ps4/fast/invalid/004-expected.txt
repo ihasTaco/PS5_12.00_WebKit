@@ -1,0 +1,28 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock {P} at (0,0) size 784x63
+        RenderInline {FONT} at (0,0) size 349x63
+          RenderText {#text} at (0,0) size 349x63
+            text run at (0,0) width 349: "First paragraph."
+      RenderBlock (anonymous) at (0,79) size 784x0
+        RenderInline {FONT} at (0,0) size 0x0
+          RenderText {#text} at (0,0) size 0x0
+      RenderBlock (anonymous) at (0,111) size 784x63
+        RenderBlock {P} at (0,0) size 784x63
+          RenderText {#text} at (0,0) size 420x63
+            text run at (0,0) width 420: "Second paragraph."
+      RenderBlock (anonymous) at (0,222) size 784x0
+        RenderInline {FONT} at (0,0) size 0x0
+        RenderText {#text} at (0,0) size 0x0
+        RenderInline {B} at (0,0) size 0x0
+      RenderBlock {P} at (0,222) size 784x21
+        RenderInline {B} at (0,0) size 107x21
+          RenderInline {I} at (0,0) size 107x21
+            RenderText {#text} at (0,0) size 107x21
+              text run at (0,0) width 107: "Bold and Italic"
+        RenderInline {I} at (0,0) size 39x21
+          RenderText {#text} at (107,0) size 39x21
+            text run at (107,0) width 39: " Italic"

@@ -1,0 +1,54 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x449
+  RenderBlock {HTML} at (0,0) size 800x449
+    RenderBody {BODY} at (8,16) size 784x21
+      RenderBlock {P} at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 589x21
+          text run at (0,0) width 576: "The following two blocks should be identical, including overflow. (Force bidi: "
+          text run at (576,0) width 8 RTL: "\x{5D0}"
+          text run at (584,0) width 5: ")"
+      RenderBlock {DIV} at (0,37) size 784x0
+        RenderBlock (floating) {P} at (16,16) size 199x166 [bgcolor=#FFFFCC] [border: (3px solid #000000)]
+          RenderInline {SPAN} at (0,0) size 177x41 [color=#000080] [border: (3px solid #000080) none (3px solid #000080)]
+            RenderText {#text} at (30,24) size 158x21
+              text run at (30,24) width 158: "aaa bbb ccc  ddd eee"
+          RenderBR {BR} at (188,24) size 0x21
+          RenderInline {SPAN} at (0,0) size 38x41 [color=#000080] [border: (3px solid #000080) none]
+            RenderText {#text} at (11,72) size 19x21
+              text run at (11,72) width 19: "fff "
+          RenderText {#text} at (49,72) size 84x21
+            text run at (49,72) width 84: "ggg hhh iii "
+          RenderInline {SPAN} at (0,0) size 31x41 [color=#FFA500] [border: (3px solid #FFA500) none (3px solid #FFA500)]
+            RenderText {#text} at (152,72) size 12x21
+              text run at (152,72) width 12: "jjj"
+          RenderBR {BR} at (164,72) size 0x21
+          RenderInline {SPAN} at (0,0) size 176x41 [color=#FFA500] [border: (3px solid #FFA500) none]
+            RenderText {#text} at (11,120) size 157x21
+              text run at (11,120) width 157: "kkk lll mmm nnn ooo"
+          RenderText {#text} at (0,0) size 0x0
+        RenderBlock (floating) {P} at (16,214) size 202x166 [bgcolor=#FFFFCC] [border: (3px solid #000000)]
+          RenderInline {SPAN} at (0,0) size 177x89 [color=#000080] [border: (3px solid #000080)]
+            RenderText {#text} at (30,24) size 158x21
+              text run at (30,24) width 31: "aaa "
+              text run at (61,24) width 34: "bbb "
+              text run at (95,24) width 28: "ccc "
+              text run at (123,24) width 30 RTL: "ddd"
+              text run at (153,24) width 35 RTL: "\x{202E} eee "
+            RenderBR {BR} at (188,24) size 0x21
+            RenderText {#text} at (11,72) size 19x21
+              text run at (11,72) width 19: "fff "
+          RenderText {#text} at (49,72) size 84x21
+            text run at (49,72) width 34: "ggg "
+            text run at (83,72) width 34: "hhh "
+            text run at (117,72) width 16: "iii "
+          RenderInline {SPAN} at (0,0) size 180x89 [color=#FFA500] [border: (3px solid #FFA500)]
+            RenderText {#text} at (152,72) size 12x21
+              text run at (152,72) width 12: "jjj"
+            RenderBR {BR} at (164,72) size 0x21
+            RenderText {#text} at (11,120) size 161x21
+              text run at (11,120) width 28: "kkk "
+              text run at (39,120) width 69: "lll \x{202C} mmm "
+              text run at (108,120) width 34: "nnn "
+              text run at (142,120) width 30: "ooo"
+          RenderText {#text} at (0,0) size 0x0

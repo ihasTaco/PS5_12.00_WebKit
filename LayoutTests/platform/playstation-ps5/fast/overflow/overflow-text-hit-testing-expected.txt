@@ -1,0 +1,26 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (0,0) size 800x584
+      RenderBlock {P} at (0,62) size 800x63
+        RenderText {#text} at (0,0) size 253x21
+          text run at (0,0) width 253: "This tests for regressions against "
+        RenderInline {I} at (0,0) size 800x42
+          RenderText {#text} at (253,0) size 800x42
+            text run at (253,0) width 533: "http://bugzilla.opendarwin.org/show_bug.cgi?id=5921 Hit-testing text "
+            text run at (786,0) width 14: "in"
+            text run at (0,21) width 347: "overflows does not take scrolling into account"
+        RenderText {#text} at (347,21) size 786x42
+          text run at (347,21) width 94: " by scrolling "
+          text run at (441,21) width 345: "the above text all the way to the right, clicking"
+          text run at (0,42) width 141: "the last letter, and "
+          text run at (141,42) width 489: "verifying that the correct caret position is reported to the editing "
+          text run at (630,42) width 70: "delegate."
+layer at (0,0) size 210x36 clip at (0,0) size 210x21 scrollX 78 scrollWidth 288
+  RenderBlock {DIV} at (0,0) size 210x36
+    RenderText {#text} at (0,0) size 288x21
+      text run at (0,0) width 288: "Seals and caribou live in the arctic, too"
+layer at (0,44) size 800x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,44) size 800x2 [border: (1px inset #000000)]
+caret: position 40 of child 0 {#text} of child 1 {DIV} of body

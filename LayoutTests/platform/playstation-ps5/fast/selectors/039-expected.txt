@@ -1,0 +1,12 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x73
+  RenderBlock {HTML} at (0,0) size 800x73
+    RenderBody {BODY} at (8,16) size 784x41
+      RenderBlock {P} at (0,0) size 784x41
+        RenderInline (generated) at (0,0) size 17x41 [bgcolor=#00FF00]
+          RenderText at (0,0) size 17x41
+            text run at (0,0) width 17: "T"
+        RenderText {#text} at (17,17) size 576x21
+          text run at (17,17) width 396: "his very long paragraph should have a big first letter "
+          text run at (413,17) width 180: "with green background."

@@ -1,0 +1,21 @@
+This test that the caption button is valid.
+
+EVENT(canplaythrough)
+toggle closed captions button rect = {265,236.5}
+toggle closed captions button size = {21,25}
+
+**Click toggle closed captions button.
+captions container rect = {133,148.6875}
+captions container size = {157,76.3125}
+
+**Set the user language preference.
+RUN(internals.setUserPreferredLanguages(['en']))
+
+EXPECTED (video.textTracks[0].mode == 'disabled') OK
+
+**click on 'English' menu item.
+EXPECTED (video.textTracks[0].mode == 'showing') OK
+captions container rect = {0,0}
+captions container size = {0,0}
+END OF TEST
+

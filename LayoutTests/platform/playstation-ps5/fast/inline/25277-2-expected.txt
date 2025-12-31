@@ -1,0 +1,13 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {DIV} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 776x42
+          text run at (0,0) width 745: "This tests for a bug (https://bugs.webkit.org/show_bug.cgi?id=25277) where a caret at the end of a"
+          text run at (0,21) width 776: "non-wrapping line that extends outside of the containing block would paint over part of the focus halo."
+      RenderBlock {DIV} at (0,42) size 50x21
+        RenderText {#text} at (0,0) size 316x21
+          text run at (0,0) width 316: "The caret should be at the end of this line."
+caret: position 44 of child 0 {#text} of child 2 {DIV} of body

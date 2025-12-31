@@ -1,0 +1,13 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock (anonymous) at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 765x42
+          text run at (0,0) width 420: "This test that we correctly orient landscape pdf images. "
+          text run at (420,0) width 345: "The green rectangle should be wider than it is"
+          text run at (0,21) width 27: "tall."
+      RenderBlock {P} at (0,58) size 784x4
+        RenderImage {IMG} at (0,0) size 4x4
+        RenderText {#text} at (0,0) size 0x0

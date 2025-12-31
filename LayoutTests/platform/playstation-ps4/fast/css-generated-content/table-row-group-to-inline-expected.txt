@@ -1,0 +1,19 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock (anonymous) at (0,0) size 784x21
+        RenderInline {SPAN} at (0,0) size 775x21
+          RenderText {#text} at (0,0) size 775x21
+            text run at (0,0) width 775: "This test passes if it does not crash, and if we successfully destroy the table-section generated content."
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (775,0) size 0x21
+      RenderBlock {UL} at (0,37) size 784x21
+        RenderListItem {LI} at (40,0) size 744x21
+          RenderListMarker at (-19,0) size 8x21: bullet
+          RenderInline (generated) at (0,0) size 37x21
+            RenderText at (0,0) size 37x21
+              text run at (0,0) width 37: "hello"
+          RenderText {#text} at (37,0) size 29x21
+            text run at (37,0) width 29: "test"

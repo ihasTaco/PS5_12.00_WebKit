@@ -1,0 +1,11 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock {P} at (0,0) size 784x86
+        RenderText {#text} at (0,0) size 309x65
+          text run at (0,0) width 309: "BigAndGreen"
+        RenderBR {BR} at (309,0) size 0x65
+        RenderText {#text} at (0,65) size 111x21
+          text run at (0,65) width 111: "SmallAndBlack"

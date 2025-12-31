@@ -1,0 +1,153 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 782x584
+      RenderBlock {DIV} at (0,0) size 74x584
+        RenderBlock {DIV} at (0,0) size 32x584
+          RenderText {#text} at (0,0) size 32x66
+            text run at (0,0) width 66: "\x{305D}\x{306E}\x{5973}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (0,66) size 32x24
+              text run at (0,66) width 24: "\x{FFFC}"
+          RenderText {#text} at (0,90) size 32x44
+            text run at (0,90) width 44: "\x{304C}\x{306D}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (0,134) size 32x24
+              text run at (0,134) width 24: "\x{FFFC}"
+          RenderText {#text} at (0,158) size 32x110
+            text run at (0,158) width 110: "\x{304B}\x{3057}\x{3064}\x{3051}\x{306B}"
+          RenderInline {SPAN} at (0,0) size 32x63 [color=#0000FF]
+            RenderCombineText {#text} at (0,268) size 32x63
+              text run at (0,268) width 63: "12345"
+          RenderText {#text} at (0,331) size 32x154
+            text run at (0,331) width 154: "\x{6765}\x{3066}\x{304F}\x{308C}\x{308B}\x{307E}\x{3067}"
+        RenderBlock {DIV} at (42,0) size 32x584
+          RenderText {#text} at (0,0) size 32x66
+            text run at (0,0) width 66: "\x{305D}\x{306E}\x{5973}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (0,66) size 32x24
+              text run at (0,66) width 24: "\x{FFFC}"
+          RenderText {#text} at (0,90) size 32x44
+            text run at (0,90) width 44: "\x{304C}\x{306D}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (0,134) size 32x24
+              text run at (0,134) width 24: "\x{FFFC}"
+          RenderText {#text} at (0,158) size 32x110
+            text run at (0,158) width 110: "\x{304B}\x{3057}\x{3064}\x{3051}\x{306B}"
+          RenderInline {SPAN} at (0,0) size 32x63 [color=#0000FF]
+            RenderCombineText {#text} at (0,268) size 32x63
+              text run at (0,268) width 63: "12345"
+          RenderText {#text} at (0,331) size 32x154
+            text run at (0,331) width 154: "\x{6765}\x{3066}\x{304F}\x{308C}\x{308B}\x{307E}\x{3067}"
+      RenderBlock {DIV} at (84,0) size 74x584
+        RenderBlock {DIV} at (0,0) size 32x584
+          RenderText {#text} at (0,0) size 32x66
+            text run at (0,0) width 66: "\x{305D}\x{306E}\x{5973}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (0,66) size 32x24
+              text run at (0,66) width 24: "\x{FFFC}"
+          RenderText {#text} at (0,90) size 32x44
+            text run at (0,90) width 44: "\x{304C}\x{306D}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (0,134) size 32x24
+              text run at (0,134) width 24: "\x{FFFC}"
+          RenderText {#text} at (0,158) size 32x110
+            text run at (0,158) width 110: "\x{304B}\x{3057}\x{3064}\x{3051}\x{306B}"
+          RenderInline {SPAN} at (0,0) size 32x63 [color=#0000FF]
+            RenderCombineText {#text} at (0,268) size 32x63
+              text run at (0,268) width 63: "12345"
+          RenderText {#text} at (0,331) size 32x154
+            text run at (0,331) width 154: "\x{6765}\x{3066}\x{304F}\x{308C}\x{308B}\x{307E}\x{3067}"
+        RenderBlock {DIV} at (42,0) size 32x584
+          RenderText {#text} at (0,0) size 32x66
+            text run at (0,0) width 66: "\x{305D}\x{306E}\x{5973}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (0,66) size 32x24
+              text run at (0,66) width 24: "\x{FFFC}"
+          RenderText {#text} at (0,90) size 32x44
+            text run at (0,90) width 44: "\x{304C}\x{306D}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (0,134) size 32x24
+              text run at (0,134) width 24: "\x{FFFC}"
+          RenderText {#text} at (0,158) size 32x110
+            text run at (0,158) width 110: "\x{304B}\x{3057}\x{3064}\x{3051}\x{306B}"
+          RenderInline {SPAN} at (0,0) size 32x63 [color=#0000FF]
+            RenderCombineText {#text} at (0,268) size 32x63
+              text run at (0,268) width 63: "12345"
+          RenderText {#text} at (0,331) size 32x154
+            text run at (0,331) width 154: "\x{6765}\x{3066}\x{304F}\x{308C}\x{308B}\x{307E}\x{3067}"
+      RenderBlock {DIV} at (168,0) size 74x584
+        RenderBlock {DIV} at (0,0) size 32x584
+          RenderText {#text} at (0,0) size 32x66
+            text run at (0,0) width 66: "\x{305D}\x{306E}\x{5973}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (0,66) size 32x24
+              text run at (0,66) width 24: "\x{FFFC}"
+          RenderText {#text} at (0,90) size 32x44
+            text run at (0,90) width 44: "\x{304C}\x{306D}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (0,134) size 32x24
+              text run at (0,134) width 24: "\x{FFFC}"
+          RenderText {#text} at (0,158) size 32x110
+            text run at (0,158) width 110: "\x{304B}\x{3057}\x{3064}\x{3051}\x{306B}"
+          RenderInline {SPAN} at (0,0) size 32x63 [color=#0000FF]
+            RenderCombineText {#text} at (0,268) size 32x63
+              text run at (0,268) width 63: "12345"
+          RenderText {#text} at (0,331) size 32x154
+            text run at (0,331) width 154: "\x{6765}\x{3066}\x{304F}\x{308C}\x{308B}\x{307E}\x{3067}"
+        RenderBlock {DIV} at (42,0) size 32x584
+          RenderText {#text} at (0,0) size 32x66
+            text run at (0,0) width 66: "\x{305D}\x{306E}\x{5973}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (0,66) size 32x24
+              text run at (0,66) width 24: "\x{FFFC}"
+          RenderText {#text} at (0,90) size 32x44
+            text run at (0,90) width 44: "\x{304C}\x{306D}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (0,134) size 32x24
+              text run at (0,134) width 24: "\x{FFFC}"
+          RenderText {#text} at (0,158) size 32x110
+            text run at (0,158) width 110: "\x{304B}\x{3057}\x{3064}\x{3051}\x{306B}"
+          RenderInline {SPAN} at (0,0) size 32x63 [color=#0000FF]
+            RenderCombineText {#text} at (0,268) size 32x63
+              text run at (0,268) width 63: "12345"
+          RenderText {#text} at (0,331) size 32x154
+            text run at (0,331) width 154: "\x{6765}\x{3066}\x{304F}\x{308C}\x{308B}\x{307E}\x{3067}"
+      RenderBlock {DIV} at (252,0) size 136x584
+        RenderBlock {DIV} at (0,0) size 63x584
+          RenderText {#text} at (31,0) size 32x66
+            text run at (31,0) width 66: "\x{305D}\x{306E}\x{5973}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (31,66) size 32x24
+              text run at (31,66) width 24: "\x{FFFC}"
+          RenderText {#text} at (31,90) size 32x44
+            text run at (31,90) width 44: "\x{304C}\x{306D}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (31,134) size 32x24
+              text run at (31,134) width 24: "\x{FFFC}"
+          RenderText {#text} at (31,158) size 32x110
+            text run at (31,158) width 110: "\x{304B}\x{3057}\x{3064}\x{3051}\x{306B}"
+          RenderInline {SPAN} at (0,0) size 32x63 [color=#0000FF]
+            RenderCombineText {#text} at (31,268) size 32x63
+              text run at (31,268) width 63: "12345"
+          RenderText {#text} at (31,331) size 32x154
+            text run at (31,331) width 154: "\x{6765}\x{3066}\x{304F}\x{308C}\x{308B}\x{307E}\x{3067}"
+        RenderBlock {DIV} at (73,0) size 63x584
+          RenderText {#text} at (31,0) size 32x66
+            text run at (31,0) width 66: "\x{305D}\x{306E}\x{5973}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (31,66) size 32x24
+              text run at (31,66) width 24: "\x{FFFC}"
+          RenderText {#text} at (31,90) size 32x44
+            text run at (31,90) width 44: "\x{304C}\x{306D}"
+          RenderInline {SPAN} at (0,0) size 32x24 [color=#0000FF]
+            RenderCombineText {#text} at (31,134) size 32x24
+              text run at (31,134) width 24: "\x{FFFC}"
+          RenderText {#text} at (31,158) size 32x110
+            text run at (31,158) width 110: "\x{304B}\x{3057}\x{3064}\x{3051}\x{306B}"
+          RenderInline {SPAN} at (0,0) size 32x63 [color=#0000FF]
+            RenderCombineText {#text} at (31,268) size 32x63
+              text run at (31,268) width 63: "12345"
+          RenderText {#text} at (31,331) size 32x154
+            text run at (31,331) width 154: "\x{6765}\x{3066}\x{304F}\x{308C}\x{308B}\x{307E}\x{3067}"

@@ -1,0 +1,36 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x286
+  RenderBlock {HTML} at (0,0) size 800x286
+    RenderBody {BODY} at (8,8) size 784x262
+      RenderBlock (anonymous) at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 587x21
+          text run at (0,0) width 310: "You should see a green rectangle below. "
+          text run at (310,0) width 277: "If you see any red, the test has failed."
+      RenderBlock {P} at (0,165) size 784x18 [border: (1px solid #000000)]
+        RenderText {#text} at (1,-3) size 329x21
+          text run at (1,-3) width 329: "this block should hug the lowercase glyphs."
+      RenderBlock {P} at (0,199) size 784x63
+        RenderBlock (floating) at (0,0) size 20x26
+          RenderText at (0,-13) size 20x47
+            text run at (0,-13) width 20: "T"
+        RenderText {#text} at (22,0) size 495x21
+          text run at (22,0) width 495: "he first letter here should look nicer because it uses glyph bounds"
+        RenderBR {BR} at (517,0) size 0x21
+        RenderText {#text} at (22,21) size 610x21
+          text run at (22,21) width 610: "This should make the top of the T line up with the line and not look shifted down."
+        RenderBR {BR} at (632,21) size 0x21
+        RenderText {#text} at (0,42) size 526x21
+          text run at (0,42) width 526: "Maybe we should do this by default for all first letters like Firefox does."
+layer at (8,29) size 384x128
+  RenderBlock {DIV} at (0,21) size 384x128 [bgcolor=#FF0000]
+    RenderInline {SPAN} at (0,0) size 320x64 [color=#008000]
+      RenderText {#text} at (0,0) size 320x64
+        text run at (0,0) width 320: "xxxxx"
+    RenderInline {SPAN} at (0,0) size 64x128 [bgcolor=#008000]
+    RenderBR {BR} at (384,0) size 0x64
+    RenderBlock {DIV} at (0,0) size 64x128 [bgcolor=#008000]
+    RenderInline {SPAN} at (0,0) size 320x64 [color=#008000]
+      RenderText {#text} at (64,64) size 320x64
+        text run at (64,64) width 320: "xxxxx"
+    RenderText {#text} at (0,0) size 0x0

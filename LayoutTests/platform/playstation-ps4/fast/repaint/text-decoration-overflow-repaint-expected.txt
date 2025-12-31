@@ -1,0 +1,10 @@
+PASS if the underlines are green.
+content
+content
+content
+(repaint rects
+  (rect 48 49 112 25)
+  (rect 39 85 25 112)
+  (rect 39 217 25 112)
+)
+

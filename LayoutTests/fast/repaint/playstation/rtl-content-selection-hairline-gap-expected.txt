@@ -1,0 +1,6 @@
+ンズpass if no hairline gap after select
+(repaint rects
+  (rect 8 11 72 52)
+  (rect 80 11 619 52)
+)
+

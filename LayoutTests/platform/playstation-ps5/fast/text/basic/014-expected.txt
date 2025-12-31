@@ -1,0 +1,35 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock {DIV} at (0,0) size 396x215 [border: (2px solid #FF0000)]
+        RenderBlock {P} at (2,18) size 392x42
+          RenderText {#text} at (0,0) size 344x42
+            text run at (0,0) width 344: "I\x{2019}m told this is the longest word in the English"
+            text run at (0,21) width 308: "language: anti\x{AD}dis\x{AD}est\x{AD}ab\x{AD}lish\x{AD}ment\x{AD}arian\x{AD}ism."
+        RenderBlock {P} at (2,76) size 392x42
+          RenderText {#text} at (0,0) size 344x42
+            text run at (0,0) width 344: "I\x{2019}m told this is the longest word in the English"
+            text run at (0,21) width 308: "language: anti\x{AD}dis\x{AD}est\x{AD}ab\x{AD}lish\x{AD}ment\x{AD}arian\x{AD}ism."
+        RenderBlock {P} at (2,134) size 392x63
+          RenderText {#text} at (0,0) size 344x42
+            text run at (0,0) width 344: "I\x{2019}m told this is the longest word in the English"
+            text run at (0,21) width 173: "language: anti\x{AD}dis\x{AD}est\x{AD}ab\x{AD}"
+          RenderBR {BR} at (173,21) size 0x21
+          RenderText {#text} at (0,42) size 135x21
+            text run at (0,42) width 135: "lish\x{AD}ment\x{AD}arian\x{AD}ism."
+      RenderBlock {P} at (0,231) size 784x0
+      RenderBlock (floating) {DIV} at (0,231) size 660x152 [border: (2px solid #FF0000)]
+        RenderBlock {P} at (2,18) size 656x21
+          RenderText {#text} at (0,0) size 656x21
+            text run at (0,0) width 656: "I\x{2019}m told this is the longest word in the English language: anti\x{AD}dis\x{AD}est\x{AD}ab\x{AD}lish\x{AD}ment\x{AD}arian\x{AD}ism."
+        RenderBlock {P} at (2,55) size 656x21
+          RenderText {#text} at (0,0) size 656x21
+            text run at (0,0) width 656: "I\x{2019}m told this is the longest word in the English language: anti\x{AD}dis\x{AD}est\x{AD}ab\x{AD}lish\x{AD}ment\x{AD}arian\x{AD}ism."
+        RenderBlock {P} at (2,92) size 656x42
+          RenderText {#text} at (0,0) size 521x21
+            text run at (0,0) width 521: "I\x{2019}m told this is the longest word in the English language: anti\x{AD}dis\x{AD}est\x{AD}ab\x{AD}"
+          RenderBR {BR} at (521,0) size 0x21
+          RenderText {#text} at (0,21) size 135x21
+            text run at (0,21) width 135: "lish\x{AD}ment\x{AD}arian\x{AD}ism."

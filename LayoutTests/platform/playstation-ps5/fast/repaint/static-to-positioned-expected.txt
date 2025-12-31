@@ -1,0 +1,29 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x492
+  RenderBlock {HTML} at (0,0) size 800x492
+    RenderBody {BODY} at (8,16) size 784x468
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 120x21
+          text run at (0,0) width 120: "Repaint test for "
+        RenderInline {I} at (0,0) size 728x42
+          RenderInline {A} at (0,0) size 415x21 [color=#0000EE]
+            RenderText {#text} at (120,0) size 415x21
+              text run at (120,0) width 415: "http://bugzilla.opendarwin.org/show_bug.cgi?id=9334"
+          RenderText {#text} at (535,0) size 728x42
+            text run at (535,0) width 4: " "
+            text run at (539,0) width 189: "Incomplete repaint when"
+            text run at (0,21) width 381: "changing block from non-positioned to positioned"
+        RenderText {#text} at (381,21) size 4x21
+          text run at (381,21) width 4: "."
+layer at (8,74) size 784x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,58) size 784x2 [border: (1px inset #000000)]
+layer at (8,84) size 784x200
+  RenderBlock (relative positioned) {DIV} at (0,68) size 784x200
+layer at (8,134) size 100x100
+  RenderBlock (relative positioned) {DIV} at (0,0) size 100x100 [bgcolor=#0000FF]
+layer at (8,284) size 784x200
+  RenderBlock (relative positioned) {DIV} at (0,268) size 784x200
+    RenderBlock {DIV} at (0,50) size 784x150
+layer at (8,284) size 100x100
+  RenderBlock (positioned) {DIV} at (0,0) size 100x100 [bgcolor=#0000FF]

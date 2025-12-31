@@ -1,0 +1,20 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock {P} at (0,0) size 784x84
+        RenderText {#text} at (0,0) size 120x21
+          text run at (0,0) width 120: "Repaint test for "
+        RenderInline {RDAR} at (0,0) size 769x84
+          RenderText {#text} at (120,0) size 769x84
+            text run at (120,0) width 552: "REGRESSION (r41203): Facebook friend suggestions disappear on update. "
+            text run at (672,0) width 77: "Make sure"
+            text run at (0,21) width 769: "when a layer switches from being self-painting to non-self-painting that a layout happens to fix up the"
+            text run at (0,42) width 159: "floating objects lists. "
+            text run at (159,42) width 583: "You should see a 100x100 green square below. If you see any red, the test has"
+            text run at (0,63) width 45: "failed."
+layer at (8,108) size 100x100
+  RenderBlock (floating) {DIV} at (0,100) size 100x100 [bgcolor=#FF0000]
+layer at (8,108) size 100x100
+  RenderBlock (floating) {DIV} at (0,0) size 100x100 [bgcolor=#008000]

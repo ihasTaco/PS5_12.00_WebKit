@@ -1,0 +1,42 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x53
+  RenderBlock {HTML} at (0,0) size 800x53
+    RenderBody {BODY} at (8,16) size 784x21
+      RenderBlock {P} at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 364x21
+          text run at (0,0) width 364: "Gray div should be clipped by overflow: scroll div"
+layer at (8,53) size 202x202 clip at (9,54) size 200x200 scrollHeight 516
+  RenderBlock (positioned) {DIV} at (8,53) size 202x202 [border: (1px solid #000000)]
+layer at (9,70) size 200x500 backgroundClip at (9,54) size 200x200 clip at (9,54) size 200x200
+  RenderBlock (relative positioned) {DIV} at (1,17) size 200x500 [bgcolor=#808080]
+    RenderBlock {P} at (0,0) size 200x147
+      RenderText {#text} at (0,0) size 190x147
+        text run at (0,0) width 176: "ihasdkas sdkha sjdkahk"
+        text run at (0,21) width 190: "dahsd jashd kashd kasdh"
+        text run at (0,42) width 147: "aksd haskdh aksd h"
+        text run at (0,63) width 166: "asfadjaskdh akdhaskd"
+        text run at (0,84) width 143: "haskd haskd haskd"
+        text run at (0,105) width 178: "haskdhka shdkasdh kas"
+        text run at (0,126) width 32: "hdk "
+        text run at (32,126) width 151: "asd asd asdas das d"
+    RenderBlock {P} at (0,163) size 200x147
+      RenderText {#text} at (0,0) size 190x147
+        text run at (0,0) width 176: "ihasdkas sdkha sjdkahk"
+        text run at (0,21) width 190: "dahsd jashd kashd kasdh"
+        text run at (0,42) width 147: "aksd haskdh aksd h"
+        text run at (0,63) width 166: "asfadjaskdh akdhaskd"
+        text run at (0,84) width 143: "haskd haskd haskd"
+        text run at (0,105) width 178: "haskdhka shdkasdh kas"
+        text run at (0,126) width 32: "hdk "
+        text run at (32,126) width 151: "asd asd asdas das d"
+    RenderBlock {P} at (0,326) size 200x147
+      RenderText {#text} at (0,0) size 190x147
+        text run at (0,0) width 176: "ihasdkas sdkha sjdkahk"
+        text run at (0,21) width 190: "dahsd jashd kashd kasdh"
+        text run at (0,42) width 147: "aksd haskdh aksd h"
+        text run at (0,63) width 166: "asfadjaskdh akdhaskd"
+        text run at (0,84) width 143: "haskd haskd haskd"
+        text run at (0,105) width 178: "haskdhka shdkasdh kas"
+        text run at (0,126) width 32: "hdk "
+        text run at (32,126) width 151: "asd asd asdas das d"

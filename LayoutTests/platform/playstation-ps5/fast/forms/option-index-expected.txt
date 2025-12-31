@@ -1,0 +1,15 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock (anonymous) at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 738x42
+          text run at (0,0) width 738: "This test makes sure we don't crash when trying to get the index of an option element that has no"
+          text run at (0,21) width 229: "corresponding select element."
+      RenderBlock {DIV} at (0,42) size 784x42
+        RenderText {#text} at (0,0) size 94x21
+          text run at (0,0) width 94: "Test Passed."
+        RenderBR {BR} at (94,0) size 0x21
+        RenderText {#text} at (0,21) size 445x21
+          text run at (0,21) width 445: "Index for option element with no corresponding select is: 0"

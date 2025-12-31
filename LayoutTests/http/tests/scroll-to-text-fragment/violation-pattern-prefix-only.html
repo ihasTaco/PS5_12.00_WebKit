@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<title>Scroll to text fragment - violation pattern of only text=prefix- without the end start.</title>
+<link rel="help" href="https://wicg.github.io/scroll-to-text-fragment/">
+<meta name="assert" content="It does not support the grammar violation pattern of only text=prefix- without the end start..">
+<meta name="fuzzy" content="maxDifference=0-1; totalPixels=0-1100" />
+
+<p>No Crash.</p>
+<div><span>prefix-</span></div>
+
+<script>
+  location.href = "#:~:text=prefix-";
+</script>
+</html>

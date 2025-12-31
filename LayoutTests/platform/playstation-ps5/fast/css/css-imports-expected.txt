@@ -1,0 +1,18 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 61x21
+          text run at (0,0) width 61: "Test for "
+        RenderInline {A} at (0,0) size 72x21 [color=#0000EE]
+          RenderText {#text} at (61,0) size 72x21
+            text run at (61,0) width 72: "bug 11575"
+        RenderText {#text} at (133,0) size 451x21
+          text run at (133,0) width 451: ": REGRESSION: WebCore crash in CSSParser/HTMLTokenizer."
+      RenderBlock {P} at (0,37) size 784x42
+        RenderText {#text} at (0,0) size 755x42
+          text run at (0,0) width 755: "All four sides of the square below should be present for this test to really pass, and WebKit shouldn't"
+          text run at (0,21) width 207: "crash for it to pass partially."
+      RenderBlock {DIV} at (0,95) size 106x106 [border: (3px solid #000000)]

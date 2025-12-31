@@ -1,0 +1,23 @@
+layer at (0,0) size 785x585
+  RenderView at (0,0) size 785x585
+layer at (0,0) size 785x178
+  RenderBlock {HTML} at (0,0) size 785x178
+    RenderBody {BODY} at (8,8) size 162x162 [color=#000080] [border: (1px solid #000080)]
+      RenderBlock {P} at (1,17) size 160x84
+        RenderText {#text} at (0,0) size 137x84
+          text run at (0,0) width 122: "There should be"
+          text run at (0,21) width 127: "scrollbars for the"
+          text run at (0,42) width 137: "viewport -- not for"
+          text run at (0,63) width 64: "this box."
+      RenderBlock {P} at (1,117) size 160x21 [color=#808080]
+        RenderText {#text} at (0,0) size 120x21
+          text run at (0,0) width 120: "This is filler text."
+      RenderBlock {P} at (1,154) size 160x21 [color=#808080]
+        RenderText {#text} at (0,0) size 120x21
+          text run at (0,0) width 120: "This is filler text."
+      RenderBlock {P} at (1,191) size 160x21 [color=#808080]
+        RenderText {#text} at (0,0) size 120x21
+          text run at (0,0) width 120: "This is filler text."
+      RenderBlock {P} at (1,228) size 160x21 [color=#808080]
+        RenderText {#text} at (0,0) size 120x21
+          text run at (0,0) width 120: "This is filler text."

@@ -1,0 +1,37 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock (anonymous) at (0,0) size 784x0
+        RenderInline {NOBR} at (0,0) size 0x0
+          RenderText {#text} at (0,0) size 0x0
+      RenderBlock (anonymous) at (0,0) size 784x430
+        RenderTable {TABLE} at (0,0) size 78x430 [border: (1px outset #808080)]
+          RenderTableSection {TBODY} at (1,1) size 76x428
+            RenderTableRow {TR} at (0,2) size 76x424
+              RenderTableCell {TD} at (2,2) size 72x424 [border: (1px inset #808080)] [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (2,2) size 68x420
+                  text run at (2,2) width 60: "This is a"
+                  text run at (2,23) width 67: "test case"
+                  text run at (2,44) width 21: "for"
+                  text run at (2,65) width 66: "3190580."
+                  text run at (2,86) width 36: "Even"
+                  text run at (2,107) width 56: "though"
+                  text run at (2,128) width 28: "this"
+                  text run at (2,149) width 54: "table is"
+                  text run at (2,170) width 68: "enclosed"
+                  text run at (2,191) width 67: "in a nobr"
+                  text run at (2,212) width 61: "tag, this"
+                  text run at (2,233) width 29: "text"
+                  text run at (2,254) width 52: "should"
+                  text run at (2,275) width 38: "wrap"
+                  text run at (2,296) width 61: "anyway."
+                  text run at (2,317) width 28: "The"
+                  text run at (2,338) width 54: "table is"
+                  text run at (2,359) width 55: "only 50"
+                  text run at (2,380) width 43: "pixels"
+                  text run at (2,401) width 40: "wide."
+      RenderBlock (anonymous) at (0,430) size 784x0
+        RenderInline {NOBR} at (0,0) size 0x0
+        RenderText {#text} at (0,0) size 0x0

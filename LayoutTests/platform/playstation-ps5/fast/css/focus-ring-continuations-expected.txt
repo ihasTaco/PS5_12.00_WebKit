@@ -1,0 +1,22 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x100
+  RenderBlock {HTML} at (0,0) size 800x100
+    RenderBody {BODY} at (8,8) size 784x84
+      RenderBlock (anonymous) at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 742x42
+          text run at (0,0) width 742: "Tests focus ring around an inline element containing block continuations. There should be a single"
+          text run at (0,21) width 79: "focus ring."
+      RenderBlock {DIV} at (0,42) size 200x42
+        RenderBlock (anonymous) at (0,0) size 200x21
+          RenderInline {SPAN} at (0,0) size 88x21
+            RenderText {#text} at (0,0) size 88x21
+              text run at (0,0) width 88: "INLINE TEXT"
+        RenderBlock (anonymous) at (0,21) size 200x21
+        RenderBlock (anonymous) at (0,42) size 200x0
+          RenderInline {SPAN} at (0,0) size 0x0
+          RenderText {#text} at (0,0) size 0x0
+layer at (8,68) size 200x21
+  RenderBlock (relative positioned) {DIV} at (0,0) size 200x21
+    RenderText {#text} at (0,0) size 133x21
+      text run at (0,0) width 133: "BLOCK CONTENTS"

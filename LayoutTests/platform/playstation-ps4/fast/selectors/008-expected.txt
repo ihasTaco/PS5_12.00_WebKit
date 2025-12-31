@@ -1,0 +1,20 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x103
+  RenderBlock {HTML} at (0,0) size 800x103
+    RenderBody {BODY} at (8,16) size 784x79
+      RenderBlock {P} at (0,0) size 784x21 [bgcolor=#00FF00]
+        RenderText {#text} at (0,0) size 594x21
+          text run at (0,0) width 594: "This paragraph should have green background because its language is \"en-gb\""
+      RenderBlock {ADDRESS} at (0,37) size 784x42 [bgcolor=#00FF00]
+        RenderInline {SPAN} at (0,0) size 186x21
+          RenderText {#text} at (0,0) size 186x21
+            text run at (0,0) width 186: "This address should also"
+        RenderText {#text} at (186,0) size 4x21
+          text run at (186,0) width 4: " "
+        RenderInline {SPAN} at (0,0) size 730x42
+          RenderText {#text} at (190,0) size 730x42
+            text run at (190,0) width 498: "have green background because the language of the inner SPANs "
+            text run at (688,0) width 42: "is not"
+            text run at (0,21) width 55: "French."
+        RenderText {#text} at (0,0) size 0x0

@@ -1,0 +1,47 @@
+<script src=../../media-file.js></script>
+<script src=../../video-test.js></script>
+<script src=media-controls.js></script>
+
+<script>
+    var video;
+
+    window.addEventListener('load', async() => {
+        if (!window.testRunner) {
+            consoleWrite("This test only works in WebKitTestRunner.");
+            return;
+        }
+
+        findMediaElement();
+        video.src = findMediaFile("video", "../../content/test");
+
+        waitForEventAndFail("error");
+
+        await waitFor(video, "canplaythrough");
+
+        var playButton = new MediaControlsElement(video, "play-button");
+        consoleWrite("rect = {" + playButton.rect() + "}");
+        consoleWrite("size = {" + playButton.size() + "}");
+
+        consoleWrite("");
+        consoleWrite("<i>**Click play button.</i>");
+        playButton.click();
+
+        await waitFor(video, "timeupdate");
+
+        testExpected("video.paused", false);
+        testExpected("video.currentTime", 0, ">");
+
+        consoleWrite("");
+        consoleWrite("<i>**Click pause button.</i>");
+        playButton.click();
+
+        testExpected("video.paused", true);
+
+        endTest();
+    });
+</script>
+
+<body>
+    <div>This test that the play button is valid.</div>
+    <video controls></video>
+</body>

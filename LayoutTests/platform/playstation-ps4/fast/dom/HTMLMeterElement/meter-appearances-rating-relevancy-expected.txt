@@ -1,0 +1,178 @@
+layer at (0,0) size 785x626
+  RenderView at (0,0) size 785x600
+layer at (0,0) size 785x626
+  RenderBlock {HTML} at (0,0) size 785x627
+    RenderBody {BODY} at (8,8) size 769x603
+      RenderBlock {H1} at (0,0) size 769x21
+        RenderText {#text} at (0,0) size 242x21
+          text run at (0,0) width 242: "Meters with various appearance"
+      RenderBlock {H2} at (0,34) size 769x22
+        RenderText {#text} at (0,0) size 159x21
+          text run at (0,0) width 159: "rating-level-indicator"
+      RenderBlock {H2} at (0,71) size 769x240
+        RenderBlock {UL} at (0,0) size 769x239
+          RenderListItem {LI} at (40,0) size 729x21 [bgcolor=#EEEEEE]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 98x21
+              text run at (0,0) width 98: "value=10/10:"
+            RenderBlock (floating) {METER} at (649,0) size 80x16
+              RenderBlock {DIV} at (0,0) size 80x16
+                RenderBlock {DIV} at (0,0) size 80x16
+                  RenderBlock {DIV} at (0,0) size 80x16
+          RenderListItem {LI} at (40,21) size 729x21 [bgcolor=#CCCCCC]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 91x21
+              text run at (0,0) width 91: "value=8/10:"
+            RenderBlock (floating) {METER} at (649,0) size 80x16
+              RenderBlock {DIV} at (0,0) size 80x16
+                RenderBlock {DIV} at (0,0) size 80x16
+                  RenderBlock {DIV} at (0,0) size 64x16
+          RenderListItem {LI} at (40,42) size 729x21 [bgcolor=#EEEEEE]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 90x21
+              text run at (0,0) width 90: "value=5/10:"
+            RenderBlock (floating) {METER} at (649,0) size 80x16
+              RenderBlock {DIV} at (0,0) size 80x16
+                RenderBlock {DIV} at (0,0) size 80x16
+                  RenderBlock {DIV} at (0,0) size 40x16
+          RenderListItem {LI} at (40,63) size 729x21 [bgcolor=#CCCCCC]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 90x21
+              text run at (0,0) width 90: "value=2/10:"
+            RenderBlock (floating) {METER} at (649,0) size 80x16
+              RenderBlock {DIV} at (0,0) size 80x16
+                RenderBlock {DIV} at (0,0) size 80x16
+                  RenderBlock {DIV} at (0,0) size 16x16
+          RenderListItem {LI} at (40,84) size 729x21 [bgcolor=#EEEEEE]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 91x21
+              text run at (0,0) width 91: "value=0/10:"
+            RenderBlock (floating) {METER} at (649,0) size 80x16
+              RenderBlock {DIV} at (0,0) size 80x16
+                RenderBlock {DIV} at (0,0) size 80x16
+                  RenderBlock {DIV} at (0,0) size 0x16
+          RenderListItem {LI} at (40,105) size 729x21 [bgcolor=#CCCCCC]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 33x21
+              text run at (0,0) width 33: "RTL:"
+            RenderBlock (floating) {METER} at (649,0) size 80x16
+              RenderBlock {DIV} at (0,0) size 80x16
+                RenderBlock {DIV} at (0,0) size 80x16
+                  RenderBlock {DIV} at (40,0) size 40x16
+          RenderListItem {LI} at (40,126) size 729x50 [bgcolor=#EEEEEE]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 32x21
+              text run at (0,0) width 32: "Tall:"
+            RenderBlock (floating) {METER} at (649,0) size 80x50
+              RenderBlock {DIV} at (0,0) size 80x50
+                RenderBlock {DIV} at (0,0) size 80x50
+                  RenderBlock {DIV} at (0,0) size 40x50
+          RenderListItem {LI} at (40,176) size 729x21 [bgcolor=#CCCCCC]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 47x21
+              text run at (0,0) width 47: "Short:"
+            RenderBlock (floating) {METER} at (649,0) size 80x5
+              RenderBlock {DIV} at (0,0) size 80x5
+                RenderBlock {DIV} at (0,0) size 80x5
+                  RenderBlock {DIV} at (0,0) size 24x5
+          RenderListItem {LI} at (40,197) size 729x21 [bgcolor=#EEEEEE]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 44x21
+              text run at (0,0) width 44: "Wide:"
+            RenderBlock (floating) {METER} at (429,0) size 300x16
+              RenderBlock {DIV} at (0,0) size 300x16
+                RenderBlock {DIV} at (0,0) size 300x16
+                  RenderBlock {DIV} at (0,0) size 150x16
+          RenderListItem {LI} at (40,218) size 729x21 [bgcolor=#CCCCCC]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 62x21
+              text run at (0,0) width 62: "Narrow:"
+            RenderBlock (floating) {METER} at (699,0) size 30x16
+              RenderBlock {DIV} at (0,0) size 30x16
+                RenderBlock {DIV} at (0,0) size 30x16
+                  RenderBlock {DIV} at (0,0) size 15x16
+      RenderBlock {H2} at (0,326) size 769x22
+        RenderText {#text} at (0,0) size 187x21
+          text run at (0,0) width 187: "relevancy-level-indicator"
+      RenderBlock {H2} at (0,363) size 769x240
+        RenderBlock {UL} at (0,0) size 769x239
+          RenderListItem {LI} at (40,0) size 729x21 [bgcolor=#EEEEEE]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 98x21
+              text run at (0,0) width 98: "value=10/10:"
+            RenderBlock (floating) {METER} at (649,0) size 80x16
+              RenderBlock {DIV} at (0,0) size 80x16
+                RenderBlock {DIV} at (0,0) size 80x16
+                  RenderBlock {DIV} at (0,0) size 80x16
+          RenderListItem {LI} at (40,21) size 729x21 [bgcolor=#CCCCCC]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 91x21
+              text run at (0,0) width 91: "value=8/10:"
+            RenderBlock (floating) {METER} at (649,0) size 80x16
+              RenderBlock {DIV} at (0,0) size 80x16
+                RenderBlock {DIV} at (0,0) size 80x16
+                  RenderBlock {DIV} at (0,0) size 64x16
+          RenderListItem {LI} at (40,42) size 729x21 [bgcolor=#EEEEEE]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 90x21
+              text run at (0,0) width 90: "value=5/10:"
+            RenderBlock (floating) {METER} at (649,0) size 80x16
+              RenderBlock {DIV} at (0,0) size 80x16
+                RenderBlock {DIV} at (0,0) size 80x16
+                  RenderBlock {DIV} at (0,0) size 40x16
+          RenderListItem {LI} at (40,63) size 729x21 [bgcolor=#CCCCCC]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 90x21
+              text run at (0,0) width 90: "value=2/10:"
+            RenderBlock (floating) {METER} at (649,0) size 80x16
+              RenderBlock {DIV} at (0,0) size 80x16
+                RenderBlock {DIV} at (0,0) size 80x16
+                  RenderBlock {DIV} at (0,0) size 16x16
+          RenderListItem {LI} at (40,84) size 729x21 [bgcolor=#EEEEEE]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 91x21
+              text run at (0,0) width 91: "value=0/10:"
+            RenderBlock (floating) {METER} at (649,0) size 80x16
+              RenderBlock {DIV} at (0,0) size 80x16
+                RenderBlock {DIV} at (0,0) size 80x16
+                  RenderBlock {DIV} at (0,0) size 0x16
+          RenderListItem {LI} at (40,105) size 729x21 [bgcolor=#CCCCCC]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 33x21
+              text run at (0,0) width 33: "RTL:"
+            RenderBlock (floating) {METER} at (649,0) size 80x16
+              RenderBlock {DIV} at (0,0) size 80x16
+                RenderBlock {DIV} at (0,0) size 80x16
+                  RenderBlock {DIV} at (40,0) size 40x16
+          RenderListItem {LI} at (40,126) size 729x50 [bgcolor=#EEEEEE]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 32x21
+              text run at (0,0) width 32: "Tall:"
+            RenderBlock (floating) {METER} at (649,0) size 80x50
+              RenderBlock {DIV} at (0,0) size 80x50
+                RenderBlock {DIV} at (0,0) size 80x50
+                  RenderBlock {DIV} at (0,0) size 40x50
+          RenderListItem {LI} at (40,176) size 729x21 [bgcolor=#CCCCCC]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 47x21
+              text run at (0,0) width 47: "Short:"
+            RenderBlock (floating) {METER} at (649,0) size 80x5
+              RenderBlock {DIV} at (0,0) size 80x5
+                RenderBlock {DIV} at (0,0) size 80x5
+                  RenderBlock {DIV} at (0,0) size 24x5
+          RenderListItem {LI} at (40,197) size 729x21 [bgcolor=#EEEEEE]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 44x21
+              text run at (0,0) width 44: "Wide:"
+            RenderBlock (floating) {METER} at (429,0) size 300x16
+              RenderBlock {DIV} at (0,0) size 300x16
+                RenderBlock {DIV} at (0,0) size 300x16
+                  RenderBlock {DIV} at (0,0) size 150x16
+          RenderListItem {LI} at (40,218) size 729x21 [bgcolor=#CCCCCC]
+            RenderListMarker at (-19,0) size 8x21: bullet
+            RenderText {#text} at (0,0) size 62x21
+              text run at (0,0) width 62: "Narrow:"
+            RenderBlock (floating) {METER} at (699,0) size 30x16
+              RenderBlock {DIV} at (0,0) size 30x16
+                RenderBlock {DIV} at (0,0) size 30x16
+                  RenderBlock {DIV} at (0,0) size 15x16

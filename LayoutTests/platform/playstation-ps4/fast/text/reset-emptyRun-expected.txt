@@ -1,0 +1,42 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 61x21
+          text run at (0,0) width 61: "Test for "
+        RenderInline {I} at (0,0) size 771x42
+          RenderInline {A} at (0,0) size 358x21 [color=#0000EE]
+            RenderText {#text} at (61,0) size 358x21
+              text run at (61,0) width 358: "http://bugs.webkit.org/show_bug.cgi?id=14758"
+          RenderText {#text} at (419,0) size 771x42
+            text run at (419,0) width 4: " "
+            text run at (423,0) width 348: "REGRESSION: Repeated text after line break on"
+            text run at (0,21) width 106: "facebook.com"
+        RenderText {#text} at (106,21) size 4x21
+          text run at (106,21) width 4: "."
+      RenderBlock {P} at (0,58) size 784x21
+        RenderText {#text} at (0,0) size 279x21
+          text run at (0,0) width 279: "These two boxes should be identical:"
+      RenderBlock {DIV} at (0,95) size 76x69 [border: (3px solid #000000)]
+        RenderBlock (anonymous) at (3,3) size 70x42
+          RenderText {#text} at (0,0) size 48x21
+            text run at (0,0) width 48: "Lorem"
+          RenderInline {SPAN} at (0,0) size 47x21
+            RenderText {#text} at (0,21) size 47x21
+              text run at (0,21) width 47: "ipsum"
+          RenderText {#text} at (0,0) size 0x0
+        RenderBlock {DIV} at (3,45) size 70x21
+          RenderText {#text} at (0,0) size 40x21
+            text run at (0,0) width 40: "dolor"
+      RenderBlock (anonymous) at (0,164) size 784x21
+        RenderBR {BR} at (0,0) size 0x21
+      RenderBlock {DIV} at (0,185) size 76x69 [border: (3px solid #000000)]
+        RenderBlock (anonymous) at (3,3) size 70x42
+          RenderText {#text} at (0,0) size 48x42
+            text run at (0,0) width 48: "Lorem"
+            text run at (0,21) width 47: "ipsum"
+        RenderBlock {DIV} at (3,45) size 70x21
+          RenderText {#text} at (0,0) size 40x21
+            text run at (0,0) width 40: "dolor"

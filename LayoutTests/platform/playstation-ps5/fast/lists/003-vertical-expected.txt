@@ -1,0 +1,209 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 521x600
+  RenderBlock {HTML} at (0,0) size 521x600
+    RenderBody {BODY} at (16,8) size 347x584
+      RenderBlock (floating) {DIV} at (0,0) size 505x351
+        RenderBlock {P} at (16,0) size 84x351
+          RenderText {#text} at (0,0) size 42x341
+            text run at (0,0) width 341: "This test case illustrates incorrect positioning"
+            text run at (21,0) width 155: "of list items within a "
+          RenderInline {CODE} at (0,0) size 17x94
+            RenderText {#text} at (22,155) size 17x94
+              text run at (22,155) width 94: "text-align: right"
+          RenderText {#text} at (21,249) size 21x78
+            text run at (21,249) width 78: " div after a"
+          RenderInline {CODE} at (0,0) size 17x53
+            RenderText {#text} at (43,0) size 17x53
+              text run at (43,0) width 53: "float: left"
+          RenderText {#text} at (42,53) size 21x34
+            text run at (42,53) width 34: " div. "
+          RenderInline {A} at (0,0) size 21x231 [color=#0000EE]
+            RenderText {#text} at (42,87) size 21x231
+              text run at (42,87) width 231: "Screenshot of correct behavior"
+          RenderText {#text} at (42,318) size 21x5
+            text run at (42,318) width 5: ";"
+          RenderInline {A} at (0,0) size 21x149 [color=#0000EE]
+            RenderText {#text} at (63,0) size 21x149
+              text run at (63,0) width 149: "screenshot of Safari"
+          RenderText {#text} at (63,149) size 21x4
+            text run at (63,149) width 4: "."
+        RenderBlock {P} at (116,0) size 63x351
+          RenderText {#text} at (0,0) size 42x279
+            text run at (0,0) width 279: "This bug only occurs on pages with a"
+            text run at (21,0) width 241: "standards-compliant DOCTYPE. "
+          RenderInline {A} at (0,0) size 42x342 [color=#0000EE]
+            RenderText {#text} at (21,241) size 42x342
+              text run at (21,241) width 101: "View this test"
+              text run at (42,0) width 185: "case without a DOCTYPE"
+          RenderText {#text} at (42,185) size 21x4
+            text run at (42,185) width 4: "."
+        RenderBlock {OL} at (195,0) size 294x351
+          RenderListItem {LI} at (0,40) size 42x311
+            RenderListMarker at (0,-22) size 21x17: "1"
+            RenderText {#text} at (0,0) size 42x284
+              text run at (0,0) width 179: "New larger PowerBook. "
+              text run at (0,179) width 105: "Still 1 GHz, but"
+              text run at (21,0) width 213: "with a 17-inch screen. $3299."
+          RenderListItem {LI} at (42,40) size 42x311
+            RenderListMarker at (0,-22) size 21x17: "2"
+            RenderText {#text} at (0,0) size 42x293
+              text run at (0,0) width 293: "New smaller PowerBook, with a 12-inch"
+              text run at (21,0) width 58: "screen. "
+              text run at (21,58) width 45: "$1799."
+          RenderListItem {LI} at (84,40) size 105x311
+            RenderListMarker at (0,-22) size 21x17: "3"
+            RenderText {#text} at (0,0) size 21x108
+              text run at (0,0) width 108: "New browser: "
+            RenderInline {A} at (0,0) size 21x42 [color=#0000EE]
+              RenderText {#text} at (0,108) size 21x42
+                text run at (0,108) width 42: "Safari"
+            RenderText {#text} at (0,150) size 21x80
+              text run at (0,150) width 8: ". "
+              text run at (0,158) width 72: "Engine is "
+            RenderInline {A} at (0,0) size 42x269 [color=#0000EE]
+              RenderText {#text} at (0,230) size 42x269
+                text run at (0,230) width 39: "open"
+                text run at (21,0) width 51: "source"
+            RenderText {#text} at (21,51) size 21x22
+              text run at (21,51) width 22: " (a "
+            RenderInline {A} at (0,0) size 21x126 [color=#0000EE]
+              RenderText {#text} at (21,73) size 21x126
+                text run at (21,73) width 126: "modified version"
+            RenderText {#text} at (21,199) size 21x23
+              text run at (21,199) width 23: " of "
+            RenderInline {A} at (0,0) size 21x51 [color=#0000EE]
+              RenderText {#text} at (21,222) size 21x51
+                text run at (21,222) width 51: "KHTML"
+            RenderText {#text} at (21,273) size 84x299
+              text run at (21,273) width 9: "),"
+              text run at (42,0) width 274: "rest of the application is free but not"
+              text run at (63,0) width 227: "open source (just like the OS). "
+              text run at (63,227) width 72: "Only runs"
+              text run at (84,0) width 61: "on 10.2. "
+              text run at (84,61) width 179: "Currently in public beta."
+          RenderListItem {LI} at (189,40) size 42x311
+            RenderListMarker at (0,-22) size 21x17: "4"
+            RenderText {#text} at (0,0) size 42x310
+              text run at (0,0) width 282: "New presentation software: Keynote. "
+              text run at (0,282) width 28: "The"
+              text run at (21,0) width 191: "software Steve Jobs uses."
+          RenderListItem {LI} at (231,40) size 42x311
+            RenderListMarker at (0,-22) size 21x17: "5"
+            RenderText {#text} at (0,0) size 21x123
+              text run at (0,0) width 123: "New versions of "
+            RenderInline {A} at (0,0) size 21x49 [color=#0000EE]
+              RenderText {#text} at (0,123) size 21x49
+                text run at (0,123) width 49: "iMovie"
+            RenderText {#text} at (0,172) size 21x8
+              text run at (0,172) width 8: ", "
+            RenderInline {A} at (0,0) size 21x50 [color=#0000EE]
+              RenderText {#text} at (0,180) size 21x50
+                text run at (0,180) width 50: "iPhoto"
+            RenderText {#text} at (0,230) size 21x8
+              text run at (0,230) width 8: ", "
+            RenderInline {A} at (0,0) size 21x50 [color=#0000EE]
+              RenderText {#text} at (0,238) size 21x50
+                text run at (0,238) width 50: "iTunes"
+            RenderText {#text} at (0,288) size 42x292
+              text run at (0,288) width 4: "."
+              text run at (21,0) width 194: "Bundled into a box called "
+            RenderInline {A} at (0,0) size 21x30 [color=#0000EE]
+              RenderText {#text} at (21,194) size 21x30
+                text run at (21,194) width 30: "iLife"
+            RenderText {#text} at (21,224) size 21x64
+              text run at (21,224) width 64: ", for $49."
+          RenderListItem {LI} at (273,40) size 21x311
+            RenderListMarker at (0,-22) size 21x17: "6"
+            RenderInline {A} at (0,0) size 21x127 [color=#0000EE]
+              RenderText {#text} at (0,0) size 21x127
+                text run at (0,0) width 127: "Final Cut Express"
+            RenderText {#text} at (0,127) size 21x183
+              text run at (0,127) width 143: " for creating DVDs. "
+              text run at (0,270) width 40: "$299."
+      RenderBlock {DIV} at (0,0) size 347x584
+        RenderBlock {UL} at (0,0) size 168x584
+          RenderListItem {LI} at (0,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x47 [color=#0000EE]
+              RenderText {#text} at (0,497) size 21x47
+                text run at (0,497) width 47: "About"
+          RenderListItem {LI} at (21,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x66 [color=#0000EE]
+              RenderText {#text} at (0,478) size 21x66
+                text run at (0,478) width 66: "Site map"
+          RenderListItem {LI} at (42,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x64 [color=#0000EE]
+              RenderText {#text} at (0,480) size 21x64
+                text run at (0,480) width 64: "Archives"
+          RenderListItem {LI} at (63,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x61 [color=#0000EE]
+              RenderText {#text} at (0,483) size 21x61
+                text run at (0,483) width 61: "Projects"
+          RenderListItem {LI} at (84,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x54 [color=#0000EE]
+              RenderText {#text} at (0,490) size 21x54
+                text run at (0,490) width 54: "Photos"
+          RenderListItem {LI} at (105,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x68 [color=#0000EE]
+              RenderText {#text} at (0,476) size 21x68
+                text run at (0,476) width 68: "Statistics"
+          RenderListItem {LI} at (126,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x174 [color=#0000EE]
+              RenderText {#text} at (0,370) size 21x174
+                text run at (0,370) width 174: "Accessibility statement"
+          RenderListItem {LI} at (147,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x28 [color=#0000EE]
+              RenderText {#text} at (0,417) size 21x28
+                text run at (0,417) width 28: "RSS"
+            RenderText {#text} at (0,445) size 21x9
+              text run at (0,445) width 9: " ("
+            RenderInline {A} at (0,0) size 21x85 [color=#0000EE]
+              RenderText {#text} at (0,454) size 21x85
+                text run at (0,454) width 85: "more feeds"
+            RenderText {#text} at (0,539) size 21x5
+              text run at (0,539) width 5: ")"
+        RenderBlock {UL} at (184,0) size 21x584
+          RenderListItem {LI} at (0,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x95 [color=#0000EE]
+              RenderText {#text} at (0,449) size 21x95
+                text run at (0,449) width 95: "What is RSS?"
+        RenderBlock {UL} at (221,0) size 126x584
+          RenderListItem {LI} at (0,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x100 [color=#0000EE]
+              RenderText {#text} at (0,444) size 21x100
+                text run at (0,444) width 100: "RSS Validator"
+          RenderListItem {LI} at (21,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x162 [color=#0000EE]
+              RenderText {#text} at (0,382) size 21x162
+                text run at (0,382) width 162: "Dive Into Accessibility"
+          RenderListItem {LI} at (42,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x105 [color=#0000EE]
+              RenderText {#text} at (0,439) size 21x105
+                text run at (0,439) width 105: "Dive Into OS X"
+          RenderListItem {LI} at (63,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x102 [color=#0000EE]
+              RenderText {#text} at (0,442) size 21x102
+                text run at (0,442) width 102: "Dive Into J2EE"
+          RenderListItem {LI} at (84,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x124 [color=#0000EE]
+              RenderText {#text} at (0,420) size 21x124
+                text run at (0,420) width 124: "Dive Into Python"
+          RenderListItem {LI} at (105,40) size 21x544
+            RenderListMarker at (0,291) size 21x8: bullet
+            RenderInline {A} at (0,0) size 21x57 [color=#0000EE]
+              RenderText {#text} at (0,487) size 21x57
+                text run at (0,487) width 57: "r\x{E9}sum\x{E9}"

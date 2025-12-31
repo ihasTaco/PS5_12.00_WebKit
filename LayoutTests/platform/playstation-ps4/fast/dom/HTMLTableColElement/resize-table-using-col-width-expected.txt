@@ -1,0 +1,38 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderTable {TABLE} at (0,0) size 680x58 [border: (1px outset #808080)]
+        RenderTableCol {COLGROUP} at (0,0) size 0x0
+          RenderTableCol {COL} at (0,0) size 0x0
+          RenderTableCol {COL} at (0,0) size 0x0
+          RenderTableCol {COL} at (0,0) size 0x0
+        RenderTableSection {TBODY} at (1,1) size 678x56
+          RenderTableRow {TR} at (0,2) size 678x25
+            RenderTableCell {TD} at (2,2) size 500x25 [border: (1px inset #808080)] [r=0 c=0 rs=1 cs=1]
+              RenderText {#text} at (2,2) size 75x21
+                text run at (2,2) width 75: "col 1 row 1"
+            RenderTableCell {TD} at (504,2) size 85x25 [border: (1px inset #808080)] [r=0 c=1 rs=1 cs=1]
+              RenderText {#text} at (2,2) size 78x21
+                text run at (2,2) width 78: "col 2 row 1"
+            RenderTableCell {TD} at (591,2) size 85x25 [border: (1px inset #808080)] [r=0 c=2 rs=1 cs=1]
+              RenderText {#text} at (2,2) size 78x21
+                text run at (2,2) width 78: "col 3 row 1"
+          RenderTableRow {TR} at (0,29) size 678x25
+            RenderTableCell {TD} at (2,29) size 500x25 [border: (1px inset #808080)] [r=1 c=0 rs=1 cs=1]
+              RenderText {#text} at (2,2) size 78x21
+                text run at (2,2) width 78: "col 1 row 2"
+            RenderTableCell {TD} at (504,29) size 85x25 [border: (1px inset #808080)] [r=1 c=1 rs=1 cs=1]
+              RenderText {#text} at (2,2) size 81x21
+                text run at (2,2) width 81: "col 2 row 2"
+            RenderTableCell {TD} at (591,29) size 85x25 [border: (1px inset #808080)] [r=1 c=2 rs=1 cs=1]
+              RenderText {#text} at (2,2) size 81x21
+                text run at (2,2) width 81: "col 3 row 3"
+      RenderBlock (anonymous) at (0,58) size 784x26
+        RenderButton {BUTTON} at (0,0) size 413x26 [bgcolor=#C0C0C0] [border: (2px outset #C0C0C0)]
+          RenderBlock (anonymous) at (8,4) size 397x17
+            RenderText {#text} at (0,0) size 397x17
+              text run at (0,0) width 397: "Click me to test manually. The first column should grow to 500px."
+        RenderText {#text} at (0,0) size 0x0
+        RenderText {#text} at (0,0) size 0x0

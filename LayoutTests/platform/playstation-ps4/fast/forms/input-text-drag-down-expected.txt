@@ -1,0 +1,18 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock (anonymous) at (0,0) size 784x23
+        RenderTextControl {INPUT} at (0,0) size 173x23 [bgcolor=#FFFFFF] [border: (2px inset #000000)]
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {P} at (0,39) size 784x42
+        RenderText {#text} at (0,0) size 739x42
+          text run at (0,0) width 739: "Tests drag-selecting down. If the test succeeds, the text from the center to the end of the text field"
+          text run at (0,21) width 146: "should be selected."
+layer at (11,11) size 167x17
+  RenderBlock {DIV} at (3,3) size 167x17
+    RenderText {#text} at (0,0) size 135x17
+      text run at (0,0) width 135: "This is a bunch of text."
+selection start: position 8 of child 0 {#text} of child 0 {DIV} of {#document-fragment} of child 0 {INPUT} of body
+selection end:   position 9 of child 0 {#text} of child 0 {DIV} of {#document-fragment} of child 0 {INPUT} of body

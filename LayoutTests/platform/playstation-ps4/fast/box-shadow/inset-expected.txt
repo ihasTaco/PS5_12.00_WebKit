@@ -1,0 +1,42 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {DIV} at (0,0) size 784x124
+        RenderBlock {DIV} at (10,10) size 100x100 [bgcolor=#FFFFE0] [border: (10px solid #008000)]
+        RenderText {#text} at (120,103) size 4x21
+          text run at (120,103) width 4: " "
+        RenderBlock {DIV} at (134,10) size 100x100 [bgcolor=#FFFFE0] [border: (10px solid #008000)]
+        RenderText {#text} at (244,103) size 4x21
+          text run at (244,103) width 4: " "
+        RenderBlock {DIV} at (258,10) size 100x100 [bgcolor=#FFFFE0] [border: (10px solid #008000)]
+        RenderText {#text} at (368,103) size 4x21
+          text run at (368,103) width 4: " "
+        RenderBlock {DIV} at (382,10) size 100x100 [bgcolor=#FFFFE0] [border: (10px solid #008000)]
+        RenderText {#text} at (492,103) size 4x21
+          text run at (492,103) width 4: " "
+        RenderBlock {DIV} at (506,10) size 100x100 [bgcolor=#FFFFE0] [border: (10px solid #008000)]
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {DIV} at (0,124) size 784x124
+        RenderBlock {DIV} at (10,10) size 100x100 [bgcolor=#FFFFE0] [border: (10px solid #008000)]
+        RenderText {#text} at (120,103) size 4x21
+          text run at (120,103) width 4: " "
+        RenderBlock {DIV} at (134,10) size 100x100 [bgcolor=#FFFFE0] [border: (10px solid #008000)]
+        RenderText {#text} at (244,103) size 4x21
+          text run at (244,103) width 4: " "
+        RenderBlock {DIV} at (258,10) size 100x100 [bgcolor=#FFFFE0] [border: (10px solid #008000)]
+        RenderText {#text} at (368,103) size 4x21
+          text run at (368,103) width 4: " "
+        RenderBlock {DIV} at (382,10) size 100x100 [bgcolor=#FFFFE0] [border: (10px solid #008000)]
+        RenderText {#text} at (492,103) size 4x21
+          text run at (492,103) width 4: " "
+        RenderBlock {DIV} at (506,10) size 100x100 [bgcolor=#FFFFE0] [border: (10px dashed #008000)]
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {DIV} at (0,248) size 600x324
+        RenderInline {SPAN} at (0,0) size 556x321 [bgcolor=#FFFFE0] [border: (5px solid #008000)]
+          RenderText {#text} at (46,6) size 556x311
+            text run at (46,6) width 528: "This sentence is"
+            text run at (22,114) width 556: "too long to fit on"
+            text run at (82,222) width 416: "a single line."
+        RenderText {#text} at (0,0) size 0x0

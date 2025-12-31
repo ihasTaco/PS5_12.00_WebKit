@@ -1,0 +1,36 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x84
+        RenderText {#text} at (0,0) size 180x21
+          text run at (0,0) width 180: "This is a repaint test for "
+        RenderInline {I} at (0,0) size 784x42
+          RenderInline {A} at (0,0) size 354x21 [color=#0000EE]
+            RenderText {#text} at (180,0) size 354x21
+              text run at (180,0) width 354: "http://bugs.webkit.org/show_bug.cgi?id=11277"
+          RenderText {#text} at (534,0) size 784x42
+            text run at (534,0) width 4: " "
+            text run at (538,0) width 246: "REGRESSION: Incomplete repaint"
+            text run at (0,21) width 241: "of overflow areas when deleting"
+        RenderText {#text} at (241,21) size 776x63
+          text run at (241,21) width 8: ". "
+          text run at (249,21) width 527: "This shows that the repaint rect doesn't account for scrolling. You can"
+          text run at (0,42) width 720: "use Quartz Debug to see that changing the text repaints a rect where the text would have been "
+          text run at (720,42) width 23: "if it"
+          text run at (0,63) width 158: "hadn't been scrolled."
+layer at (8,108) size 80x69 clip at (8,108) size 65x69 scrollY 128 scrollHeight 231
+  RenderBlock {DIV} at (0,100) size 80x69
+    RenderBR {BR} at (0,0) size 0x21
+    RenderBR {BR} at (0,21) size 0x21
+    RenderBR {BR} at (0,42) size 0x21
+    RenderBR {BR} at (0,63) size 0x21
+    RenderBR {BR} at (0,84) size 0x21
+    RenderBR {BR} at (0,105) size 0x21
+    RenderBR {BR} at (0,126) size 0x21
+    RenderBR {BR} at (0,147) size 0x21
+    RenderBR {BR} at (0,168) size 0x21
+    RenderText {#text} at (0,189) size 54x42
+      text run at (0,189) width 54: "Passed"
+      text run at (0,210) width 32: "Test"

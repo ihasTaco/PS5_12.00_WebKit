@@ -1,0 +1,26 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x196
+  RenderBlock {html} at (0,0) size 800x196
+    RenderBlock {parsererror} at (16,16) size 768x143 [bgcolor=#FFDDDD] [border: (2px solid #CC7777)]
+      RenderBlock {h3} at (18,20) size 732x25
+        RenderText {#text} at (0,0) size 359x24
+          text run at (0,0) width 359: "This page contains the following errors:"
+      RenderBlock {div} at (18,63) size 732x17
+        RenderText {#text} at (0,0) size 282x16
+          text run at (0,0) width 282: "error on line 4 at column 13: Entity 'fnof' not defined"
+          text run at (282,0) width 0: " "
+      RenderBlock {h3} at (18,98) size 732x25
+        RenderText {#text} at (0,0) size 475x24
+          text run at (0,0) width 475: "Below is a rendering of the page up to the first error."
+    RenderBlock (anonymous) at (0,174) size 800x22
+      RenderInline {h1} at (0,0) size 0x21
+        RenderText {#text} at (0,0) size 0x0
+      RenderText {#text} at (0,0) size 0x0
+      RenderText {#text} at (0,0) size 0x0
+      RenderInline {p} at (0,0) size 582x21 [color=#FF0000]
+        RenderInline {font} at (0,0) size 582x21
+          RenderText {#text} at (0,0) size 582x21
+            text run at (0,0) width 312: "This should be the only line on this page. "
+            text run at (312,0) width 270: "You should see a parse error above."
+      RenderText {#text} at (0,0) size 0x0

@@ -1,0 +1,15 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,429) size 800x171
+  RenderBlock {HTML} at (0,0) size 800x171
+    RenderBody {BODY} at (8,8) size 784x155
+      RenderText {#text} at (0,0) size 435x47
+        text run at (0,0) width 435: "This is the first line of text."
+      RenderBR {BR} at (435,0) size 0x47
+      RenderImage {IMG} at (0,55) size 20x50 [bgcolor=#008000]
+      RenderText {#text} at (20,47) size 427x47
+        text run at (20,47) width 427: " This is the second line of "
+      RenderImage {IMG} at (447,55) size 20x100 [bgcolor=#800080]
+      RenderText {#text} at (467,47) size 83x47
+        text run at (467,47) width 83: " text."
+caret: position 1 of child 0 {#text} of body

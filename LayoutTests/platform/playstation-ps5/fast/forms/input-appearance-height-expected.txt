@@ -1,0 +1,96 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock (anonymous) at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 767x42
+          text run at (0,0) width 767: "This tests the height attribute of form elements. The only element that should honour this value is the"
+          text run at (0,21) width 151: "Image type of input."
+      RenderBlock {FORM} at (0,42) size 784x277
+        RenderText {#text} at (0,0) size 44x21
+          text run at (0,0) width 44: "input "
+        RenderTextControl {INPUT} at (44,0) size 173x23 [bgcolor=#FFFFFF] [border: (2px inset #000000)]
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (217,0) size 0x21
+        RenderText {#text} at (0,23) size 33x21
+          text run at (0,23) width 33: "text "
+        RenderTextControl {INPUT} at (33,23) size 173x23 [bgcolor=#FFFFFF] [border: (2px inset #000000)]
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (206,23) size 0x21
+        RenderText {#text} at (0,46) size 75x21
+          text run at (0,46) width 75: "checkbox "
+        RenderBlock {INPUT} at (77,50) size 13x13
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (92,46) size 0x21
+        RenderText {#text} at (0,68) size 26x21
+          text run at (0,68) width 26: "file "
+        RenderFileUploadControl {INPUT} at (26,67) size 272x26 "no file selected"
+          RenderButton {INPUT} at (0,0) size 86x26 [bgcolor=#C0C0C0] [border: (2px outset #C0C0C0)]
+            RenderBlock (anonymous) at (8,4) size 70x17
+              RenderText at (0,0) size 70x17
+                text run at (0,0) width 70: "Choose File"
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (298,68) size 0x21
+        RenderText {#text} at (0,93) size 51x21
+          text run at (0,93) width 51: "image "
+        RenderImage {INPUT} at (51,109) size 10x1
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (61,93) size 0x21
+        RenderText {#text} at (0,114) size 43x21
+          text run at (0,114) width 43: "radio "
+        RenderBlock {INPUT} at (45,118) size 13x13
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (60,114) size 0x21
+        RenderText {#text} at (0,135) size 48x21
+          text run at (0,135) width 48: "range "
+        RenderSlider {INPUT} at (50,137) size 129x15 [color=#909090] [bgcolor=#FFFFFF]
+          RenderFlexibleBox {DIV} at (0,0) size 129x15
+            RenderBlock {DIV} at (0,0) size 129x15
+              RenderBlock {DIV} at (57,0) size 15x15
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (181,135) size 0x21
+        RenderText {#text} at (0,157) size 42x21
+          text run at (0,157) width 42: "reset "
+        RenderButton {INPUT} at (42,156) size 51x26 [bgcolor=#C0C0C0] [border: (2px outset #C0C0C0)]
+          RenderBlock (anonymous) at (8,4) size 35x17
+            RenderText at (0,0) size 35x17
+              text run at (0,0) width 35: "Reset"
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (93,157) size 0x21
+        RenderText {#text} at (0,183) size 57x21
+          text run at (0,183) width 57: "submit "
+        RenderButton {INPUT} at (57,182) size 59x26 [bgcolor=#C0C0C0] [border: (2px outset #C0C0C0)]
+          RenderBlock (anonymous) at (8,4) size 43x17
+            RenderText at (0,0) size 43x17
+              text run at (0,0) width 43: "Submit"
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (116,183) size 0x21
+        RenderText {#text} at (0,208) size 57x21
+          text run at (0,208) width 57: "isindex "
+        RenderTextControl {INPUT} at (57,208) size 173x23 [bgcolor=#FFFFFF] [border: (2px inset #000000)]
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (230,208) size 0x21
+        RenderText {#text} at (0,231) size 78x21
+          text run at (0,231) width 78: "password "
+        RenderTextControl {INPUT} at (78,231) size 173x23 [bgcolor=#FFFFFF] [border: (2px inset #000000)]
+        RenderText {#text} at (0,0) size 0x0
+        RenderBR {BR} at (251,231) size 0x21
+        RenderText {#text} at (0,254) size 54x21
+          text run at (0,254) width 54: "search "
+        RenderTextControl {INPUT} at (54,254) size 173x23 [bgcolor=#FFFFFF] [border: (2px inset #000000)]
+          RenderFlexibleBox {DIV} at (3,3) size 167x17
+            RenderBlock {DIV} at (0,8) size 0x0
+            RenderBlock {DIV} at (0,0) size 167x17
+            RenderBlock {DIV} at (167,8) size 0x0
+        RenderText {#text} at (0,0) size 0x0
+layer at (55,53) size 167x17
+  RenderBlock {DIV} at (3,3) size 167x17
+layer at (44,76) size 167x17
+  RenderBlock {DIV} at (3,3) size 167x17
+layer at (68,261) size 167x17
+  RenderBlock {DIV} at (3,3) size 167x17
+layer at (89,284) size 167x17
+  RenderBlock {DIV} at (3,3) size 167x17
+layer at (65,307) size 167x17
+  RenderBlock {DIV} at (0,0) size 167x17

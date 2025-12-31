@@ -1,0 +1,30 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,18) size 784x21
+        RenderText {#text} at (0,0) size 61x21
+          text run at (0,0) width 61: "Test for "
+        RenderInline {I} at (0,0) size 661x21
+          RenderInline {A} at (0,0) size 358x21 [color=#0000EE]
+            RenderText {#text} at (61,0) size 358x21
+              text run at (61,0) width 358: "https://bugs.webkit.org/show_bug.cgi?id=9221"
+          RenderText {#text} at (419,0) size 303x21
+            text run at (419,0) width 4: " "
+            text run at (423,0) width 299: "resize property doesn't work on iframes"
+        RenderText {#text} at (722,0) size 4x21
+          text run at (722,0) width 4: "."
+      RenderBlock (anonymous) at (0,65) size 784x230
+        RenderText {#text} at (0,0) size 0x0
+layer at (8,8) size 784x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,0) size 784x2 [border: (1px inset #000000)]
+layer at (8,63) size 784x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,55) size 784x2 [border: (1px inset #000000)]
+layer at (58,123) size 163x130
+  RenderIFrame {IFRAME} at (50,50) size 163x130 [border: (2px solid #0000FF)]
+    layer at (0,0) size 159x126
+      RenderView at (0,0) size 159x126
+    layer at (0,0) size 159x126
+      RenderBlock {HTML} at (0,0) size 159x126
+        RenderBody {BODY} at (8,8) size 143x110

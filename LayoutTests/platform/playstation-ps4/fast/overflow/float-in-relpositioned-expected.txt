@@ -1,0 +1,44 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x582
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 61x21
+          text run at (0,0) width 61: "Test for "
+        RenderInline {I} at (0,0) size 658x42
+          RenderInline {A} at (0,0) size 188x21 [color=#0000EE]
+            RenderText {#text} at (61,0) size 188x21
+              text run at (61,0) width 188: "rdar://problem/6059648"
+          RenderText {#text} at (249,0) size 658x42
+            text run at (249,0) width 4: " "
+            text run at (253,0) width 405: "Some content not visible when the window is short at"
+            text run at (0,21) width 163: "courtneyalbright.com"
+        RenderText {#text} at (163,21) size 4x21
+          text run at (163,21) width 4: "."
+      RenderBlock {P} at (0,58) size 784x21
+        RenderText {#text} at (0,0) size 750x21
+          text run at (0,0) width 557: "Each black box below should have a scroll bar allowing the blue square to "
+          text run at (557,0) width 193: "be scrolled fully into view."
+layer at (18,103) size 102x102 clip at (19,104) size 100x85 scrollWidth 125
+  RenderBlock {DIV} at (10,95) size 102x102 [border: (1px solid #000000)]
+layer at (18,215) size 102x102 clip at (19,216) size 85x100 scrollHeight 125
+  RenderBlock {DIV} at (10,207) size 102x102 [border: (1px solid #000000)]
+layer at (18,327) size 102x102 clip at (19,328) size 100x85 scrollWidth 125
+  RenderBlock {DIV} at (10,319) size 102x102 [border: (1px solid #000000)]
+layer at (18,439) size 102x102 clip at (19,440) size 85x100 scrollHeight 125
+  RenderBlock {DIV} at (10,431) size 102x102 [border: (1px solid #000000)]
+layer at (69,104) size 25x25
+  RenderBlock (relative positioned) {DIV} at (1,1) size 25x25 [bgcolor=#000000]
+    RenderBlock (floating) {DIV} at (0,0) size 75x75 [bgcolor=#0000FF80]
+layer at (19,266) size 25x25
+  RenderBlock (relative positioned) {DIV} at (1,1) size 25x25 [bgcolor=#000000]
+    RenderBlock (floating) {DIV} at (0,0) size 75x75 [bgcolor=#0000FF80]
+layer at (69,328) size 25x25
+  RenderBlock (relative positioned) {DIV} at (1,1) size 25x25 [bgcolor=#000000]
+layer at (69,328) size 75x75 backgroundClip at (19,328) size 100x85 clip at (19,328) size 100x85
+  RenderBlock (positioned) {DIV} at (0,0) size 75x75 [bgcolor=#0000FF80]
+layer at (19,490) size 25x25
+  RenderBlock (relative positioned) {DIV} at (1,1) size 25x25 [bgcolor=#000000]
+layer at (19,490) size 75x75 backgroundClip at (19,440) size 85x100 clip at (19,440) size 85x100
+  RenderBlock (positioned) {DIV} at (0,0) size 75x75 [bgcolor=#0000FF80]

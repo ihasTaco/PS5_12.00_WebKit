@@ -1,0 +1,27 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x156
+  RenderBlock {HTML} at (0,0) size 800x156
+    RenderBody {BODY} at (8,8) size 784x140
+      RenderBlock {DIV} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 118x21
+          text run at (0,0) width 118: "Select this text. "
+        RenderInline {FONT} at (0,0) size 768x34
+          RenderText {#text} at (118,6) size 768x34
+            text run at (118,6) width 99: "I am teeny and tiny. "
+            text run at (217,6) width 355: "I am going to have lots of text but each line should retain the big height. "
+            text run at (572,6) width 196: "If the lines shrink, it means that the root"
+            text run at (0,27) width 282: "line box's height is not being considered and that's wrong."
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {P} at (0,58) size 784x0
+      RenderBlock {DIV} at (0,58) size 784x82
+        RenderInline {FONT} at (0,0) size 777x82
+          RenderText {#text} at (0,0) size 488x41
+            text run at (0,0) width 488: "This text is absolutely enormous. "
+          RenderInline {FONT} at (0,0) size 777x54
+            RenderText {#text} at (488,23) size 777x54
+              text run at (488,23) width 99: "I am teeny and tiny. "
+              text run at (587,23) width 190: "I am going to have lots of text but each"
+              text run at (0,64) width 162: "line should retain the big height. "
+              text run at (162,64) width 491: "If the lines shrink, it means that the span's line box's height is not being considered and that's wrong."
+          RenderText {#text} at (0,0) size 0x0

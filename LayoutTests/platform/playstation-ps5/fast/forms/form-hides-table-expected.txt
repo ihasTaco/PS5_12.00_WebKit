@@ -1,0 +1,170 @@
+layer at (0,0) size 785x712
+  RenderView at (0,0) size 785x600
+layer at (0,0) size 785x712
+  RenderBlock {HTML} at (0,0) size 785x712
+    RenderBody {BODY} at (8,8) size 769x696
+      RenderBlock {P} at (0,0) size 769x21
+        RenderText {#text} at (0,0) size 652x21
+          text run at (0,0) width 652: "This page has a few tables within form elements within divs with various display styles."
+      RenderBlock {P} at (0,37) size 769x21
+        RenderText {#text} at (0,0) size 31x21
+          text run at (0,0) width 31: "See "
+        RenderInline {A} at (0,0) size 131x21 [color=#0000EE]
+          RenderText {#text} at (31,0) size 131x21
+            text run at (31,0) width 131: "Bugzilla Bug 4977"
+        RenderText {#text} at (162,0) size 4x21
+          text run at (162,0) width 4: "."
+      RenderBlock {DIV} at (0,74) size 769x27
+        RenderBlock (anonymous) at (0,0) size 769x0
+          RenderInline {DIV} at (0,0) size 0x0
+        RenderBlock (anonymous) at (0,0) size 769x27
+          RenderBlock {FORM} at (0,0) size 769x27
+            RenderTable {TABLE} at (0,0) size 109x27
+              RenderTableSection {TBODY} at (0,0) size 109x27
+                RenderTableRow {TR} at (0,2) size 109x23
+                  RenderTableCell {TD} at (2,2) size 105x23 [r=0 c=0 rs=1 cs=1]
+                    RenderText {#text} at (1,1) size 103x21
+                      text run at (1,1) width 103: "display: inline"
+        RenderBlock (anonymous) at (0,43) size 769x0
+          RenderInline {DIV} at (0,0) size 0x0
+      RenderBlock {DIV} at (0,117) size 769x27
+        RenderBlock {DIV} at (0,0) size 769x27
+          RenderBlock {FORM} at (0,0) size 769x27
+            RenderTable {TABLE} at (0,0) size 108x27
+              RenderTableSection {TBODY} at (0,0) size 108x27
+                RenderTableRow {TR} at (0,2) size 108x23
+                  RenderTableCell {TD} at (2,2) size 104x23 [r=0 c=0 rs=1 cs=1]
+                    RenderText {#text} at (1,1) size 102x21
+                      text run at (1,1) width 102: "display: block"
+      RenderBlock {DIV} at (0,160) size 769x48
+        RenderListItem {DIV} at (0,0) size 769x48
+          RenderBlock (anonymous) at (0,0) size 769x21
+            RenderListMarker at (-19,0) size 8x21: bullet
+          RenderBlock {FORM} at (0,21) size 769x27
+            RenderTable {TABLE} at (0,0) size 130x27
+              RenderTableSection {TBODY} at (0,0) size 130x27
+                RenderTableRow {TR} at (0,2) size 130x23
+                  RenderTableCell {TD} at (2,2) size 126x23 [r=0 c=0 rs=1 cs=1]
+                    RenderText {#text} at (1,1) size 124x21
+                      text run at (1,1) width 124: "display: list-item"
+      RenderBlock {DIV} at (0,224) size 769x27
+        RenderBlock {DIV} at (0,0) size 769x27
+          RenderBlock {FORM} at (0,0) size 769x27
+            RenderTable {TABLE} at (0,0) size 134x27
+              RenderTableSection {TBODY} at (0,0) size 134x27
+                RenderTableRow {TR} at (0,2) size 134x23
+                  RenderTableCell {TD} at (2,2) size 130x23 [r=0 c=0 rs=1 cs=1]
+                    RenderText {#text} at (1,1) size 128x21
+                      text run at (1,1) width 128: "display: compact"
+      RenderBlock {DIV} at (0,267) size 769x43
+        RenderBlock {DIV} at (0,0) size 155x43
+          RenderBlock {FORM} at (0,0) size 155x27
+            RenderTable {TABLE} at (0,0) size 155x27
+              RenderTableSection {TBODY} at (0,0) size 155x27
+                RenderTableRow {TR} at (0,2) size 155x23
+                  RenderTableCell {TD} at (2,2) size 151x23 [r=0 c=0 rs=1 cs=1]
+                    RenderText {#text} at (1,1) size 149x21
+                      text run at (1,1) width 149: "display: inline-block"
+      RenderBlock {DIV} at (0,310) size 769x43
+        RenderTable {DIV} at (0,0) size 106x43
+          RenderTableSection (anonymous) at (0,0) size 106x43
+            RenderTableRow (anonymous) at (0,0) size 106x43
+              RenderTableCell (anonymous) at (0,0) size 106x43 [r=0 c=0 rs=1 cs=1]
+                RenderBlock {FORM} at (0,0) size 106x27
+                  RenderTable {TABLE} at (0,0) size 106x27
+                    RenderTableSection {TBODY} at (0,0) size 106x27
+                      RenderTableRow {TR} at (0,2) size 106x23
+                        RenderTableCell {TD} at (2,2) size 102x23 [r=0 c=0 rs=1 cs=1]
+                          RenderText {#text} at (1,1) size 100x21
+                            text run at (1,1) width 100: "display: table"
+      RenderBlock {DIV} at (0,353) size 769x43
+        RenderTable {DIV} at (0,0) size 153x43
+          RenderTableSection (anonymous) at (0,0) size 153x43
+            RenderTableRow (anonymous) at (0,0) size 153x43
+              RenderTableCell (anonymous) at (0,0) size 153x43 [r=0 c=0 rs=1 cs=1]
+                RenderBlock {FORM} at (0,0) size 153x27
+                  RenderTable {TABLE} at (0,0) size 153x27
+                    RenderTableSection {TBODY} at (0,0) size 153x27
+                      RenderTableRow {TR} at (0,2) size 153x23
+                        RenderTableCell {TD} at (2,2) size 149x23 [r=0 c=0 rs=1 cs=1]
+                          RenderText {#text} at (1,1) size 147x21
+                            text run at (1,1) width 147: "display: inline-table"
+      RenderBlock {DIV} at (0,396) size 769x43
+        RenderTable at (0,0) size 193x43
+          RenderTableSection {DIV} at (0,0) size 193x43
+            RenderTableRow (anonymous) at (0,0) size 193x43
+              RenderTableCell (anonymous) at (0,0) size 193x43 [r=0 c=0 rs=1 cs=1]
+                RenderBlock {FORM} at (0,0) size 193x27
+                  RenderTable {TABLE} at (0,0) size 193x27
+                    RenderTableSection {TBODY} at (0,0) size 193x27
+                      RenderTableRow {TR} at (0,2) size 193x23
+                        RenderTableCell {TD} at (2,2) size 189x23 [r=0 c=0 rs=1 cs=1]
+                          RenderText {#text} at (1,1) size 187x21
+                            text run at (1,1) width 187: "display: table-row-group"
+      RenderBlock {DIV} at (0,439) size 769x43
+        RenderTable at (0,0) size 217x43
+          RenderTableSection {DIV} at (0,0) size 217x43
+            RenderTableRow (anonymous) at (0,0) size 217x43
+              RenderTableCell (anonymous) at (0,0) size 217x43 [r=0 c=0 rs=1 cs=1]
+                RenderBlock {FORM} at (0,0) size 217x27
+                  RenderTable {TABLE} at (0,0) size 217x27
+                    RenderTableSection {TBODY} at (0,0) size 217x27
+                      RenderTableRow {TR} at (0,2) size 217x23
+                        RenderTableCell {TD} at (2,2) size 213x23 [r=0 c=0 rs=1 cs=1]
+                          RenderText {#text} at (1,1) size 211x21
+                            text run at (1,1) width 211: "display: table-header-group"
+      RenderBlock {DIV} at (0,482) size 769x43
+        RenderTable at (0,0) size 210x43
+          RenderTableSection {DIV} at (0,0) size 210x43
+            RenderTableRow (anonymous) at (0,0) size 210x43
+              RenderTableCell (anonymous) at (0,0) size 210x43 [r=0 c=0 rs=1 cs=1]
+                RenderBlock {FORM} at (0,0) size 210x27
+                  RenderTable {TABLE} at (0,0) size 210x27
+                    RenderTableSection {TBODY} at (0,0) size 210x27
+                      RenderTableRow {TR} at (0,2) size 210x23
+                        RenderTableCell {TD} at (2,2) size 206x23 [r=0 c=0 rs=1 cs=1]
+                          RenderText {#text} at (1,1) size 204x21
+                            text run at (1,1) width 204: "display: table-footer-group"
+      RenderBlock {DIV} at (0,525) size 769x43
+        RenderTable at (0,0) size 141x43
+          RenderTableSection (anonymous) at (0,0) size 141x43
+            RenderTableRow {DIV} at (0,0) size 141x43
+              RenderTableCell (anonymous) at (0,0) size 141x43 [r=0 c=0 rs=1 cs=1]
+                RenderBlock {FORM} at (0,0) size 141x27
+                  RenderTable {TABLE} at (0,0) size 141x27
+                    RenderTableSection {TBODY} at (0,0) size 141x27
+                      RenderTableRow {TR} at (0,2) size 141x23
+                        RenderTableCell {TD} at (2,2) size 137x23 [r=0 c=0 rs=1 cs=1]
+                          RenderText {#text} at (1,1) size 135x21
+                            text run at (1,1) width 135: "display: table-row"
+      RenderBlock {DIV} at (0,568) size 769x0
+        RenderTable at (0,0) size 0x0
+          RenderTableCol {DIV} at (0,0) size 0x0
+      RenderBlock {DIV} at (0,568) size 769x0
+        RenderTable at (0,0) size 0x0
+          RenderTableCol at (0,0) size 0x0
+            RenderTableCol {DIV} at (0,0) size 0x0
+      RenderBlock {DIV} at (0,568) size 769x43
+        RenderTable at (0,0) size 137x43
+          RenderTableSection (anonymous) at (0,0) size 137x43
+            RenderTableRow (anonymous) at (0,0) size 137x43
+              RenderTableCell {DIV} at (0,0) size 137x43 [r=0 c=0 rs=1 cs=1]
+                RenderBlock {FORM} at (0,0) size 137x27
+                  RenderTable {TABLE} at (0,0) size 137x27
+                    RenderTableSection {TBODY} at (0,0) size 137x27
+                      RenderTableRow {TR} at (0,2) size 137x23
+                        RenderTableCell {TD} at (2,2) size 133x23 [r=0 c=0 rs=1 cs=1]
+                          RenderText {#text} at (1,1) size 131x21
+                            text run at (1,1) width 131: "display: table-cell"
+      RenderBlock {DIV} at (0,611) size 769x85
+        RenderTable at (0,0) size 64x85
+          RenderBlock {DIV} at (0,0) size 64x85
+            RenderBlock {FORM} at (0,0) size 64x69
+              RenderTable {TABLE} at (0,0) size 64x69
+                RenderTableSection {TBODY} at (0,0) size 64x69
+                  RenderTableRow {TR} at (0,2) size 64x65
+                    RenderTableCell {TD} at (2,2) size 60x65 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 58x63
+                        text run at (1,1) width 58: "display:"
+                        text run at (1,22) width 44: "table-"
+                        text run at (1,43) width 57: "caption"

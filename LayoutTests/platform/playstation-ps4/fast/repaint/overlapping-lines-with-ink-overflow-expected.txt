@@ -1,0 +1,11 @@
+XXX
+XXX
+XXX
+XXX
+(repaint rects
+  (rect 50 34 700 72)
+  (rect 34 140 72 72)
+  (rect 50 34 700 72)
+  (rect 34 140 72 72)
+)
+

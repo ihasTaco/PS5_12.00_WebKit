@@ -1,0 +1,19 @@
+This test that the time line is valid.
+
+EVENT(canplaythrough)
+timeline rect = {131,240.5}
+timeline size = {72,17}
+current time display rect = {16,269}
+current time display size = {32,0}
+time remaining display rect = {16,269}
+time remaining display size = {37,0}
+
+**Click timeline.
+EVENT(seeked)
+currentTime = 3.01
+
+**Drag timeline x - 20px.
+EVENT(seeked)
+currentTime = 1.27
+END OF TEST
+

@@ -1,0 +1,1212 @@
+layer at (0,0) size 785x8380
+  RenderView at (0,0) size 785x600
+layer at (0,0) size 785x8380
+  RenderBlock {HTML} at (0,0) size 785x8380
+    RenderBody {BODY} at (8,8) size 769x8364
+      RenderBlock (anonymous) at (0,0) size 769x21
+        RenderText {#text} at (0,0) size 508x21
+          text run at (0,0) width 508: "This is a test of all the various HTML alignments using LTR direction."
+      RenderBlock {DIV} at (0,21) size 769x250 [border: (4px solid #008000)]
+        RenderBlock {DIV} at (6,6) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (4,4) size 214x21
+            text run at (4,4) width 214: "Normal div inside normal div"
+        RenderBlock {DIV} at (6,35) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (4,4) size 187x21
+            text run at (4,4) width 187: "Left div inside normal div"
+        RenderBlock {DIV} at (6,64) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (274,4) size 209x21
+            text run at (274,4) width 209: "Center div inside normal div"
+        RenderBlock {DIV} at (6,93) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (554,4) size 199x21
+            text run at (554,4) width 199: "Right div inside normal div"
+        RenderBlock {CENTER} at (6,122) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (272,4) size 213x21
+            text run at (272,4) width 213: "Center tag inside normal div"
+        RenderTable {TABLE} at (6,151) size 111x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 107x27
+            RenderTableRow {TR} at (0,2) size 107x23
+              RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 101x21
+                  text run at (1,1) width 101: "Normal table."
+        RenderTable {TABLE} at (301,182) size 167x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 162x27
+            RenderTableRow {TR} at (0,2) size 162x23
+              RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 156x21
+                  text run at (1,1) width 156: "Center aligned table."
+        RenderTable {TABLE} at (8,213) size 222x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 218x27
+            RenderTableRow {TR} at (0,2) size 218x23
+              RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 212x21
+                  text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderBlock {DIV} at (0,271) size 769x250 [border: (4px solid #800080)]
+        RenderBlock {DIV} at (6,6) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (4,4) size 301x21
+            text run at (4,4) width 301: "Normal fixed width div inside normal div"
+        RenderBlock {DIV} at (6,35) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (4,4) size 274x21
+            text run at (4,4) width 274: "Left fixed width div inside normal div"
+        RenderBlock {DIV} at (6,64) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (56,4) size 296x21
+            text run at (56,4) width 296: "Center fixed width div inside normal div"
+        RenderBlock {DIV} at (6,93) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (118,4) size 286x21
+            text run at (118,4) width 286: "Right fixed width div inside normal div"
+        RenderBlock {CENTER} at (6,122) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (49,4) size 310x21
+            text run at (49,4) width 310: "Center tag (fixed width) inside normal div"
+        RenderTable {TABLE} at (6,151) size 400x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 396x27
+            RenderTableRow {TR} at (0,2) size 396x23
+              RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 101x21
+                  text run at (1,1) width 101: "Normal table."
+        RenderTable {TABLE} at (184,182) size 401x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 396x27
+            RenderTableRow {TR} at (0,2) size 396x23
+              RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 156x21
+                  text run at (1,1) width 156: "Center aligned table."
+        RenderTable {TABLE} at (8,213) size 400x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 396x27
+            RenderTableRow {TR} at (0,2) size 396x23
+              RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 212x21
+                  text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderBlock {DIV} at (0,521) size 769x250 [border: (4px solid #008000)]
+        RenderBlock {DIV} at (6,6) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (4,4) size 230x21
+            text run at (4,4) width 230: "Normal div inside align=left div"
+        RenderBlock {DIV} at (6,35) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (4,4) size 203x21
+            text run at (4,4) width 203: "Left div inside align=left div"
+        RenderBlock {DIV} at (6,64) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (266,4) size 225x21
+            text run at (266,4) width 225: "Center div inside align=left div"
+        RenderBlock {DIV} at (6,93) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (538,4) size 215x21
+            text run at (538,4) width 215: "Right div inside align=left div"
+        RenderBlock {CENTER} at (6,122) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (264,4) size 229x21
+            text run at (264,4) width 229: "Center tag inside align=left div"
+        RenderTable {TABLE} at (6,151) size 111x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 107x27
+            RenderTableRow {TR} at (0,2) size 107x23
+              RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 101x21
+                  text run at (1,1) width 101: "Normal table."
+        RenderTable {TABLE} at (301,182) size 167x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 162x27
+            RenderTableRow {TR} at (0,2) size 162x23
+              RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 156x21
+                  text run at (1,1) width 156: "Center aligned table."
+        RenderTable {TABLE} at (8,213) size 222x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 218x27
+            RenderTableRow {TR} at (0,2) size 218x23
+              RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 212x21
+                  text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderBlock {DIV} at (0,771) size 769x250 [border: (4px solid #800080)]
+        RenderBlock {DIV} at (6,6) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (4,4) size 317x21
+            text run at (4,4) width 317: "Normal fixed width div inside align=left div"
+        RenderBlock {DIV} at (6,35) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (4,4) size 290x21
+            text run at (4,4) width 290: "Left fixed width div inside align=left div"
+        RenderBlock {DIV} at (6,64) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (48,4) size 312x21
+            text run at (48,4) width 312: "Center fixed width div inside align=left div"
+        RenderBlock {DIV} at (6,93) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (102,4) size 302x21
+            text run at (102,4) width 302: "Right fixed width div inside align=left div"
+        RenderBlock {CENTER} at (6,122) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (41,4) size 326x21
+            text run at (41,4) width 326: "Center tag (fixed width) inside align=left div"
+        RenderTable {TABLE} at (6,151) size 400x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 396x27
+            RenderTableRow {TR} at (0,2) size 396x23
+              RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 101x21
+                  text run at (1,1) width 101: "Normal table."
+        RenderTable {TABLE} at (184,182) size 401x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 396x27
+            RenderTableRow {TR} at (0,2) size 396x23
+              RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 156x21
+                  text run at (1,1) width 156: "Center aligned table."
+        RenderTable {TABLE} at (8,213) size 400x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 396x27
+            RenderTableRow {TR} at (0,2) size 396x23
+              RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 212x21
+                  text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderBlock {DIV} at (0,1021) size 769x250 [border: (4px solid #008000)]
+        RenderBlock {DIV} at (6,6) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (249,4) size 259x21
+            text run at (249,4) width 259: "Normal div inside align= center div"
+        RenderBlock {DIV} at (6,35) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (4,4) size 227x21
+            text run at (4,4) width 227: "Left div inside align=center div"
+        RenderBlock {DIV} at (6,64) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (254,4) size 249x21
+            text run at (254,4) width 249: "Center div inside align=center div"
+        RenderBlock {DIV} at (6,93) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (514,4) size 239x21
+            text run at (514,4) width 239: "Right div inside align=center div"
+        RenderBlock {CENTER} at (6,122) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (252,4) size 253x21
+            text run at (252,4) width 253: "Center tag inside align=center div"
+        RenderTable {TABLE} at (329,151) size 111x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 107x27
+            RenderTableRow {TR} at (0,2) size 107x23
+              RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 101x21
+                  text run at (1,1) width 101: "Normal table."
+        RenderTable {TABLE} at (301,182) size 167x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 162x27
+            RenderTableRow {TR} at (0,2) size 162x23
+              RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 156x21
+                  text run at (1,1) width 156: "Center aligned table."
+        RenderTable {TABLE} at (273,213) size 223x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 218x27
+            RenderTableRow {TR} at (0,2) size 218x23
+              RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 212x21
+                  text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderBlock {DIV} at (0,1271) size 769x350 [border: (4px solid #800080)]
+        RenderBlock {DIV} at (180,6) size 409x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (33,4) size 342x21
+            text run at (33,4) width 342: "Normal fixed width div inside align=center div"
+        RenderBlock {DIV} at (355,35) size 408x50 [border: (2px solid #0000FF)]
+          RenderText {#text} at (28,4) size 352x42
+            text run at (28,4) width 352: "Normal fixed width div (auto left margin) inside"
+            text run at (144,25) width 120: "align=center div"
+        RenderBlock {DIV} at (6,85) size 408x50 [border: (2px solid #0000FF)]
+          RenderText {#text} at (22,4) size 364x42
+            text run at (22,4) width 364: "Normal fixed width div (auto right margin) inside"
+            text run at (144,25) width 120: "align=center div"
+        RenderBlock {DIV} at (180,135) size 409x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (4,4) size 314x21
+            text run at (4,4) width 314: "Left fixed width div inside align=center div"
+        RenderBlock {DIV} at (180,164) size 409x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (36,4) size 336x21
+            text run at (36,4) width 336: "Center fixed width div inside align=center div"
+        RenderBlock {DIV} at (180,193) size 409x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (78,4) size 326x21
+            text run at (78,4) width 326: "Right fixed width div inside align=center div"
+        RenderBlock {CENTER} at (180,222) size 409x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (29,4) size 350x21
+            text run at (29,4) width 350: "Center tag (fixed width) inside align=center div"
+        RenderTable {TABLE} at (184,251) size 401x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 396x27
+            RenderTableRow {TR} at (0,2) size 396x23
+              RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 101x21
+                  text run at (1,1) width 101: "Normal table."
+        RenderTable {TABLE} at (184,282) size 401x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 396x27
+            RenderTableRow {TR} at (0,2) size 396x23
+              RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 156x21
+                  text run at (1,1) width 156: "Center aligned table."
+        RenderTable {TABLE} at (184,313) size 401x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 396x27
+            RenderTableRow {TR} at (0,2) size 396x23
+              RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 212x21
+                  text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderBlock {DIV} at (0,1621) size 769x250 [border: (4px solid #008000)]
+        RenderBlock {DIV} at (6,6) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (511,4) size 242x21
+            text run at (511,4) width 242: "Normal div inside align=right div"
+        RenderBlock {DIV} at (6,35) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (4,4) size 215x21
+            text run at (4,4) width 215: "Left div inside align=right div"
+        RenderBlock {DIV} at (6,64) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (260,4) size 237x21
+            text run at (260,4) width 237: "Center div inside align=right div"
+        RenderBlock {DIV} at (6,93) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (526,4) size 227x21
+            text run at (526,4) width 227: "Right div inside align=right div"
+        RenderBlock {CENTER} at (6,122) size 757x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (258,4) size 241x21
+            text run at (258,4) width 241: "Center tag inside align=right div"
+        RenderTable {TABLE} at (652,151) size 111x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 107x27
+            RenderTableRow {TR} at (0,2) size 107x23
+              RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 101x21
+                  text run at (1,1) width 101: "Normal table."
+        RenderTable {TABLE} at (301,182) size 167x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 162x27
+            RenderTableRow {TR} at (0,2) size 162x23
+              RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 156x21
+                  text run at (1,1) width 156: "Center aligned table."
+        RenderTable {TABLE} at (539,213) size 222x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 218x27
+            RenderTableRow {TR} at (0,2) size 218x23
+              RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 212x21
+                  text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderBlock {DIV} at (0,1871) size 769x250 [border: (4px solid #800080)]
+        RenderBlock {DIV} at (355,6) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (75,4) size 329x21
+            text run at (75,4) width 329: "Normal fixed width div inside align=right div"
+        RenderBlock {DIV} at (355,35) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (4,4) size 302x21
+            text run at (4,4) width 302: "Left fixed width div inside align=right div"
+        RenderBlock {DIV} at (355,64) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (42,4) size 324x21
+            text run at (42,4) width 324: "Center fixed width div inside align=right div"
+        RenderBlock {DIV} at (355,93) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (90,4) size 314x21
+            text run at (90,4) width 314: "Right fixed width div inside align=right div"
+        RenderBlock {CENTER} at (355,122) size 408x29 [border: (2px solid #0000FF)]
+          RenderText {#text} at (35,4) size 338x21
+            text run at (35,4) width 338: "Center tag (fixed width) inside align=right div"
+        RenderTable {TABLE} at (363,151) size 400x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 396x27
+            RenderTableRow {TR} at (0,2) size 396x23
+              RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 101x21
+                  text run at (1,1) width 101: "Normal table."
+        RenderTable {TABLE} at (184,182) size 401x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 396x27
+            RenderTableRow {TR} at (0,2) size 396x23
+              RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 156x21
+                  text run at (1,1) width 156: "Center aligned table."
+        RenderTable {TABLE} at (361,213) size 400x31 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 396x27
+            RenderTableRow {TR} at (0,2) size 396x23
+              RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 212x21
+                  text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderBlock {P} at (0,2137) size 769x21
+        RenderText {#text} at (0,0) size 411x21
+          text run at (0,0) width 411: "This is a test using TABLE cells (all in the LTR direction)."
+      RenderTable {TABLE} at (0,2174) size 769x256 [border: (2px solid #0000FF)]
+        RenderTableSection {TBODY} at (2,2) size 765x252
+          RenderTableRow {TR} at (0,2) size 765x248
+            RenderTableCell {TD} at (2,2) size 761x248 [border: (4px solid #008000)] [r=0 c=0 rs=1 cs=1]
+              RenderBlock {DIV} at (5,5) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (4,4) size 208x21
+                  text run at (4,4) width 208: "Normal div inside normal td"
+              RenderBlock {DIV} at (5,34) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (4,4) size 181x21
+                  text run at (4,4) width 181: "Left div inside normal td"
+              RenderBlock {DIV} at (5,63) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (274,4) size 203x21
+                  text run at (274,4) width 203: "Center div inside normal td"
+              RenderBlock {DIV} at (5,92) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (554,4) size 193x21
+                  text run at (554,4) width 193: "Right div inside normal td"
+              RenderBlock {CENTER} at (5,121) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (272,4) size 207x21
+                  text run at (272,4) width 207: "Center tag inside normal td"
+              RenderTable {TABLE} at (5,150) size 111x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 107x27
+                  RenderTableRow {TR} at (0,2) size 107x23
+                    RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 101x21
+                        text run at (1,1) width 101: "Normal table."
+              RenderTable {TABLE} at (297,181) size 167x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 162x27
+                  RenderTableRow {TR} at (0,2) size 162x23
+                    RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 156x21
+                        text run at (1,1) width 156: "Center aligned table."
+              RenderTable {TABLE} at (7,212) size 222x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 218x27
+                  RenderTableRow {TR} at (0,2) size 218x23
+                    RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 212x21
+                        text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderTable {TABLE} at (0,2430) size 769x256 [border: (2px solid #0000FF)]
+        RenderTableSection {TBODY} at (2,2) size 765x252
+          RenderTableRow {TR} at (0,2) size 765x248
+            RenderTableCell {TD} at (2,2) size 761x248 [border: (4px solid #800080)] [r=0 c=0 rs=1 cs=1]
+              RenderBlock {DIV} at (5,5) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (4,4) size 295x21
+                  text run at (4,4) width 295: "Normal fixed width div inside normal td"
+              RenderBlock {DIV} at (5,34) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (4,4) size 268x21
+                  text run at (4,4) width 268: "Left fixed width div inside normal td"
+              RenderBlock {DIV} at (5,63) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (59,4) size 290x21
+                  text run at (59,4) width 290: "Center fixed width div inside normal td"
+              RenderBlock {DIV} at (5,92) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (124,4) size 280x21
+                  text run at (124,4) width 280: "Right fixed width div inside normal td"
+              RenderBlock {CENTER} at (5,121) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (52,4) size 304x21
+                  text run at (52,4) width 304: "Center tag (fixed width) inside normal td"
+              RenderTable {TABLE} at (5,150) size 400x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 396x27
+                  RenderTableRow {TR} at (0,2) size 396x23
+                    RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 101x21
+                        text run at (1,1) width 101: "Normal table."
+              RenderTable {TABLE} at (180,181) size 401x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 396x27
+                  RenderTableRow {TR} at (0,2) size 396x23
+                    RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 156x21
+                        text run at (1,1) width 156: "Center aligned table."
+              RenderTable {TABLE} at (7,212) size 400x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 396x27
+                  RenderTableRow {TR} at (0,2) size 396x23
+                    RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 212x21
+                        text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderTable {TABLE} at (0,2686) size 769x256 [border: (2px solid #0000FF)]
+        RenderTableSection {TBODY} at (2,2) size 765x252
+          RenderTableRow {TR} at (0,2) size 765x248
+            RenderTableCell {TD} at (2,2) size 761x248 [border: (4px solid #008000)] [r=0 c=0 rs=1 cs=1]
+              RenderBlock {DIV} at (5,5) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (4,4) size 224x21
+                  text run at (4,4) width 224: "Normal div inside align=left td"
+              RenderBlock {DIV} at (5,34) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (4,4) size 197x21
+                  text run at (4,4) width 197: "Left div inside align=left td"
+              RenderBlock {DIV} at (5,63) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (266,4) size 219x21
+                  text run at (266,4) width 219: "Center div inside align=left td"
+              RenderBlock {DIV} at (5,92) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (538,4) size 209x21
+                  text run at (538,4) width 209: "Right div inside align=left td"
+              RenderBlock {CENTER} at (5,121) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (264,4) size 223x21
+                  text run at (264,4) width 223: "Center tag inside align=left td"
+              RenderTable {TABLE} at (5,150) size 111x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 107x27
+                  RenderTableRow {TR} at (0,2) size 107x23
+                    RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 101x21
+                        text run at (1,1) width 101: "Normal table."
+              RenderTable {TABLE} at (297,181) size 167x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 162x27
+                  RenderTableRow {TR} at (0,2) size 162x23
+                    RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 156x21
+                        text run at (1,1) width 156: "Center aligned table."
+              RenderTable {TABLE} at (7,212) size 222x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 218x27
+                  RenderTableRow {TR} at (0,2) size 218x23
+                    RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 212x21
+                        text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderTable {TABLE} at (0,2942) size 769x256 [border: (2px solid #0000FF)]
+        RenderTableSection {TBODY} at (2,2) size 765x252
+          RenderTableRow {TR} at (0,2) size 765x248
+            RenderTableCell {TD} at (2,2) size 761x248 [border: (4px solid #800080)] [r=0 c=0 rs=1 cs=1]
+              RenderBlock {DIV} at (5,5) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (4,4) size 311x21
+                  text run at (4,4) width 311: "Normal fixed width div inside align=left td"
+              RenderBlock {DIV} at (5,34) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (4,4) size 284x21
+                  text run at (4,4) width 284: "Left fixed width div inside align=left td"
+              RenderBlock {DIV} at (5,63) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (51,4) size 306x21
+                  text run at (51,4) width 306: "Center fixed width div inside align=left td"
+              RenderBlock {DIV} at (5,92) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (108,4) size 296x21
+                  text run at (108,4) width 296: "Right fixed width div inside align=left td"
+              RenderBlock {CENTER} at (5,121) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (44,4) size 320x21
+                  text run at (44,4) width 320: "Center tag (fixed width) inside align=left td"
+              RenderTable {TABLE} at (5,150) size 400x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 396x27
+                  RenderTableRow {TR} at (0,2) size 396x23
+                    RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 101x21
+                        text run at (1,1) width 101: "Normal table."
+              RenderTable {TABLE} at (180,181) size 401x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 396x27
+                  RenderTableRow {TR} at (0,2) size 396x23
+                    RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 156x21
+                        text run at (1,1) width 156: "Center aligned table."
+              RenderTable {TABLE} at (7,212) size 400x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 396x27
+                  RenderTableRow {TR} at (0,2) size 396x23
+                    RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 212x21
+                        text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderTable {TABLE} at (0,3198) size 769x256 [border: (2px solid #0000FF)]
+        RenderTableSection {TBODY} at (2,2) size 765x252
+          RenderTableRow {TR} at (0,2) size 765x248
+            RenderTableCell {TD} at (2,2) size 761x248 [border: (4px solid #008000)] [r=0 c=0 rs=1 cs=1]
+              RenderBlock {DIV} at (5,5) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (249,4) size 253x21
+                  text run at (249,4) width 253: "Normal div inside align= center td"
+              RenderBlock {DIV} at (5,34) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (4,4) size 221x21
+                  text run at (4,4) width 221: "Left div inside align=center td"
+              RenderBlock {DIV} at (5,63) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (254,4) size 243x21
+                  text run at (254,4) width 243: "Center div inside align=center td"
+              RenderBlock {DIV} at (5,92) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (514,4) size 233x21
+                  text run at (514,4) width 233: "Right div inside align=center td"
+              RenderBlock {CENTER} at (5,121) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (252,4) size 247x21
+                  text run at (252,4) width 247: "Center tag inside align=center td"
+              RenderTable {TABLE} at (325,150) size 111x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 107x27
+                  RenderTableRow {TR} at (0,2) size 107x23
+                    RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 101x21
+                        text run at (1,1) width 101: "Normal table."
+              RenderTable {TABLE} at (297,181) size 167x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 162x27
+                  RenderTableRow {TR} at (0,2) size 162x23
+                    RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 156x21
+                        text run at (1,1) width 156: "Center aligned table."
+              RenderTable {TABLE} at (269,212) size 223x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 218x27
+                  RenderTableRow {TR} at (0,2) size 218x23
+                    RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 212x21
+                        text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderTable {TABLE} at (0,3454) size 769x256 [border: (2px solid #0000FF)]
+        RenderTableSection {TBODY} at (2,2) size 765x252
+          RenderTableRow {TR} at (0,2) size 765x248
+            RenderTableCell {TD} at (2,2) size 761x248 [border: (4px solid #800080)] [r=0 c=0 rs=1 cs=1]
+              RenderBlock {DIV} at (176,5) size 409x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (36,4) size 336x21
+                  text run at (36,4) width 336: "Normal fixed width div inside align=center td"
+              RenderBlock {DIV} at (176,34) size 409x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (4,4) size 308x21
+                  text run at (4,4) width 308: "Left fixed width div inside align=center td"
+              RenderBlock {DIV} at (176,63) size 409x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (39,4) size 330x21
+                  text run at (39,4) width 330: "Center fixed width div inside align=center td"
+              RenderBlock {DIV} at (176,92) size 409x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (84,4) size 320x21
+                  text run at (84,4) width 320: "Right fixed width div inside align=center td"
+              RenderBlock {CENTER} at (176,121) size 409x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (32,4) size 344x21
+                  text run at (32,4) width 344: "Center tag (fixed width) inside align=center td"
+              RenderTable {TABLE} at (180,150) size 401x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 396x27
+                  RenderTableRow {TR} at (0,2) size 396x23
+                    RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 101x21
+                        text run at (1,1) width 101: "Normal table."
+              RenderTable {TABLE} at (180,181) size 401x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 396x27
+                  RenderTableRow {TR} at (0,2) size 396x23
+                    RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 156x21
+                        text run at (1,1) width 156: "Center aligned table."
+              RenderTable {TABLE} at (180,212) size 401x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 396x27
+                  RenderTableRow {TR} at (0,2) size 396x23
+                    RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 212x21
+                        text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderTable {TABLE} at (0,3710) size 769x256 [border: (2px solid #0000FF)]
+        RenderTableSection {TBODY} at (2,2) size 765x252
+          RenderTableRow {TR} at (0,2) size 765x248
+            RenderTableCell {TD} at (2,2) size 761x248 [border: (4px solid #008000)] [r=0 c=0 rs=1 cs=1]
+              RenderBlock {DIV} at (5,5) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (511,4) size 236x21
+                  text run at (511,4) width 236: "Normal div inside align=right td"
+              RenderBlock {DIV} at (5,34) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (4,4) size 209x21
+                  text run at (4,4) width 209: "Left div inside align=right td"
+              RenderBlock {DIV} at (5,63) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (260,4) size 231x21
+                  text run at (260,4) width 231: "Center div inside align=right td"
+              RenderBlock {DIV} at (5,92) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (526,4) size 221x21
+                  text run at (526,4) width 221: "Right div inside align=right td"
+              RenderBlock {CENTER} at (5,121) size 751x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (258,4) size 235x21
+                  text run at (258,4) width 235: "Center tag inside align=right td"
+              RenderTable {TABLE} at (645,150) size 111x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 107x27
+                  RenderTableRow {TR} at (0,2) size 107x23
+                    RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 101x21
+                        text run at (1,1) width 101: "Normal table."
+              RenderTable {TABLE} at (297,181) size 167x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 162x27
+                  RenderTableRow {TR} at (0,2) size 162x23
+                    RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 156x21
+                        text run at (1,1) width 156: "Center aligned table."
+              RenderTable {TABLE} at (532,212) size 222x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 218x27
+                  RenderTableRow {TR} at (0,2) size 218x23
+                    RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 212x21
+                        text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderTable {TABLE} at (0,3966) size 769x256 [border: (2px solid #0000FF)]
+        RenderTableSection {TBODY} at (2,2) size 765x252
+          RenderTableRow {TR} at (0,2) size 765x248
+            RenderTableCell {TD} at (2,2) size 761x248 [border: (4px solid #800080)] [r=0 c=0 rs=1 cs=1]
+              RenderBlock {DIV} at (348,5) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (81,4) size 323x21
+                  text run at (81,4) width 323: "Normal fixed width div inside align=right td"
+              RenderBlock {DIV} at (348,34) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (4,4) size 296x21
+                  text run at (4,4) width 296: "Left fixed width div inside align=right td"
+              RenderBlock {DIV} at (348,63) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (45,4) size 318x21
+                  text run at (45,4) width 318: "Center fixed width div inside align=right td"
+              RenderBlock {DIV} at (348,92) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (96,4) size 308x21
+                  text run at (96,4) width 308: "Right fixed width div inside align=right td"
+              RenderBlock {CENTER} at (348,121) size 408x29 [border: (2px solid #0000FF)]
+                RenderText {#text} at (38,4) size 332x21
+                  text run at (38,4) width 332: "Center tag (fixed width) inside align=right td"
+              RenderTable {TABLE} at (356,150) size 400x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 396x27
+                  RenderTableRow {TR} at (0,2) size 396x23
+                    RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 101x21
+                        text run at (1,1) width 101: "Normal table."
+              RenderTable {TABLE} at (180,181) size 401x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 396x27
+                  RenderTableRow {TR} at (0,2) size 396x23
+                    RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 156x21
+                        text run at (1,1) width 156: "Center aligned table."
+              RenderTable {TABLE} at (354,212) size 400x31 [border: (2px solid #0000FF)]
+                RenderTableSection {TBODY} at (2,2) size 396x27
+                  RenderTableRow {TR} at (0,2) size 396x23
+                    RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                      RenderText {#text} at (1,1) size 212x21
+                        text run at (1,1) width 212: "Center table (fixed margins)."
+      RenderBlock {DIV} at (0,4238) size 769x4126
+        RenderBlock (anonymous) at (2,2) size 765x21
+          RenderText {#text} at (257,0) size 508x21
+            text run at (257,0) width 4 RTL: "."
+            text run at (261,0) width 504: "This is a test of all the various HTML alignments using RTL direction"
+        RenderBlock {DIV} at (2,23) size 765x250 [border: (4px solid #008000)]
+          RenderBlock {DIV} at (6,6) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (535,4) size 214x21
+              text run at (535,4) width 214: "Normal div inside normal div"
+          RenderBlock {DIV} at (6,35) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (4,4) size 187x21
+              text run at (4,4) width 187: "Left div inside normal div"
+          RenderBlock {DIV} at (6,64) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (272,4) size 209x21
+              text run at (272,4) width 209: "Center div inside normal div"
+          RenderBlock {DIV} at (6,93) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (550,4) size 199x21
+              text run at (550,4) width 199: "Right div inside normal div"
+          RenderBlock {CENTER} at (6,122) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (270,4) size 213x21
+              text run at (270,4) width 213: "Center tag inside normal div"
+          RenderTable {TABLE} at (648,151) size 111x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 107x27
+              RenderTableRow {TR} at (0,2) size 107x23
+                RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (1,1) size 101x21
+                    text run at (1,1) width 4 RTL: "."
+                    text run at (5,1) width 97: "Normal table"
+          RenderTable {TABLE} at (299,182) size 167x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 162x27
+              RenderTableRow {TR} at (0,2) size 162x23
+                RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (1,1) size 156x21
+                    text run at (1,1) width 4 RTL: "."
+                    text run at (5,1) width 152: "Center aligned table"
+          RenderTable {TABLE} at (535,213) size 222x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 218x27
+              RenderTableRow {TR} at (0,2) size 218x23
+                RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (1,1) size 212x21
+                    text run at (1,1) width 4 RTL: "."
+                    text run at (5,1) width 208: "Center table (fixed margins)"
+        RenderBlock {DIV} at (2,273) size 765x250 [border: (4px solid #800080)]
+          RenderBlock {DIV} at (351,6) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (103,4) size 301x21
+              text run at (103,4) width 301: "Normal fixed width div inside normal div"
+          RenderBlock {DIV} at (351,35) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (4,4) size 274x21
+              text run at (4,4) width 274: "Left fixed width div inside normal div"
+          RenderBlock {DIV} at (351,64) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (56,4) size 296x21
+              text run at (56,4) width 296: "Center fixed width div inside normal div"
+          RenderBlock {DIV} at (351,93) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (118,4) size 286x21
+              text run at (118,4) width 286: "Right fixed width div inside normal div"
+          RenderBlock {CENTER} at (351,122) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (49,4) size 310x21
+              text run at (49,4) width 310: "Center tag (fixed width) inside normal div"
+          RenderTable {TABLE} at (359,151) size 400x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 396x27
+              RenderTableRow {TR} at (0,2) size 396x23
+                RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (290,1) size 101x21
+                    text run at (290,1) width 4 RTL: "."
+                    text run at (294,1) width 97: "Normal table"
+          RenderTable {TABLE} at (182,182) size 401x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 396x27
+              RenderTableRow {TR} at (0,2) size 396x23
+                RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (235,1) size 156x21
+                    text run at (235,1) width 4 RTL: "."
+                    text run at (239,1) width 152: "Center aligned table"
+          RenderTable {TABLE} at (357,213) size 400x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 396x27
+              RenderTableRow {TR} at (0,2) size 396x23
+                RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (179,1) size 212x21
+                    text run at (179,1) width 4 RTL: "."
+                    text run at (183,1) width 208: "Center table (fixed margins)"
+        RenderBlock {DIV} at (2,523) size 765x250 [border: (4px solid #008000)]
+          RenderBlock {DIV} at (6,6) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (4,4) size 230x21
+              text run at (4,4) width 230: "Normal div inside align=left div"
+          RenderBlock {DIV} at (6,35) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (4,4) size 203x21
+              text run at (4,4) width 203: "Left div inside align=left div"
+          RenderBlock {DIV} at (6,64) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (264,4) size 225x21
+              text run at (264,4) width 225: "Center div inside align=left div"
+          RenderBlock {DIV} at (6,93) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (534,4) size 215x21
+              text run at (534,4) width 215: "Right div inside align=left div"
+          RenderBlock {CENTER} at (6,122) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (262,4) size 229x21
+              text run at (262,4) width 229: "Center tag inside align=left div"
+          RenderTable {TABLE} at (6,151) size 111x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 107x27
+              RenderTableRow {TR} at (0,2) size 107x23
+                RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (1,1) size 101x21
+                    text run at (1,1) width 4 RTL: "."
+                    text run at (5,1) width 97: "Normal table"
+          RenderTable {TABLE} at (299,182) size 167x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 162x27
+              RenderTableRow {TR} at (0,2) size 162x23
+                RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (1,1) size 156x21
+                    text run at (1,1) width 4 RTL: "."
+                    text run at (5,1) width 152: "Center aligned table"
+          RenderTable {TABLE} at (8,213) size 222x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 218x27
+              RenderTableRow {TR} at (0,2) size 218x23
+                RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (1,1) size 212x21
+                    text run at (1,1) width 4 RTL: "."
+                    text run at (5,1) width 208: "Center table (fixed margins)"
+        RenderBlock {DIV} at (2,773) size 765x250 [border: (4px solid #800080)]
+          RenderBlock {DIV} at (6,6) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (4,4) size 317x21
+              text run at (4,4) width 317: "Normal fixed width div inside align=left div"
+          RenderBlock {DIV} at (6,35) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (4,4) size 290x21
+              text run at (4,4) width 290: "Left fixed width div inside align=left div"
+          RenderBlock {DIV} at (6,64) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (48,4) size 312x21
+              text run at (48,4) width 312: "Center fixed width div inside align=left div"
+          RenderBlock {DIV} at (6,93) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (102,4) size 302x21
+              text run at (102,4) width 302: "Right fixed width div inside align=left div"
+          RenderBlock {CENTER} at (6,122) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (41,4) size 326x21
+              text run at (41,4) width 326: "Center tag (fixed width) inside align=left div"
+          RenderTable {TABLE} at (6,151) size 400x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 396x27
+              RenderTableRow {TR} at (0,2) size 396x23
+                RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (290,1) size 101x21
+                    text run at (290,1) width 4 RTL: "."
+                    text run at (294,1) width 97: "Normal table"
+          RenderTable {TABLE} at (182,182) size 401x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 396x27
+              RenderTableRow {TR} at (0,2) size 396x23
+                RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (235,1) size 156x21
+                    text run at (235,1) width 4 RTL: "."
+                    text run at (239,1) width 152: "Center aligned table"
+          RenderTable {TABLE} at (8,213) size 400x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 396x27
+              RenderTableRow {TR} at (0,2) size 396x23
+                RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (179,1) size 212x21
+                    text run at (179,1) width 4 RTL: "."
+                    text run at (183,1) width 208: "Center table (fixed margins)"
+        RenderBlock {DIV} at (2,1023) size 765x250 [border: (4px solid #008000)]
+          RenderBlock {DIV} at (6,6) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (247,4) size 259x21
+              text run at (247,4) width 259: "Normal div inside align= center div"
+          RenderBlock {DIV} at (6,35) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (4,4) size 227x21
+              text run at (4,4) width 227: "Left div inside align=center div"
+          RenderBlock {DIV} at (6,64) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (252,4) size 249x21
+              text run at (252,4) width 249: "Center div inside align=center div"
+          RenderBlock {DIV} at (6,93) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (510,4) size 239x21
+              text run at (510,4) width 239: "Right div inside align=center div"
+          RenderBlock {CENTER} at (6,122) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (250,4) size 253x21
+              text run at (250,4) width 253: "Center tag inside align=center div"
+          RenderTable {TABLE} at (327,151) size 111x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 107x27
+              RenderTableRow {TR} at (0,2) size 107x23
+                RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (1,1) size 101x21
+                    text run at (1,1) width 4 RTL: "."
+                    text run at (5,1) width 97: "Normal table"
+          RenderTable {TABLE} at (299,182) size 167x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 162x27
+              RenderTableRow {TR} at (0,2) size 162x23
+                RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (1,1) size 156x21
+                    text run at (1,1) width 4 RTL: "."
+                    text run at (5,1) width 152: "Center aligned table"
+          RenderTable {TABLE} at (271,213) size 223x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 218x27
+              RenderTableRow {TR} at (0,2) size 218x23
+                RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (1,1) size 212x21
+                    text run at (1,1) width 4 RTL: "."
+                    text run at (5,1) width 208: "Center table (fixed margins)"
+        RenderBlock {DIV} at (2,1273) size 765x250 [border: (4px solid #800080)]
+          RenderBlock {DIV} at (178,6) size 409x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (33,4) size 342x21
+              text run at (33,4) width 342: "Normal fixed width div inside align=center div"
+          RenderBlock {DIV} at (178,35) size 409x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (4,4) size 314x21
+              text run at (4,4) width 314: "Left fixed width div inside align=center div"
+          RenderBlock {DIV} at (178,64) size 409x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (36,4) size 336x21
+              text run at (36,4) width 336: "Center fixed width div inside align=center div"
+          RenderBlock {DIV} at (178,93) size 409x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (78,4) size 326x21
+              text run at (78,4) width 326: "Right fixed width div inside align=center div"
+          RenderBlock {CENTER} at (178,122) size 409x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (29,4) size 350x21
+              text run at (29,4) width 350: "Center tag (fixed width) inside align=center div"
+          RenderTable {TABLE} at (182,151) size 401x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 396x27
+              RenderTableRow {TR} at (0,2) size 396x23
+                RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (290,1) size 101x21
+                    text run at (290,1) width 4 RTL: "."
+                    text run at (294,1) width 97: "Normal table"
+          RenderTable {TABLE} at (182,182) size 401x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 396x27
+              RenderTableRow {TR} at (0,2) size 396x23
+                RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (235,1) size 156x21
+                    text run at (235,1) width 4 RTL: "."
+                    text run at (239,1) width 152: "Center aligned table"
+          RenderTable {TABLE} at (182,213) size 401x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 396x27
+              RenderTableRow {TR} at (0,2) size 396x23
+                RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (179,1) size 212x21
+                    text run at (179,1) width 4 RTL: "."
+                    text run at (183,1) width 208: "Center table (fixed margins)"
+        RenderBlock {DIV} at (2,1523) size 765x250 [border: (4px solid #008000)]
+          RenderBlock {DIV} at (6,6) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (507,4) size 242x21
+              text run at (507,4) width 242: "Normal div inside align=right div"
+          RenderBlock {DIV} at (6,35) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (4,4) size 215x21
+              text run at (4,4) width 215: "Left div inside align=right div"
+          RenderBlock {DIV} at (6,64) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (258,4) size 237x21
+              text run at (258,4) width 237: "Center div inside align=right div"
+          RenderBlock {DIV} at (6,93) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (522,4) size 227x21
+              text run at (522,4) width 227: "Right div inside align=right div"
+          RenderBlock {CENTER} at (6,122) size 753x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (256,4) size 241x21
+              text run at (256,4) width 241: "Center tag inside align=right div"
+          RenderTable {TABLE} at (648,151) size 111x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 107x27
+              RenderTableRow {TR} at (0,2) size 107x23
+                RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (1,1) size 101x21
+                    text run at (1,1) width 4 RTL: "."
+                    text run at (5,1) width 97: "Normal table"
+          RenderTable {TABLE} at (299,182) size 167x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 162x27
+              RenderTableRow {TR} at (0,2) size 162x23
+                RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (1,1) size 156x21
+                    text run at (1,1) width 4 RTL: "."
+                    text run at (5,1) width 152: "Center aligned table"
+          RenderTable {TABLE} at (535,213) size 222x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 218x27
+              RenderTableRow {TR} at (0,2) size 218x23
+                RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (1,1) size 212x21
+                    text run at (1,1) width 4 RTL: "."
+                    text run at (5,1) width 208: "Center table (fixed margins)"
+        RenderBlock {DIV} at (2,1773) size 765x250 [border: (4px solid #800080)]
+          RenderBlock {DIV} at (351,6) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (75,4) size 329x21
+              text run at (75,4) width 329: "Normal fixed width div inside align=right div"
+          RenderBlock {DIV} at (351,35) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (4,4) size 302x21
+              text run at (4,4) width 302: "Left fixed width div inside align=right div"
+          RenderBlock {DIV} at (351,64) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (42,4) size 324x21
+              text run at (42,4) width 324: "Center fixed width div inside align=right div"
+          RenderBlock {DIV} at (351,93) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (90,4) size 314x21
+              text run at (90,4) width 314: "Right fixed width div inside align=right div"
+          RenderBlock {CENTER} at (351,122) size 408x29 [border: (2px solid #0000FF)]
+            RenderText {#text} at (35,4) size 338x21
+              text run at (35,4) width 338: "Center tag (fixed width) inside align=right div"
+          RenderTable {TABLE} at (359,151) size 400x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 396x27
+              RenderTableRow {TR} at (0,2) size 396x23
+                RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (290,1) size 101x21
+                    text run at (290,1) width 4 RTL: "."
+                    text run at (294,1) width 97: "Normal table"
+          RenderTable {TABLE} at (182,182) size 401x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 396x27
+              RenderTableRow {TR} at (0,2) size 396x23
+                RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (235,1) size 156x21
+                    text run at (235,1) width 4 RTL: "."
+                    text run at (239,1) width 152: "Center aligned table"
+          RenderTable {TABLE} at (357,213) size 400x31 [border: (2px solid #0000FF)]
+            RenderTableSection {TBODY} at (2,2) size 396x27
+              RenderTableRow {TR} at (0,2) size 396x23
+                RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                  RenderText {#text} at (179,1) size 212x21
+                    text run at (179,1) width 4 RTL: "."
+                    text run at (183,1) width 208: "Center table (fixed margins)"
+        RenderBlock {P} at (2,2039) size 765x21
+          RenderText {#text} at (354,0) size 411x21
+            text run at (354,0) width 4 RTL: "."
+            text run at (358,0) width 407: "This is a test using TABLE cells (all in the RTL direction)"
+        RenderTable {TABLE} at (2,2076) size 765x256 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 761x252
+            RenderTableRow {TR} at (0,2) size 761x248
+              RenderTableCell {TD} at (2,2) size 757x248 [border: (4px solid #008000)] [r=0 c=0 rs=1 cs=1]
+                RenderBlock {DIV} at (5,5) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (535,4) size 208x21
+                    text run at (535,4) width 208: "Normal div inside normal td"
+                RenderBlock {DIV} at (5,34) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (4,4) size 181x21
+                    text run at (4,4) width 181: "Left div inside normal td"
+                RenderBlock {DIV} at (5,63) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (272,4) size 203x21
+                    text run at (272,4) width 203: "Center div inside normal td"
+                RenderBlock {DIV} at (5,92) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (550,4) size 193x21
+                    text run at (550,4) width 193: "Right div inside normal td"
+                RenderBlock {CENTER} at (5,121) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (270,4) size 207x21
+                    text run at (270,4) width 207: "Center tag inside normal td"
+                RenderTable {TABLE} at (641,150) size 111x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 107x27
+                    RenderTableRow {TR} at (0,2) size 107x23
+                      RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (1,1) size 101x21
+                          text run at (1,1) width 4 RTL: "."
+                          text run at (5,1) width 97: "Normal table"
+                RenderTable {TABLE} at (295,181) size 167x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 162x27
+                    RenderTableRow {TR} at (0,2) size 162x23
+                      RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (1,1) size 156x21
+                          text run at (1,1) width 4 RTL: "."
+                          text run at (5,1) width 152: "Center aligned table"
+                RenderTable {TABLE} at (528,212) size 222x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 218x27
+                    RenderTableRow {TR} at (0,2) size 218x23
+                      RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (1,1) size 212x21
+                          text run at (1,1) width 4 RTL: "."
+                          text run at (5,1) width 208: "Center table (fixed margins)"
+        RenderTable {TABLE} at (2,2332) size 765x256 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 761x252
+            RenderTableRow {TR} at (0,2) size 761x248
+              RenderTableCell {TD} at (2,2) size 757x248 [border: (4px solid #800080)] [r=0 c=0 rs=1 cs=1]
+                RenderBlock {DIV} at (344,5) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (109,4) size 295x21
+                    text run at (109,4) width 295: "Normal fixed width div inside normal td"
+                RenderBlock {DIV} at (344,34) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (4,4) size 268x21
+                    text run at (4,4) width 268: "Left fixed width div inside normal td"
+                RenderBlock {DIV} at (344,63) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (59,4) size 290x21
+                    text run at (59,4) width 290: "Center fixed width div inside normal td"
+                RenderBlock {DIV} at (344,92) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (124,4) size 280x21
+                    text run at (124,4) width 280: "Right fixed width div inside normal td"
+                RenderBlock {CENTER} at (344,121) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (52,4) size 304x21
+                    text run at (52,4) width 304: "Center tag (fixed width) inside normal td"
+                RenderTable {TABLE} at (352,150) size 400x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 396x27
+                    RenderTableRow {TR} at (0,2) size 396x23
+                      RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (290,1) size 101x21
+                          text run at (290,1) width 4 RTL: "."
+                          text run at (294,1) width 97: "Normal table"
+                RenderTable {TABLE} at (178,181) size 401x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 396x27
+                    RenderTableRow {TR} at (0,2) size 396x23
+                      RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (235,1) size 156x21
+                          text run at (235,1) width 4 RTL: "."
+                          text run at (239,1) width 152: "Center aligned table"
+                RenderTable {TABLE} at (350,212) size 400x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 396x27
+                    RenderTableRow {TR} at (0,2) size 396x23
+                      RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (179,1) size 212x21
+                          text run at (179,1) width 4 RTL: "."
+                          text run at (183,1) width 208: "Center table (fixed margins)"
+        RenderTable {TABLE} at (2,2588) size 765x256 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 761x252
+            RenderTableRow {TR} at (0,2) size 761x248
+              RenderTableCell {TD} at (2,2) size 757x248 [border: (4px solid #008000)] [r=0 c=0 rs=1 cs=1]
+                RenderBlock {DIV} at (5,5) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (4,4) size 224x21
+                    text run at (4,4) width 224: "Normal div inside align=left td"
+                RenderBlock {DIV} at (5,34) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (4,4) size 197x21
+                    text run at (4,4) width 197: "Left div inside align=left td"
+                RenderBlock {DIV} at (5,63) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (264,4) size 219x21
+                    text run at (264,4) width 219: "Center div inside align=left td"
+                RenderBlock {DIV} at (5,92) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (534,4) size 209x21
+                    text run at (534,4) width 209: "Right div inside align=left td"
+                RenderBlock {CENTER} at (5,121) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (262,4) size 223x21
+                    text run at (262,4) width 223: "Center tag inside align=left td"
+                RenderTable {TABLE} at (5,150) size 111x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 107x27
+                    RenderTableRow {TR} at (0,2) size 107x23
+                      RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (1,1) size 101x21
+                          text run at (1,1) width 4 RTL: "."
+                          text run at (5,1) width 97: "Normal table"
+                RenderTable {TABLE} at (295,181) size 167x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 162x27
+                    RenderTableRow {TR} at (0,2) size 162x23
+                      RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (1,1) size 156x21
+                          text run at (1,1) width 4 RTL: "."
+                          text run at (5,1) width 152: "Center aligned table"
+                RenderTable {TABLE} at (7,212) size 222x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 218x27
+                    RenderTableRow {TR} at (0,2) size 218x23
+                      RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (1,1) size 212x21
+                          text run at (1,1) width 4 RTL: "."
+                          text run at (5,1) width 208: "Center table (fixed margins)"
+        RenderTable {TABLE} at (2,2844) size 765x256 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 761x252
+            RenderTableRow {TR} at (0,2) size 761x248
+              RenderTableCell {TD} at (2,2) size 757x248 [border: (4px solid #800080)] [r=0 c=0 rs=1 cs=1]
+                RenderBlock {DIV} at (5,5) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (4,4) size 311x21
+                    text run at (4,4) width 311: "Normal fixed width div inside align=left td"
+                RenderBlock {DIV} at (5,34) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (4,4) size 284x21
+                    text run at (4,4) width 284: "Left fixed width div inside align=left td"
+                RenderBlock {DIV} at (5,63) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (51,4) size 306x21
+                    text run at (51,4) width 306: "Center fixed width div inside align=left td"
+                RenderBlock {DIV} at (5,92) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (108,4) size 296x21
+                    text run at (108,4) width 296: "Right fixed width div inside align=left td"
+                RenderBlock {CENTER} at (5,121) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (44,4) size 320x21
+                    text run at (44,4) width 320: "Center tag (fixed width) inside align=left td"
+                RenderTable {TABLE} at (5,150) size 400x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 396x27
+                    RenderTableRow {TR} at (0,2) size 396x23
+                      RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (290,1) size 101x21
+                          text run at (290,1) width 4 RTL: "."
+                          text run at (294,1) width 97: "Normal table"
+                RenderTable {TABLE} at (178,181) size 401x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 396x27
+                    RenderTableRow {TR} at (0,2) size 396x23
+                      RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (235,1) size 156x21
+                          text run at (235,1) width 4 RTL: "."
+                          text run at (239,1) width 152: "Center aligned table"
+                RenderTable {TABLE} at (7,212) size 400x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 396x27
+                    RenderTableRow {TR} at (0,2) size 396x23
+                      RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (179,1) size 212x21
+                          text run at (179,1) width 4 RTL: "."
+                          text run at (183,1) width 208: "Center table (fixed margins)"
+        RenderTable {TABLE} at (2,3100) size 765x256 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 761x252
+            RenderTableRow {TR} at (0,2) size 761x248
+              RenderTableCell {TD} at (2,2) size 757x248 [border: (4px solid #008000)] [r=0 c=0 rs=1 cs=1]
+                RenderBlock {DIV} at (5,5) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (247,4) size 253x21
+                    text run at (247,4) width 253: "Normal div inside align= center td"
+                RenderBlock {DIV} at (5,34) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (4,4) size 221x21
+                    text run at (4,4) width 221: "Left div inside align=center td"
+                RenderBlock {DIV} at (5,63) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (252,4) size 243x21
+                    text run at (252,4) width 243: "Center div inside align=center td"
+                RenderBlock {DIV} at (5,92) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (510,4) size 233x21
+                    text run at (510,4) width 233: "Right div inside align=center td"
+                RenderBlock {CENTER} at (5,121) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (250,4) size 247x21
+                    text run at (250,4) width 247: "Center tag inside align=center td"
+                RenderTable {TABLE} at (323,150) size 111x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 107x27
+                    RenderTableRow {TR} at (0,2) size 107x23
+                      RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (1,1) size 101x21
+                          text run at (1,1) width 4 RTL: "."
+                          text run at (5,1) width 97: "Normal table"
+                RenderTable {TABLE} at (295,181) size 167x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 162x27
+                    RenderTableRow {TR} at (0,2) size 162x23
+                      RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (1,1) size 156x21
+                          text run at (1,1) width 4 RTL: "."
+                          text run at (5,1) width 152: "Center aligned table"
+                RenderTable {TABLE} at (267,212) size 223x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 218x27
+                    RenderTableRow {TR} at (0,2) size 218x23
+                      RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (1,1) size 212x21
+                          text run at (1,1) width 4 RTL: "."
+                          text run at (5,1) width 208: "Center table (fixed margins)"
+        RenderTable {TABLE} at (2,3356) size 765x256 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 761x252
+            RenderTableRow {TR} at (0,2) size 761x248
+              RenderTableCell {TD} at (2,2) size 757x248 [border: (4px solid #800080)] [r=0 c=0 rs=1 cs=1]
+                RenderBlock {DIV} at (174,5) size 409x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (36,4) size 336x21
+                    text run at (36,4) width 336: "Normal fixed width div inside align=center td"
+                RenderBlock {DIV} at (174,34) size 409x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (4,4) size 308x21
+                    text run at (4,4) width 308: "Left fixed width div inside align=center td"
+                RenderBlock {DIV} at (174,63) size 409x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (39,4) size 330x21
+                    text run at (39,4) width 330: "Center fixed width div inside align=center td"
+                RenderBlock {DIV} at (174,92) size 409x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (84,4) size 320x21
+                    text run at (84,4) width 320: "Right fixed width div inside align=center td"
+                RenderBlock {CENTER} at (174,121) size 409x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (32,4) size 344x21
+                    text run at (32,4) width 344: "Center tag (fixed width) inside align=center td"
+                RenderTable {TABLE} at (178,150) size 401x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 396x27
+                    RenderTableRow {TR} at (0,2) size 396x23
+                      RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (290,1) size 101x21
+                          text run at (290,1) width 4 RTL: "."
+                          text run at (294,1) width 97: "Normal table"
+                RenderTable {TABLE} at (178,181) size 401x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 396x27
+                    RenderTableRow {TR} at (0,2) size 396x23
+                      RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (235,1) size 156x21
+                          text run at (235,1) width 4 RTL: "."
+                          text run at (239,1) width 152: "Center aligned table"
+                RenderTable {TABLE} at (178,212) size 401x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 396x27
+                    RenderTableRow {TR} at (0,2) size 396x23
+                      RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (179,1) size 212x21
+                          text run at (179,1) width 4 RTL: "."
+                          text run at (183,1) width 208: "Center table (fixed margins)"
+        RenderTable {TABLE} at (2,3612) size 765x256 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 761x252
+            RenderTableRow {TR} at (0,2) size 761x248
+              RenderTableCell {TD} at (2,2) size 757x248 [border: (4px solid #008000)] [r=0 c=0 rs=1 cs=1]
+                RenderBlock {DIV} at (5,5) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (507,4) size 236x21
+                    text run at (507,4) width 236: "Normal div inside align=right td"
+                RenderBlock {DIV} at (5,34) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (4,4) size 209x21
+                    text run at (4,4) width 209: "Left div inside align=right td"
+                RenderBlock {DIV} at (5,63) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (258,4) size 231x21
+                    text run at (258,4) width 231: "Center div inside align=right td"
+                RenderBlock {DIV} at (5,92) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (522,4) size 221x21
+                    text run at (522,4) width 221: "Right div inside align=right td"
+                RenderBlock {CENTER} at (5,121) size 747x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (256,4) size 235x21
+                    text run at (256,4) width 235: "Center tag inside align=right td"
+                RenderTable {TABLE} at (641,150) size 111x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 107x27
+                    RenderTableRow {TR} at (0,2) size 107x23
+                      RenderTableCell {TD} at (2,2) size 103x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (1,1) size 101x21
+                          text run at (1,1) width 4 RTL: "."
+                          text run at (5,1) width 97: "Normal table"
+                RenderTable {TABLE} at (295,181) size 167x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 162x27
+                    RenderTableRow {TR} at (0,2) size 162x23
+                      RenderTableCell {TD} at (2,2) size 158x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (1,1) size 156x21
+                          text run at (1,1) width 4 RTL: "."
+                          text run at (5,1) width 152: "Center aligned table"
+                RenderTable {TABLE} at (528,212) size 222x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 218x27
+                    RenderTableRow {TR} at (0,2) size 218x23
+                      RenderTableCell {TD} at (2,2) size 214x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (1,1) size 212x21
+                          text run at (1,1) width 4 RTL: "."
+                          text run at (5,1) width 208: "Center table (fixed margins)"
+        RenderTable {TABLE} at (2,3868) size 765x256 [border: (2px solid #0000FF)]
+          RenderTableSection {TBODY} at (2,2) size 761x252
+            RenderTableRow {TR} at (0,2) size 761x248
+              RenderTableCell {TD} at (2,2) size 757x248 [border: (4px solid #800080)] [r=0 c=0 rs=1 cs=1]
+                RenderBlock {DIV} at (344,5) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (81,4) size 323x21
+                    text run at (81,4) width 323: "Normal fixed width div inside align=right td"
+                RenderBlock {DIV} at (344,34) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (4,4) size 296x21
+                    text run at (4,4) width 296: "Left fixed width div inside align=right td"
+                RenderBlock {DIV} at (344,63) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (45,4) size 318x21
+                    text run at (45,4) width 318: "Center fixed width div inside align=right td"
+                RenderBlock {DIV} at (344,92) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (96,4) size 308x21
+                    text run at (96,4) width 308: "Right fixed width div inside align=right td"
+                RenderBlock {CENTER} at (344,121) size 408x29 [border: (2px solid #0000FF)]
+                  RenderText {#text} at (38,4) size 332x21
+                    text run at (38,4) width 332: "Center tag (fixed width) inside align=right td"
+                RenderTable {TABLE} at (352,150) size 400x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 396x27
+                    RenderTableRow {TR} at (0,2) size 396x23
+                      RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (290,1) size 101x21
+                          text run at (290,1) width 4 RTL: "."
+                          text run at (294,1) width 97: "Normal table"
+                RenderTable {TABLE} at (178,181) size 401x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 396x27
+                    RenderTableRow {TR} at (0,2) size 396x23
+                      RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (235,1) size 156x21
+                          text run at (235,1) width 4 RTL: "."
+                          text run at (239,1) width 152: "Center aligned table"
+                RenderTable {TABLE} at (350,212) size 400x31 [border: (2px solid #0000FF)]
+                  RenderTableSection {TBODY} at (2,2) size 396x27
+                    RenderTableRow {TR} at (0,2) size 396x23
+                      RenderTableCell {TD} at (2,2) size 392x23 [r=0 c=0 rs=1 cs=1]
+                        RenderText {#text} at (179,1) size 212x21
+                          text run at (179,1) width 4 RTL: "."
+                          text run at (183,1) width 208: "Center table (fixed margins)"

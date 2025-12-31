@@ -1,0 +1,24 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderImage {IMG} at (0,0) size 479x150
+      RenderText {#text} at (0,0) size 0x0
+      RenderInline {MAP} at (0,0) size 479x38
+        RenderBR {BR} at (479,133) size 0x21
+        RenderInline {A} at (0,0) size 103x21 [color=#0000EE]
+          RenderText {#text} at (0,150) size 103x21
+            text run at (0,150) width 103: "John Hancock"
+        RenderText {#text} at (103,150) size 15x21
+          text run at (103,150) width 15: " | "
+        RenderInline {A} at (0,0) size 42x21 [color=#0000EE]
+          RenderText {#text} at (118,150) size 42x21
+            text run at (118,150) width 42: "Nokia"
+        RenderText {#text} at (160,150) size 15x21
+          text run at (160,150) width 15: " | "
+        RenderInline {A} at (0,0) size 83x21 [color=#0000EE]
+          RenderText {#text} at (175,150) size 83x21
+            text run at (175,150) width 83: "Downtown"
+        RenderText {#text} at (0,0) size 0x0
+      RenderText {#text} at (0,0) size 0x0

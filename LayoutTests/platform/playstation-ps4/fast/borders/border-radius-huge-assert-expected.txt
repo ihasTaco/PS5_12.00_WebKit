@@ -1,0 +1,25 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x582
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 97x21
+          text run at (0,0) width 97: "Pixel test for "
+        RenderInline {I} at (0,0) size 666x42
+          RenderInline {A} at (0,0) size 360x21 [color=#0000EE]
+            RenderText {#text} at (97,0) size 360x21
+              text run at (97,0) width 360: "http://bugs.webkit.org/show_bug.cgi?id=12043"
+          RenderText {#text} at (457,0) size 666x42
+            text run at (457,0) width 4: " "
+            text run at (461,0) width 205: "Another assertion failure in"
+            text run at (0,21) width 281: "WebCore::RenderObject::drawBorder"
+        RenderText {#text} at (281,21) size 4x21
+          text run at (281,21) width 4: "."
+      RenderBlock {P} at (0,58) size 784x21
+        RenderText {#text} at (0,0) size 364x21
+          text run at (0,0) width 364: "There should be three squres and a circle below."
+      RenderBlock {DIV} at (0,95) size 56x56 [bgcolor=#C0C0C0] [border: (3px solid #000000)]
+      RenderBlock {DIV} at (0,161) size 56x56 [bgcolor=#C0C0C0] [border: (3px solid #000000)]
+      RenderBlock {DIV} at (0,227) size 56x56 [bgcolor=#C0C0C0] [border: (3px solid #000000)]
+      RenderBlock {DIV} at (0,293) size 56x56 [bgcolor=#C0C0C0] [border: (3px solid #000000)]

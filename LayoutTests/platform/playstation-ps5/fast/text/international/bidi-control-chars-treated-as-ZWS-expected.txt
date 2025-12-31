@@ -1,0 +1,15 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock (anonymous) at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 779x42
+          text run at (0,0) width 779: "This tests that Unicode bidi control characters are not rendered and have zero width. The next two lines"
+          text run at (0,21) width 166: "should look the same."
+      RenderBlock {DIV} at (0,42) size 784x48
+        RenderText {#text} at (0,2) size 18x21
+          text run at (0,2) width 18: "a\x{202D}e\x{300}"
+        RenderBR {BR} at (18,2) size 0x21
+        RenderText {#text} at (0,26) size 18x21
+          text run at (0,26) width 18: "ae\x{300}"

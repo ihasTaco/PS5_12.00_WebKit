@@ -1,0 +1,31 @@
+layer at (0,0) size 800x585
+  RenderView at (0,0) size 800x585
+layer at (0,0) size 800x273
+  RenderBlock {HTML} at (0,0) size 800x273
+    RenderBody {BODY} at (8,16) size 784x249
+      RenderBlock {P} at (0,0) size 784x63
+        RenderText {#text} at (0,0) size 305x21
+          text run at (0,0) width 305: "This test checks for a regression against "
+        RenderInline {I} at (0,0) size 705x42
+          RenderInline {A} at (0,0) size 364x21 [color=#0000EE]
+            RenderText {#text} at (305,0) size 364x21
+              text run at (305,0) width 364: "https://bugs.webkit.org/show_bug.cgi?id=24118"
+          RenderText {#text} at (669,0) size 705x42
+            text run at (669,0) width 36: " RTL:"
+            text run at (0,21) width 363: "Truncation behaves differently than IE/FF/Opera"
+        RenderText {#text} at (363,21) size 4x21
+          text run at (363,21) width 4: "."
+        RenderBR {BR} at (367,21) size 0x21
+        RenderText {#text} at (0,42) size 499x21
+          text run at (0,42) width 499: "This test passes if the red block below is truncated on the left side."
+      RenderBlock {DIV} at (-218,79) size 1002x170 [border: (1px solid #FF0000)]
+        RenderText {#text} at (19,1) size 1000x168
+          text run at (19,1) width 982: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et nisl tellus. Vivamus aliquam elit non arcu scelerisque eget dapibus"
+          text run at (28,22) width 973: "nunc vulputate. Maecenas scelerisque egestas purus, id bibendum magna venenatis vel. Vestibulum bibendum volutpat aliquam."
+          text run at (22,43) width 979: "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum eget risus sodales mi tristique"
+          text run at (16,64) width 985: "dignissim et sed lectus. Cras convallis, nibh ut dapibus gravida, enim mauris molestie elit, eget fringilla augue est nec est. Curabitur"
+          text run at (20,85) width 981: "eu quam non purus sodales pulvinar. Donec ultrices dui eget dolor lobortis in porta quam rutrum. Nulla risus lacus, adipiscing quis"
+          text run at (63,106) width 938: "ullamcorper vestibulum, condimentum sed lacus. Sed in nunc dolor, quis egestas turpis. Integer arcu tellus, posuere sit amet"
+          text run at (1,127) width 1000: "pellentesque a, molestie at mi. Nulla blandit, mi et euismod imperdiet, augue arcu ornare felis, nec viverra lacus ligula ut metus. Proin"
+          text run at (301,148) width 4 RTL: "."
+          text run at (305,148) width 696: "ut leo ante, at consectetur sem. Nullam non nunc ligula. Proin sed ante sem, id rutrum purus"

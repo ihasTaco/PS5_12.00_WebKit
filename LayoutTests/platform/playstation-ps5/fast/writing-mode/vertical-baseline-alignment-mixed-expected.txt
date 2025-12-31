@@ -1,0 +1,28 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (532,0) size 268x600
+  RenderBlock {HTML} at (0,0) size 268x600
+    RenderBody {BODY} at (24,8) size 220x584
+      RenderBlock {P} at (0,0) size 126x584
+        RenderInline {SPAN} at (0,0) size 32x94
+          RenderText {#text} at (16,0) size 32x94
+            text run at (16,0) width 94: "\x{7B2C}\x{4E00}\x{6BB5}\x{843D} "
+        RenderInline {SPAN} at (0,0) size 126x428
+          RenderText {#text} at (0,94) size 63x312
+            text run at (0,94) width 312: "PARAGRAPH 1"
+          RenderBR {BR} at (0,406) size 63x0
+          RenderText {#text} at (63,0) size 63x278
+            text run at (63,0) width 278: "MORE TEXT. "
+          RenderInline {SPAN} at (0,0) size 16x150
+            RenderText {#text} at (87,278) size 16x150
+              text run at (87,278) width 150: "SHOULD NOT BE CENTERED."
+          RenderText {#text} at (0,0) size 0x0
+      RenderBlock {P} at (150,0) size 70x584
+        RenderInline {SPAN} at (0,0) size 32x454
+          RenderText {#text} at (19,0) size 32x94
+            text run at (19,0) width 94: "\x{7B2C}\x{4E8C}\x{6BB5}\x{843D} "
+          RenderInline {SPAN} at (0,0) size 63x360
+            RenderText {#text} at (3,94) size 63x330
+              text run at (3,94) width 330: "PARAGRAPH 2 "
+            RenderImage {IMG} at (0,424) size 70x30 [bgcolor=#008000]
+            RenderText {#text} at (0,0) size 0x0

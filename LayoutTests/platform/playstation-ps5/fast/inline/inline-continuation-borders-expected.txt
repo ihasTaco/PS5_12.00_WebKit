@@ -1,0 +1,144 @@
+layer at (0,0) size 785x1326
+  RenderView at (0,0) size 785x600
+layer at (0,0) size 785x1326
+  RenderBlock {HTML} at (0,0) size 785x1326
+    RenderBody {BODY} at (8,16) size 769x1294
+      RenderBlock {DIV} at (0,0) size 769x630
+        RenderBlock {DIV} at (0,0) size 769x132
+          RenderBlock {P} at (0,0) size 769x21
+            RenderText {#text} at (0,0) size 27x21
+              text run at (0,0) width 27: "LTR"
+          RenderBlock (anonymous) at (0,37) size 769x21
+            RenderInline {SPAN} at (0,0) size 49x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+              RenderText {#text} at (22,0) size 27x21
+                text run at (22,0) width 27: "aaa"
+          RenderBlock (anonymous) at (0,74) size 769x21
+            RenderBlock {DIV} at (0,0) size 769x21
+              RenderText {#text} at (0,0) size 30x21
+                text run at (0,0) width 30: "bbb"
+          RenderBlock (anonymous) at (0,111) size 769x21
+            RenderInline {SPAN} at (0,0) size 46x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+              RenderText {#text} at (0,0) size 24x21
+                text run at (0,0) width 24: "ccc"
+            RenderText {#text} at (0,0) size 0x0
+        RenderBlock {DIV} at (0,166) size 769x132
+          RenderBlock {P} at (0,0) size 769x21
+            RenderText {#text} at (0,0) size 171x21
+              text run at (0,0) width 171: "LTR, empty inline after."
+          RenderBlock (anonymous) at (0,37) size 769x21
+            RenderInline {SPAN} at (0,0) size 49x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+              RenderText {#text} at (22,0) size 27x21
+                text run at (22,0) width 27: "aaa"
+          RenderBlock (anonymous) at (0,74) size 769x21
+            RenderBlock {DIV} at (0,0) size 769x21
+              RenderText {#text} at (0,0) size 30x21
+                text run at (0,0) width 30: "bbb"
+          RenderBlock (anonymous) at (0,111) size 769x21
+            RenderInline {SPAN} at (0,0) size 22x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+            RenderText {#text} at (0,0) size 0x0
+        RenderBlock {DIV} at (0,332) size 769x132
+          RenderBlock {P} at (0,0) size 769x21
+            RenderText {#text} at (0,0) size 185x21
+              text run at (0,0) width 185: "LTR, empty inline before."
+          RenderBlock (anonymous) at (0,37) size 769x21
+            RenderInline {SPAN} at (0,0) size 22x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+          RenderBlock (anonymous) at (0,74) size 769x21
+            RenderBlock {DIV} at (0,0) size 769x21
+              RenderText {#text} at (0,0) size 30x21
+                text run at (0,0) width 30: "bbb"
+          RenderBlock (anonymous) at (0,111) size 769x21
+            RenderInline {SPAN} at (0,0) size 46x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+              RenderText {#text} at (0,0) size 24x21
+                text run at (0,0) width 24: "ccc"
+            RenderText {#text} at (0,0) size 0x0
+        RenderBlock {DIV} at (0,498) size 769x132
+          RenderBlock {P} at (0,0) size 769x21
+            RenderText {#text} at (0,0) size 257x21
+              text run at (0,0) width 257: "LTR, empty inline before and after."
+          RenderBlock (anonymous) at (0,37) size 769x21
+            RenderInline {SPAN} at (0,0) size 22x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+          RenderBlock (anonymous) at (0,74) size 769x21
+            RenderBlock {DIV} at (0,0) size 769x21
+              RenderText {#text} at (0,0) size 30x21
+                text run at (0,0) width 30: "bbb"
+          RenderBlock (anonymous) at (0,111) size 769x21
+            RenderInline {SPAN} at (0,0) size 22x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+            RenderText {#text} at (0,0) size 0x0
+      RenderBlock {DIV} at (0,664) size 769x630
+        RenderBlock {DIV} at (0,0) size 769x132
+          RenderBlock {P} at (0,0) size 769x21
+            RenderText {#text} at (742,0) size 27x21
+              text run at (742,0) width 27: "RTL"
+          RenderBlock (anonymous) at (0,37) size 769x21
+            RenderInline {SPAN} at (0,0) size 49x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+              RenderText {#text} at (720,0) size 27x21
+                text run at (720,0) width 27: "aaa"
+          RenderBlock (anonymous) at (0,74) size 769x21
+            RenderBlock {DIV} at (0,0) size 769x21
+              RenderText {#text} at (739,0) size 30x21
+                text run at (739,0) width 30: "bbb"
+          RenderBlock (anonymous) at (0,111) size 769x21
+            RenderInline {SPAN} at (0,0) size 46x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+              RenderText {#text} at (745,0) size 24x21
+                text run at (745,0) width 24: "ccc"
+            RenderText {#text} at (0,0) size 0x0
+        RenderBlock {DIV} at (0,166) size 769x132
+          RenderBlock {P} at (0,0) size 769x21
+            RenderText {#text} at (598,0) size 171x21
+              text run at (598,0) width 4 RTL: "."
+              text run at (602,0) width 167: "RTL, empty inline after"
+          RenderBlock (anonymous) at (0,37) size 769x21
+            RenderInline {SPAN} at (0,0) size 49x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+              RenderText {#text} at (720,0) size 27x21
+                text run at (720,0) width 27: "aaa"
+          RenderBlock (anonymous) at (0,74) size 769x21
+            RenderBlock {DIV} at (0,0) size 769x21
+              RenderText {#text} at (739,0) size 30x21
+                text run at (739,0) width 30: "bbb"
+          RenderBlock (anonymous) at (0,111) size 769x21
+            RenderInline {SPAN} at (0,0) size 22x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+            RenderText {#text} at (0,0) size 0x0
+        RenderBlock {DIV} at (0,332) size 769x132
+          RenderBlock {P} at (0,0) size 769x21
+            RenderText {#text} at (584,0) size 185x21
+              text run at (584,0) width 4 RTL: "."
+              text run at (588,0) width 181: "RTL, empty inline before"
+          RenderBlock (anonymous) at (0,37) size 769x21
+            RenderInline {SPAN} at (0,0) size 22x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+          RenderBlock (anonymous) at (0,74) size 769x21
+            RenderBlock {DIV} at (0,0) size 769x21
+              RenderText {#text} at (739,0) size 30x21
+                text run at (739,0) width 30: "bbb"
+          RenderBlock (anonymous) at (0,111) size 769x21
+            RenderInline {SPAN} at (0,0) size 46x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+              RenderText {#text} at (745,0) size 24x21
+                text run at (745,0) width 24: "ccc"
+            RenderText {#text} at (0,0) size 0x0
+        RenderBlock {DIV} at (0,498) size 769x132
+          RenderBlock {P} at (0,0) size 769x21
+            RenderText {#text} at (512,0) size 257x21
+              text run at (512,0) width 4 RTL: "."
+              text run at (516,0) width 253: "RTL, empty inline before and after"
+          RenderBlock (anonymous) at (0,37) size 769x21
+            RenderInline {SPAN} at (0,0) size 22x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+          RenderBlock (anonymous) at (0,74) size 769x21
+            RenderBlock {DIV} at (0,0) size 769x21
+              RenderText {#text} at (739,0) size 30x21
+                text run at (739,0) width 30: "bbb"
+          RenderBlock (anonymous) at (0,111) size 769x21
+            RenderInline {SPAN} at (0,0) size 22x25 [bgcolor=#008000] [border: (2px solid #FF0000)]
+            RenderText {#text} at (0,0) size 0x0
+layer at (8,164) size 769x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,148) size 769x2 [border: (1px inset #000000)]
+layer at (8,330) size 769x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,314) size 769x2 [border: (1px inset #000000)]
+layer at (8,496) size 769x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,480) size 769x2 [border: (1px inset #000000)]
+layer at (8,662) size 769x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,646) size 769x2 [border: (1px inset #000000)]
+layer at (8,828) size 769x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,148) size 769x2 [border: (1px inset #000000)]
+layer at (8,994) size 769x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,314) size 769x2 [border: (1px inset #000000)]
+layer at (8,1160) size 769x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,480) size 769x2 [border: (1px inset #000000)]

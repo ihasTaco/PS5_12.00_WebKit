@@ -1,0 +1,32 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 61x21
+          text run at (0,0) width 61: "Test for "
+        RenderInline {I} at (0,0) size 718x42
+          RenderInline {A} at (0,0) size 353x21 [color=#0000EE]
+            RenderText {#text} at (61,0) size 353x21
+              text run at (61,0) width 353: "http://bugs.webkit.org/show_bug.cgi?id=11124"
+          RenderText {#text} at (414,0) size 718x42
+            text run at (414,0) width 4: " "
+            text run at (418,0) width 300: "REGRESSION (r14297): No drag image for"
+            text run at (0,21) width 230: "partially-selected complex text"
+        RenderText {#text} at (230,21) size 4x21
+          text run at (230,21) width 4: "."
+      RenderBlock {P} at (0,58) size 784x21
+        RenderText {#text} at (0,0) size 163x21
+          text run at (0,0) width 163: "This should look like \x{201C}"
+        RenderInline {SPAN} at (0,0) size 99x21 [color=#008000]
+          RenderText {#text} at (163,0) size 99x21
+            text run at (163,0) width 99: "Lore\x{300}m ipsum"
+        RenderText {#text} at (261,0) size 17x21
+          text run at (261,0) width 17: "\x{201D}: "
+        RenderInline {SPAN} at (0,0) size 103x21
+          RenderText {#text} at (277,0) size 103x21
+            text run at (277,0) width 103: " Lore\x{300}m ipsum"
+        RenderText {#text} at (0,0) size 0x0
+selection start: position 1 of child 0 {#text} of child 3 {SPAN} of child 2 {P} of body
+selection end:   position 13 of child 0 {#text} of child 3 {SPAN} of child 2 {P} of body

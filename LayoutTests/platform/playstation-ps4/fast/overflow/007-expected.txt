@@ -1,0 +1,88 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x388
+  RenderBlock {HTML} at (0,0) size 800x388
+    RenderBody {BODY} at (32,32) size 736x324 [bgcolor=#CCCCCC]
+layer at (143,32) size 514x146 clip at (144,33) size 497x144 scrollHeight 366
+  RenderBlock {DIV} at (111,0) size 514x146 [bgcolor=#FFFFFF] [border: (1px solid #999999)]
+    RenderBlock {P} at (17,17) size 465x84
+      RenderText {#text} at (0,0) size 264x21
+        text run at (0,0) width 264: "This page is to test the behavior of "
+      RenderInline {CODE} at (0,0) size 105x17
+        RenderText {#text} at (264,3) size 105x17
+          text run at (264,3) width 105: "position:absolute"
+      RenderText {#text} at (369,0) size 432x42
+        text run at (369,0) width 63: " content"
+        text run at (0,21) width 386: "which is a child of an overflowed parent object with"
+      RenderInline {CODE} at (0,0) size 84x17
+        RenderText {#text} at (0,45) size 84x17
+          text run at (0,45) width 84: "overflow:auto"
+      RenderText {#text} at (84,42) size 259x21
+        text run at (84,42) width 259: ", both when the parent element is "
+      RenderInline {CODE} at (0,0) size 85x17
+        RenderText {#text} at (343,45) size 85x17
+          text run at (343,45) width 85: "position:static"
+      RenderText {#text} at (428,42) size 463x42
+        text run at (428,42) width 35: " (top"
+        text run at (0,63) width 76: "case) and "
+      RenderInline {CODE} at (0,0) size 97x17
+        RenderText {#text} at (76,66) size 97x17
+          text run at (76,66) width 97: "position:relative"
+      RenderText {#text} at (173,63) size 113x21
+        text run at (173,63) width 113: " (bottom case)."
+    RenderBlock {P} at (17,117) size 465x221 [color=#999999]
+      RenderText {#text} at (0,0) size 461x221
+        text run at (0,0) width 416: "Following extra content exists to ensure that the parent box overflows"
+        text run at (0,17) width 424: "properly. Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
+        text run at (0,34) width 452: "accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae"
+        text run at (0,51) width 461: "ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        text run at (0,68) width 459: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,"
+        text run at (0,85) width 427: "sed quia consequuntur magni dolores eos qui ratione voluptatem sequi"
+        text run at (0,102) width 457: "nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,"
+        text run at (0,119) width 416: "consectetur, adipisci velit, sed quia non numquam eius modi tempora"
+        text run at (0,136) width 448: "incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim"
+        text run at (0,153) width 425: "ad minima veniam, quis nostrum exercitationem ullam corporis suscipit"
+        text run at (0,170) width 453: "laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum"
+        text run at (0,187) width 407: "iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae"
+        text run at (0,204) width 447: "consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+layer at (0,0) size 40x37
+  RenderBlock (positioned) {P} at (0,0) size 40x37 [bgcolor=#FF0000]
+    RenderText {#text} at (8,8) size 24x21
+      text run at (8,8) width 24: "hi 1"
+layer at (143,210) size 514x146 clip at (144,211) size 497x144 scrollHeight 445
+  RenderBlock (relative positioned) {DIV} at (111,178) size 514x146 [bgcolor=#FFFFFF] [border: (1px solid #999999)]
+    RenderBlock {P} at (17,17) size 465x63
+      RenderText {#text} at (0,0) size 450x63
+        text run at (0,0) width 450: "Safari v1.2.2 incorrectly scrolls the 'hi 1' div when its parent is"
+        text run at (0,21) width 425: "scrolled. If you resize the page even a little, this bug fixes"
+        text run at (0,42) width 40: "itself."
+    RenderBlock {P} at (17,96) size 465x84
+      RenderText {#text} at (0,0) size 447x42
+        text run at (0,0) width 447: "Safari v1.2.2 also (really odd) causes the entire second div to"
+        text run at (0,21) width 23: "be "
+      RenderInline {CODE} at (0,0) size 67x17
+        RenderText {#text} at (23,24) size 67x17
+          text run at (23,24) width 67: "opacity:0.5"
+      RenderText {#text} at (90,21) size 463x63
+        text run at (90,21) width 373: ", despite the fact that this property is only applied"
+        text run at (0,42) width 430: "to the child item. This problem fixes itself if you resize the"
+        text run at (0,63) width 235: "window and then scroll the div."
+    RenderBlock {P} at (17,196) size 465x221 [color=#999999]
+      RenderText {#text} at (0,0) size 461x221
+        text run at (0,0) width 416: "Following extra content exists to ensure that the parent box overflows"
+        text run at (0,17) width 424: "properly. Sed ut perspiciatis unde omnis iste natus error sit voluptatem"
+        text run at (0,34) width 452: "accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae"
+        text run at (0,51) width 461: "ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        text run at (0,68) width 459: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,"
+        text run at (0,85) width 427: "sed quia consequuntur magni dolores eos qui ratione voluptatem sequi"
+        text run at (0,102) width 457: "nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,"
+        text run at (0,119) width 416: "consectetur, adipisci velit, sed quia non numquam eius modi tempora"
+        text run at (0,136) width 448: "incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim"
+        text run at (0,153) width 425: "ad minima veniam, quis nostrum exercitationem ullam corporis suscipit"
+        text run at (0,170) width 453: "laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum"
+        text run at (0,187) width 407: "iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae"
+        text run at (0,204) width 447: "consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+layer at (144,211) size 43x37
+  RenderBlock (positioned) {P} at (1,1) size 43x37 [bgcolor=#FF0000]
+    RenderText {#text} at (8,8) size 27x21
+      text run at (8,8) width 27: "hi 2"

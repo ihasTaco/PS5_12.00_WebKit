@@ -1,0 +1,44 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock (anonymous) at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 399x21
+          text run at (0,0) width 399: "The style rule on this page should be totally ignored. "
+        RenderInline {A} at (0,0) size 93x21
+          RenderText {#text} at (399,0) size 93x21
+            text run at (399,0) width 93: "here is a link"
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {H1} at (0,42) size 784x42
+        RenderText {#text} at (0,0) size 126x41
+          text run at (0,0) width 126: "heading"
+      RenderBlock (anonymous) at (0,104) size 784x106
+        RenderInline {SPAN} at (0,0) size 39x21
+          RenderText {#text} at (0,0) size 39x21
+            text run at (0,0) width 39: "issue"
+        RenderBR {BR} at (39,0) size 0x21
+        RenderInline {SPAN} at (0,0) size 22x21
+          RenderText {#text} at (0,21) size 22x21
+            text run at (0,21) width 22: "fail"
+        RenderBR {BR} at (22,21) size 0x21
+        RenderInline {A} at (0,0) size 144x21
+          RenderText {#text} at (0,42) size 144x21
+            text run at (0,42) width 144: "here is another link"
+        RenderBR {BR} at (144,42) size 0x21
+        RenderInline {SPAN} at (0,0) size 27x21
+          RenderText {#text} at (0,63) size 27x21
+            text run at (0,63) width 27: "n/a"
+        RenderBR {BR} at (27,63) size 0x21
+        RenderInline {SPAN} at (0,0) size 35x21
+          RenderText {#text} at (0,84) size 35x21
+            text run at (0,84) width 35: "pass"
+        RenderBR {BR} at (35,84) size 0x21
+      RenderBlock {H1} at (0,231) size 784x42
+        RenderText {#text} at (0,0) size 255x41
+          text run at (0,0) width 255: "another heading"
+      RenderBlock (anonymous) at (0,293) size 784x22
+        RenderInline {SPAN} at (0,0) size 27x21
+          RenderText {#text} at (0,0) size 27x21
+            text run at (0,0) width 27: "n/a"
+        RenderBR {BR} at (27,0) size 0x21

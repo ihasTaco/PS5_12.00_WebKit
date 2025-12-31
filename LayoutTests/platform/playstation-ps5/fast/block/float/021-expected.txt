@@ -1,0 +1,93 @@
+layer at (0,0) size 1518x3196
+  RenderView at (0,0) size 785x585
+layer at (0,0) size 785x3196
+  RenderBlock {HTML} at (0,0) size 785x3196
+    RenderBody {BODY} at (8,8) size 769x3172
+      RenderBlock (anonymous) at (0,0) size 769x63
+        RenderText {#text} at (0,0) size 752x63
+          text run at (0,0) width 752: "In all of the examples, you should be able to see blue and green rectangles that spill way out of their"
+          text run at (0,21) width 141: "containing blocks. "
+          text run at (141,21) width 573: "They should be 100px tall and not overlap one another at all. They should be"
+          text run at (0,42) width 132: "stacked vertically."
+      RenderBlock {DIV} at (0,79) size 720x240 [border: (10px solid #000000)]
+        RenderText {#text} at (10,10) size 371x21
+          text run at (10,10) width 371: "You should see blue and green rectangles below."
+        RenderBR {BR} at (381,10) size 0x21
+        RenderBlock (floating) {DIV} at (10,31) size 1500x100 [bgcolor=#0000FF]
+        RenderText {#text} at (0,0) size 0x0
+        RenderBlock (floating) {DIV} at (10,131) size 1500x100 [bgcolor=#008000]
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {DIV} at (0,335) size 720x240 [border: (10px solid #000000)]
+        RenderText {#text} at (10,10) size 190x21
+          text run at (10,10) width 190: "You should see blue and "
+        RenderBlock (floating) {DIV} at (10,31) size 1500x100 [bgcolor=#0000FF]
+        RenderText {#text} at (0,0) size 0x0
+        RenderBlock (floating) {DIV} at (10,131) size 1500x100 [bgcolor=#008000]
+        RenderText {#text} at (200,10) size 181x21
+          text run at (200,10) width 181: "green rectangles below."
+      RenderBlock {DIV} at (0,591) size 720x240 [border: (10px solid #000000)]
+        RenderBlock (floating) {DIV} at (10,10) size 1500x100 [bgcolor=#0000FF]
+        RenderBlock (floating) {DIV} at (10,110) size 1500x100 [bgcolor=#008000]
+        RenderBR {BR} at (1510,10) size 0x21
+        RenderText {#text} at (10,210) size 371x21
+          text run at (10,210) width 371: "You should see blue and green rectangles above."
+      RenderBlock {DIV} at (0,847) size 720x240 [border: (10px solid #000000)]
+        RenderBlock (floating) {DIV} at (10,10) size 1500x100 [bgcolor=#0000FF]
+        RenderBlock (floating) {DIV} at (10,110) size 1500x100 [bgcolor=#008000]
+        RenderText {#text} at (10,210) size 371x21
+          text run at (10,210) width 371: "You should see blue and green rectangles above."
+      RenderBlock {DIV} at (0,1103) size 720x240 [border: (10px solid #000000)]
+        RenderBlock (floating) {DIV} at (10,10) size 1500x100 [bgcolor=#0000FF]
+        RenderText {#text} at (10,110) size 338x21
+          text run at (10,110) width 338: "You should see blue above and green below."
+        RenderBlock (floating) {DIV} at (10,131) size 1500x100 [bgcolor=#008000]
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {DIV} at (0,1359) size 720x240 [border: (10px solid #000000)]
+        RenderBlock (floating) {DIV} at (10,10) size 1500x100 [bgcolor=#0000FF]
+        RenderText {#text} at (10,110) size 338x21
+          text run at (10,110) width 338: "You should see blue above and green below."
+        RenderBR {BR} at (348,110) size 0x21
+        RenderBlock (floating) {DIV} at (10,131) size 1500x100 [bgcolor=#008000]
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock (anonymous) at (0,1615) size 769x21
+        RenderText {#text} at (0,0) size 701x21
+          text run at (0,0) width 701: "The next examples should have blue and green rectangles that snugly fit without spilling out."
+      RenderBlock {DIV} at (0,1652) size 720x240 [border: (10px solid #000000)]
+        RenderText {#text} at (10,10) size 371x21
+          text run at (10,10) width 371: "You should see blue and green rectangles below."
+        RenderBR {BR} at (381,10) size 0x21
+        RenderBlock (floating) {DIV} at (10,31) size 698x100 [bgcolor=#0000FF]
+        RenderText {#text} at (0,0) size 0x0
+        RenderBlock (floating) {DIV} at (10,131) size 698x100 [bgcolor=#008000]
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {DIV} at (0,1908) size 720x240 [border: (10px solid #000000)]
+        RenderText {#text} at (10,10) size 371x21
+          text run at (10,10) width 371: "You should see blue and green rectangles below."
+        RenderBlock (floating) {DIV} at (10,31) size 698x100 [bgcolor=#0000FF]
+        RenderText {#text} at (0,0) size 0x0
+        RenderBlock (floating) {DIV} at (10,131) size 698x100 [bgcolor=#008000]
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {DIV} at (0,2164) size 720x240 [border: (10px solid #000000)]
+        RenderBlock (floating) {DIV} at (10,10) size 698x100 [bgcolor=#0000FF]
+        RenderBlock (floating) {DIV} at (10,110) size 698x100 [bgcolor=#008000]
+        RenderBR {BR} at (708,10) size 0x21
+        RenderText {#text} at (10,210) size 371x21
+          text run at (10,210) width 371: "You should see blue and green rectangles above."
+      RenderBlock {DIV} at (0,2420) size 720x240 [border: (10px solid #000000)]
+        RenderBlock (floating) {DIV} at (10,10) size 698x100 [bgcolor=#0000FF]
+        RenderBlock (floating) {DIV} at (10,110) size 698x100 [bgcolor=#008000]
+        RenderText {#text} at (10,210) size 371x21
+          text run at (10,210) width 371: "You should see blue and green rectangles above."
+      RenderBlock {DIV} at (0,2676) size 720x240 [border: (10px solid #000000)]
+        RenderBlock (floating) {DIV} at (10,10) size 698x100 [bgcolor=#0000FF]
+        RenderText {#text} at (10,110) size 338x21
+          text run at (10,110) width 338: "You should see blue above and green below."
+        RenderBlock (floating) {DIV} at (10,131) size 698x100 [bgcolor=#008000]
+        RenderText {#text} at (0,0) size 0x0
+      RenderBlock {DIV} at (0,2932) size 720x240 [border: (10px solid #000000)]
+        RenderBlock (floating) {DIV} at (10,10) size 698x100 [bgcolor=#0000FF]
+        RenderText {#text} at (10,110) size 338x21
+          text run at (10,110) width 338: "You should see blue above and green below."
+        RenderBR {BR} at (348,110) size 0x21
+        RenderBlock (floating) {DIV} at (10,131) size 698x100 [bgcolor=#008000]
+        RenderText {#text} at (0,0) size 0x0

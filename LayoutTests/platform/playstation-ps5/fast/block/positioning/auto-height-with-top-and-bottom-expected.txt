@@ -1,0 +1,22 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x21
+        RenderText {#text} at (0,0) size 757x21
+          text run at (0,0) width 757: "The red box should be entirely inside the black box with the text content spilling out of both of them."
+layer at (8,45) size 404x104
+  RenderBlock (relative positioned) {DIV} at (0,37) size 404x104 [border: (2px solid #000000)]
+layer at (10,67) size 400x60
+  RenderBlock (positioned) {DIV} at (2,22) size 400x60 [border: (2px solid #FF0000)]
+    RenderText {#text} at (2,2) size 391x189
+      text run at (2,2) width 391: "Lorem ipsum dolor sit amet, consectetur adipisicing"
+      text run at (2,23) width 383: "elit, sed do eiusmod tempor incididunt ut labore et"
+      text run at (2,44) width 361: "dolore magna aliqua. Ut enim ad minim veniam,"
+      text run at (2,65) width 358: "quis nostrud exercitation ullamco laboris nisi ut"
+      text run at (2,86) width 378: "aliquip ex ea commodo consequat. Duis aute irure"
+      text run at (2,107) width 382: "dolor in reprehenderit in voluptate velit esse cillum"
+      text run at (2,128) width 340: "dolore eu fugiat nulla pariatur. Excepteur sint"
+      text run at (2,149) width 379: "occaecat cupidatat non proident, sunt in culpa qui"
+      text run at (2,170) width 323: "officia deserunt mollit anim id est laborum."

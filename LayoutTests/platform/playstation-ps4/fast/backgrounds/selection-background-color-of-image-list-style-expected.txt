@@ -1,0 +1,20 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x103
+  RenderBlock {HTML} at (0,0) size 800x103
+    RenderBody {BODY} at (8,8) size 784x79
+      RenderBlock {DIV} at (0,0) size 784x79
+        RenderBlock (anonymous) at (0,0) size 784x21
+          RenderText {#text} at (0,0) size 422x21
+            text run at (0,0) width 422: "Test pass if background of image list style in ul is yellow."
+        RenderBlock {UL} at (0,37) size 784x42
+          RenderListItem {LI} at (40,0) size 744x21
+            RenderListMarker at (-17,7) size 10x10
+            RenderText {#text} at (0,0) size 31x21
+              text run at (0,0) width 31: "One"
+          RenderListItem {LI} at (40,21) size 744x21
+            RenderListMarker at (-17,7) size 10x10
+            RenderText {#text} at (0,0) size 32x21
+              text run at (0,0) width 32: "Two"
+selection start: position 66 of child 0 {#text} of child 0 {DIV} of body
+selection end:   position 3 of child 0 {#text} of child 3 {LI} of child 1 {UL} of child 0 {DIV} of body

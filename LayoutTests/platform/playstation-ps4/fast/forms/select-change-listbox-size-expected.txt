@@ -1,0 +1,25 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 61x21
+          text run at (0,0) width 61: "Test for "
+        RenderInline {I} at (0,0) size 739x42
+          RenderInline {A} at (0,0) size 359x21 [color=#0000EE]
+            RenderText {#text} at (61,0) size 359x21
+              text run at (61,0) width 359: "http://bugs.webkit.org/show_bug.cgi?id=12986"
+          RenderText {#text} at (420,0) size 739x42
+            text run at (420,0) width 4: " "
+            text run at (424,0) width 315: "REGRESSION(NativeListBox): Listboxes not"
+            text run at (0,21) width 261: "updated when resized dynamically"
+        RenderText {#text} at (261,21) size 4x21
+          text run at (261,21) width 4: "."
+      RenderBlock {P} at (0,58) size 784x21
+        RenderText {#text} at (0,0) size 376x21
+          text run at (0,0) width 376: "This list box should be tall enough to fit 6 options."
+      RenderBlock (anonymous) at (0,95) size 784x109
+        RenderListBox {SELECT} at (0,0) size 57x109 [bgcolor=#FFFFFF] [border: (1px inset #808080)]
+        RenderText {#text} at (0,0) size 0x0
+        RenderText {#text} at (0,0) size 0x0

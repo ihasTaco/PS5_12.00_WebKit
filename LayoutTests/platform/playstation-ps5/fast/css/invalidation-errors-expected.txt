@@ -1,0 +1,27 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x576
+      RenderBlock {P} at (0,0) size 784x21
+        RenderInline {A} at (0,0) size 63x21 [color=#0000EE]
+          RenderText {#text} at (0,0) size 63x21
+            text run at (0,0) width 63: "bug 7118"
+        RenderText {#text} at (63,0) size 424x21
+          text run at (63,0) width 424: ": Wrong property values do not get invalidated correctly."
+      RenderBlock (anonymous) at (0,37) size 784x0
+        RenderInline {DIV} at (0,0) size 0x0
+          RenderText {#text} at (0,0) size 0x0
+        RenderText {#text} at (0,0) size 0x0
+layer at (8,45) size 200x200 clip at (8,45) size 185x200
+  RenderBlock (floating) {DIV} at (0,0) size 200x200 [color=#FFFFFF] [bgcolor=#006400]
+    RenderText {#text} at (0,0) size 181x144
+      text run at (0,0) width 158: "this text should be left-"
+      text run at (0,18) width 157: "aligned, all lower-case,"
+      text run at (0,36) width 168: "normal font, white, 14px,"
+      text run at (0,54) width 181: "bold, normally spaced and"
+      text run at (0,72) width 166: "wrapped, in a darkgreen"
+      text run at (0,90) width 104: "200x200px div "
+      text run at (104,90) width 66: "in the top"
+      text run at (0,108) width 181: "left corner with no borders"
+      text run at (0,126) width 77: "or outlines."

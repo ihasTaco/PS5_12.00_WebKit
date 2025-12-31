@@ -1,0 +1,29 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderIFrame {IFRAME} at (0,0) size 304x154 [border: (2px inset #000000)]
+        layer at (0,0) size 300x150
+          RenderView at (0,0) size 300x150
+        layer at (0,0) size 300x150
+          RenderBlock {HTML} at (0,0) size 300x150
+            RenderBody {BODY} at (8,8) size 284x134
+              RenderText {#text} at (0,0) size 275x84
+                text run at (0,0) width 240: "This frame will try to replace the"
+                text run at (0,21) width 269: "contents of the frame to the right. If"
+                text run at (0,42) width 275: "the bug still occurs, pop-up blocking"
+                text run at (0,63) width 215: "will prevent it from doing so."
+      RenderText {#text} at (304,137) size 4x21
+        text run at (304,137) width 4: " "
+      RenderIFrame {IFRAME} at (308,0) size 304x154 [border: (2px inset #000000)]
+        layer at (0,0) size 300x150
+          RenderView at (0,0) size 300x150
+        layer at (0,0) size 300x150
+          RenderBlock {HTML} at (0,0) size 300x150
+            RenderBody {BODY} at (8,8) size 284x134
+              RenderText {#text} at (0,0) size 256x63
+                text run at (0,0) width 256: "This text successfully replaced the"
+                text run at (0,21) width 225: "original text in the frame. Test"
+                text run at (0,42) width 86: "succeeded!"
+      RenderText {#text} at (0,0) size 0x0

@@ -1,0 +1,23 @@
+layer at (0,0) size 1108x585
+  RenderView at (0,0) size 800x585
+layer at (0,0) size 800x585
+  RenderBlock {HTML} at (0,0) size 800x585
+    RenderBody {BODY} at (8,8) size 784x569
+      RenderBlock {DIV} at (0,0) size 784x123 [border: (2px solid #0000FF)]
+        RenderBlock (anonymous) at (2,2) size 780x63
+          RenderText {#text} at (0,0) size 747x42
+            text run at (0,0) width 684: "Resize the window. Red boxes below must not overflow the blue box (or window) from the "
+            text run at (684,0) width 63: "left side,"
+            text run at (0,21) width 282: "though they may overflow from right."
+          RenderBR {BR} at (282,21) size 0x21
+          RenderBR {BR} at (0,42) size 0x21
+        RenderTable {TABLE} at (2,65) size 1098x31 [border: (2px solid #FF0000)]
+          RenderTableSection {TBODY} at (2,2) size 1094x27
+            RenderTableRow {TR} at (0,2) size 1094x23
+              RenderTableCell {TD} at (2,2) size 1090x23 [r=0 c=0 rs=1 cs=1]
+                RenderText {#text} at (1,1) size 1088x21
+                  text run at (1,1) width 546: "Blabla blah. Blabla blah. Blabla blah. Blabla blah. Blabla blah. Blabla blah. "
+                  text run at (547,1) width 542: "Blabla blah. Blabla blah. Blabla blah. Blabla blah. Blabla blah. Blabla blah."
+        RenderBlock {DIV} at (2,96) size 904x25 [border: (2px solid #FF0000)]
+          RenderText {#text} at (2,2) size 542x21
+            text run at (2,2) width 542: "Blabla blah. Blabla blah. Blabla blah. Blabla blah. Blabla blah. Blabla blah."

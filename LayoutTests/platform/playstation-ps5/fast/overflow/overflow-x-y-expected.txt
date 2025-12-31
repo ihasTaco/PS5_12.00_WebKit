@@ -1,0 +1,84 @@
+layer at (0,0) size 785x600
+  RenderView at (0,0) size 785x600
+layer at (0,0) size 785x600
+  RenderBlock {HTML} at (0,0) size 785x600
+    RenderBody {BODY} at (8,8) size 769x584
+      RenderBlock (anonymous) at (0,0) size 769x21
+        RenderText {#text} at (0,0) size 365x21
+          text run at (0,0) width 365: "The body should always have a vertical scrollbar."
+      RenderBlock (anonymous) at (0,221) size 769x59
+        RenderText {#text} at (181,38) size 4x21
+          text run at (181,38) width 4: " "
+        RenderText {#text} at (0,0) size 0x0
+layer at (8,29) size 300x100 clip at (8,29) size 285x100 scrollHeight 378
+  RenderBlock {DIV} at (0,21) size 300x100
+    RenderText {#text} at (0,0) size 54x21
+      text run at (0,0) width 54: "Y scroll"
+    RenderBR {BR} at (54,0) size 0x21
+    RenderText {#text} at (0,21) size 54x21
+      text run at (0,21) width 54: "Y scroll"
+    RenderBR {BR} at (54,21) size 0x21
+    RenderText {#text} at (0,42) size 54x21
+      text run at (0,42) width 54: "Y scroll"
+    RenderBR {BR} at (54,42) size 0x21
+    RenderText {#text} at (0,63) size 54x21
+      text run at (0,63) width 54: "Y scroll"
+    RenderBR {BR} at (54,63) size 0x21
+    RenderText {#text} at (0,84) size 54x21
+      text run at (0,84) width 54: "Y scroll"
+    RenderBR {BR} at (54,84) size 0x21
+    RenderText {#text} at (0,105) size 54x21
+      text run at (0,105) width 54: "Y scroll"
+    RenderBR {BR} at (54,105) size 0x21
+    RenderText {#text} at (0,126) size 54x21
+      text run at (0,126) width 54: "Y scroll"
+    RenderBR {BR} at (54,126) size 0x21
+    RenderText {#text} at (0,147) size 54x21
+      text run at (0,147) width 54: "Y scroll"
+    RenderBR {BR} at (54,147) size 0x21
+    RenderText {#text} at (0,168) size 54x21
+      text run at (0,168) width 54: "Y scroll"
+    RenderBR {BR} at (54,168) size 0x21
+    RenderText {#text} at (0,189) size 54x21
+      text run at (0,189) width 54: "Y scroll"
+    RenderBR {BR} at (54,189) size 0x21
+    RenderText {#text} at (0,210) size 54x21
+      text run at (0,210) width 54: "Y scroll"
+    RenderBR {BR} at (54,210) size 0x21
+    RenderText {#text} at (0,231) size 54x21
+      text run at (0,231) width 54: "Y scroll"
+    RenderBR {BR} at (54,231) size 0x21
+    RenderText {#text} at (0,252) size 54x21
+      text run at (0,252) width 54: "Y scroll"
+    RenderBR {BR} at (54,252) size 0x21
+    RenderText {#text} at (0,273) size 54x21
+      text run at (0,273) width 54: "Y scroll"
+    RenderBR {BR} at (54,273) size 0x21
+    RenderText {#text} at (0,294) size 54x21
+      text run at (0,294) width 54: "Y scroll"
+    RenderBR {BR} at (54,294) size 0x21
+    RenderText {#text} at (0,315) size 54x21
+      text run at (0,315) width 54: "Y scroll"
+    RenderBR {BR} at (54,315) size 0x21
+    RenderText {#text} at (0,336) size 54x21
+      text run at (0,336) width 54: "Y scroll"
+    RenderBR {BR} at (54,336) size 0x21
+    RenderText {#text} at (0,357) size 54x21
+      text run at (0,357) width 54: "Y scroll"
+    RenderBR {BR} at (54,357) size 0x21
+layer at (8,129) size 300x100 clip at (8,129) size 300x85 scrollWidth 1272
+  RenderBlock {DIV} at (0,121) size 300x100
+    RenderText {#text} at (0,0) size 1272x21
+      text run at (0,0) width 522: "X scroll X scroll X scroll X scroll X scroll X scroll X scroll X scroll X scroll "
+      text run at (522,0) width 348: "X scroll X scroll X scroll X scroll X scroll X scroll "
+      text run at (870,0) width 402: "X scroll X scroll X scroll X scroll X scroll X scroll X scroll"
+layer at (8,244) size 181x40 clip at (9,245) size 164x38
+  RenderTextControl {TEXTAREA} at (0,15) size 181x40 [bgcolor=#FFFFFF] [border: (1px solid #000000)]
+    RenderBlock {DIV} at (3,3) size 160x17
+      RenderText {#text} at (0,0) size 101x17
+        text run at (0,0) width 101: "Textarea y-scroll"
+layer at (193,229) size 181x55 clip at (194,230) size 179x38
+  RenderTextControl {TEXTAREA} at (185,0) size 181x55 [bgcolor=#FFFFFF] [border: (1px solid #000000)]
+    RenderBlock {DIV} at (3,3) size 175x17
+      RenderText {#text} at (0,0) size 101x17
+        text run at (0,0) width 101: "Textarea x-scroll"

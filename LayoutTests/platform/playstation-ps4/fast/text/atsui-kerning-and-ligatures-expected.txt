@@ -1,0 +1,28 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 800x600
+  RenderBlock {HTML} at (0,0) size 800x600
+    RenderBody {BODY} at (8,8) size 784x584
+      RenderBlock {P} at (0,0) size 784x42
+        RenderText {#text} at (0,0) size 61x21
+          text run at (0,0) width 61: "Test for "
+        RenderInline {I} at (0,0) size 759x42
+          RenderText {#text} at (61,0) size 759x42
+            text run at (61,0) width 698: "http://bugzilla.opendarwin.org/show_bug.cgi?id=6137 Disable kerning and some ligatures in"
+            text run at (0,21) width 153: "the ATSUI code path"
+        RenderText {#text} at (153,21) size 4x21
+          text run at (153,21) width 4: "."
+      RenderBlock {P} at (0,58) size 784x42
+        RenderText {#text} at (0,0) size 762x42
+          text run at (0,0) width 762: "The word \x{201C}dolor\x{201D} below should be highlighted in its entirety. The highlight should not extend beyond"
+          text run at (0,21) width 78: "that word."
+      RenderBlock {DIV} at (0,116) size 784x46
+        RenderBlock (anonymous) at (0,14) size 784x32
+          RenderInline {SPAN} at (0,0) size 562x32
+            RenderText {#text} at (0,0) size 562x32
+              text run at (0,0) width 562: "AVAVAVAVAVfififififififi Lorem ipsum dolor sit ame\x{300}t"
+          RenderText {#text} at (0,0) size 0x0
+layer at (8,124) size 784x2 clip at (0,0) size 0x0
+  RenderBlock {HR} at (0,0) size 784x2 [border: (1px inset #000000)]
+selection start: position 37 of child 0 {#text} of child 3 {SPAN} of child 5 {DIV} of body
+selection end:   position 42 of child 0 {#text} of child 3 {SPAN} of child 5 {DIV} of body
